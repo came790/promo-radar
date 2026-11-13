@@ -4,13 +4,14 @@ window.PROMO_DATA = {
     {
       "data": "2026-11-13",
       "voci": [
+        "Nuova edizione Crédit Agricole: buoni Amazon fino a 800€ + 4% per 4 mesi, apertura entro il 12 gennaio 2027 (da una fonte di stampa, verifica media). Sostituisce la promo da 250€ scaduta il 2 novembre.",
+        "Nuova edizione SelfyConto Mediolanum (1 novembre - 31 dicembre 2026): fino a 250€ in buoni Amazon, 50€ facili e 200€ solo con prodotti assicurativi/investimento. Sostituisce il 4% su Time Deposit scaduto. Non profittevole.",
         "Nuova: Credem Link, 200€ in buoni Amazon con codice PROMOLINK, apertura entro il 30 novembre 2026 e stipendio accreditato o PAC (fonti di stampa, regolamento da controllare).",
         "BBVA: confermata la scadenza dell'11 dicembre 2026 (4% interessi + 4% cashback per 6 mesi). Promo invariata.",
         "Controllo parziale: siti dei comparatori (qualebanca, ponss, sostariffe) non raggiungibili oggi, verifica fatta solo con ricerche web. Le altre promo restano come prima.",
-        "Scadute da meno di 30 giorni (restano nella sezione Scadute): Fineco Codice Amico (15 ottobre), Banco BPM Conto You (21 ottobre), SelfyConto (30 ottobre), Tinaba e IBL Banca (31 ottobre), ING 4% e ING Codice Amico, Crédit Agricole (2 novembre). Nessuna rimossa.",
-        "Per ING una fonte indica ora un tetto di 200.000€ per il 4% (nel catalogo 50.000€): promo comunque scaduta il 2 novembre, dato non modificato.",
         "In scadenza nei prossimi 10 giorni: Buddybank 80€ il 16 novembre (nessuna proroga trovata, bonus poi a 50€). Prossime: BPER e Credem il 30 novembre, BBVA l'11 dicembre.",
-        "Non confermate oggi (nessuna fonte nuova): Buddybank 80€, Revolut, HYPE, Trade Republic, bunq, Fineco, crypto, airdrop e DeFi."
+        "Non confermate oggi (nessuna fonte nuova): Buddybank 80€, Revolut, HYPE, Trade Republic, bunq, Fineco, crypto, airdrop e DeFi.",
+        "Scadute da meno di 30 giorni (restano in Scadute): Fineco Codice Amico, Banco BPM Conto You, Tinaba, IBL Banca, ING 4% e ING Codice Amico. Nessuna rimossa. Ricerche su ING, Fineco, Buddybank ed exchange: nessuna nuova edizione trovata."
       ]
     },
     {
@@ -219,43 +220,45 @@ window.PROMO_DATA = {
     },
     {
       "id": "credit-agricole-250",
-      "nome": "Crédit Agricole: fino a 250€ in buoni Amazon",
+      "nome": "Crédit Agricole: fino a 800€ in buoni Amazon + 4% per 4 mesi",
       "provider": "Crédit Agricole",
       "categoria": "conto",
-      "valore": "fino a 250€ Amazon",
-      "valoreStima": 250,
-      "sintesi": "Buoni Amazon a scaglioni: 50€ con una transazione, 100€ con l'accredito dello stipendio, fino a 100€ con le spese carta.",
+      "valore": "fino a 800€ Amazon + 4% per 4 mesi",
+      "valoreStima": 200,
+      "sintesi": "Nuova edizione: 50€ di benvenuto, 100€ con lo stipendio, fino a 150€ con le spese carta nei primi 60 giorni, fino a 500€ con gli amici; 4% lordo per 4 mesi sul conto deposito.",
       "facilita": 3,
       "tempo": "20 minuti + stipendio e spese",
-      "capitale": "1.000-2.000€ di spese in 30 giorni per il massimo",
+      "capitale": "Spese carta nei primi 60 giorni per gli scaglioni più alti",
       "rischio": "basso",
-      "scadenza": "2026-11-02",
+      "scadenza": "2027-01-12",
       "aggiunta": "2026-10-06",
-      "aggiornata": "2026-10-06",
-      "novita": "",
+      "aggiornata": "2026-11-13",
+      "novita": "Nuova edizione: buoni Amazon fino a 800€ (prima 250€) e 4% lordo per 4 mesi. Richiesta di apertura entro il 12 gennaio 2027 secondo una fonte di stampa; regolamento ufficiale non letto.",
       "requisiti": [
-        "Aprire il conto online entro il 2 novembre 2026 inserendo un codice promo (es. VISA)",
-        "50€: fare una qualsiasi transazione entro 30 giorni",
-        "100€: accreditare stipendio o pensione",
-        "Fino a 100€: spendere da 1.000€ a 2.000€ con carta entro 30 giorni"
+        "Aprire il conto online da nuovo cliente entro il 12 gennaio 2027 (data da una sola fonte di stampa, da verificare)",
+        "50€: welcome bonus",
+        "100€: accredito di stipendio o pensione",
+        "Fino a 150€: spese con la carta di debito nei primi 60 giorni",
+        "Fino a 500€: 50€ per ogni amico che apre il conto"
       ],
       "termini": [
         "Premi in buoni regalo Amazon, non in denaro",
         "Solo nuovi clienti",
-        "I soli primi 50€ sono facili per chiunque; il resto richiede stipendio e spese importanti",
-        "Controlla sul regolamento le scadenze per l'accredito dello stipendio"
+        "Interessi 4% lordo annuo per i primi 4 mesi dall'apertura; limiti di importo non indicati dalla fonte",
+        "Canone conto 0€; carta di debito gratuita per 2 anni, poi 2€/mese; carta di credito 49,99€/anno",
+        "Soglie di spesa e scadenze esatte da controllare sul regolamento ufficiale"
       ],
-      "costi": "Canone 0€ per chi apre in promo",
+      "costi": "Canone conto 0€; carta di debito gratis 2 anni, poi 2€/mese",
       "referral": {
-        "testo": "Nelle edizioni precedenti: 50€ per amico invitato, massimo 8 amici. Da verificare se attivo in questa edizione.",
-        "valore": "50€ ad amico (da verificare)"
+        "testo": "50€ in buoni Amazon per ogni amico che apre il conto (fino a 500€ in totale secondo la fonte).",
+        "valore": "50€ ad amico"
       },
       "link": "https://www.credit-agricole.it/",
-      "fonte": "https://www.qualebanca.com/guide/conti/promozioni-conti-correnti",
-      "verifica": "alta",
-      "note": "",
+      "fonte": "https://punto-informatico.it/fintech/conti/conto-credit-agricole-interessi-al-4-per-4-mesi-e-fino-a-800e-in-regalo-su-amazon",
+      "verifica": "media",
+      "note": "Edizione trovata solo su articoli di stampa (3-5 novembre 2026): importi e scadenza da confermare sul sito ufficiale.",
       "profittevole": true,
-      "profitto": "50€ con una sola transazione e altri 100€ con lo stipendio. L'ultimo scaglione (1.000-2.000€ di spese per 50-100€) da solo non conviene.",
+      "profitto": "50€ con il benvenuto e altri 100€ con lo stipendio senza spese obbligatorie; gli scaglioni sulle spese da soli non convengono.",
       "italia": null
     },
     {
@@ -408,32 +411,30 @@ window.PROMO_DATA = {
     },
     {
       "id": "selfyconto-4",
-      "nome": "SelfyConto Mediolanum: 4% per 6 mesi",
+      "nome": "SelfyConto Mediolanum: fino a 250€ in buoni Amazon",
       "provider": "Banca Mediolanum",
       "categoria": "conto",
-      "valore": "4% lordo per 6 mesi",
-      "valoreStima": 60,
-      "sintesi": "4% annuo lordo per 6 mesi su un deposito a tempo (Time Deposit) da attivare dopo l'apertura, con accredito dello stipendio. Canone sempre gratuito per gli under 30.",
-      "facilita": 3,
-      "tempo": "20 minuti + accredito stipendio",
-      "capitale": "Da 100€ da vincolare 6 mesi + accredito stipendio",
+      "valore": "fino a 250€ Amazon",
+      "valoreStima": 50,
+      "sintesi": "Promo Selfy novembre 2026: 50€ in buoni Amazon aprendo SelfyConto e spendendo 50€ con la carta; altri 200€ solo sottoscrivendo prodotti di protezione o risparmio gestito.",
+      "facilita": 4,
+      "tempo": "20 minuti + 50€ di spesa con carta",
+      "capitale": "50€ di spesa per il buono base; 200€ richiedono polizza da 150€/anno o 1.800€ investiti",
       "rischio": "basso",
-      "scadenza": "2026-10-30",
+      "scadenza": "2027-01-08",
       "aggiunta": "2026-10-06",
-      "aggiornata": "2026-10-11",
-      "novita": "Chiarite le condizioni: il 4% non è sulla giacenza del conto ma su un Time Deposit a 6 mesi da attivare entro il 6 novembre 2026 (da 100€ a 500.000€), e lo stipendio deve risultare accreditato entro 7 giorni dalla scadenza del deposito.",
+      "aggiornata": "2026-11-13",
+      "novita": "Nuova edizione (1 novembre - 31 dicembre 2026): buoni Amazon fino a 250€ al posto del 4% su Time Deposit, ora scaduto.",
       "requisiti": [
-        "Aprire SelfyConto entro il 30 ottobre 2026",
-        "Accreditare lo stipendio o la pensione sul conto (deve risultare accreditato entro 7 giorni dalla scadenza del deposito)",
-        "Attivare il Mediolanum Time Deposit a 6 mesi entro il 6 novembre 2026, vincolando da 100€ a 500.000€"
+        "Essere nuovo cliente e aprire SelfyConto su bancamediolanum.it entro l'8 gennaio 2027",
+        "50€: emettere la Mediolanum Card e spendere almeno 50€ entro il 30 aprile 2027",
+        "200€: sottoscrivere entro il 31 maggio 2027 un prodotto di protezione (premio annuo almeno 150€) o di risparmio gestito (versamento iniziale almeno 1.800€)"
       ],
       "termini": [
-        "Tasso fisso 4% annuo lordo per 6 mesi: sul semestre è circa il 2% lordo, 1,48% netto dopo la ritenuta del 26%",
-        "Importo vincolabile da 100€ a 500.000€ per cliente",
-        "Si può svincolare prima della scadenza senza perdere gli interessi maturati fino a quel momento",
-        "Riservato a nuovi clienti che non hanno avuto prodotti Banca Mediolanum nei 6 mesi precedenti: leggi il Documento Promozioni",
-        "Over 30: canone gratuito il primo anno, poi 3,75€/mese azzerabile con accredito stipendio o 500€/mese di spese",
-        "Una pagina della stessa fonte riporta anche un 3% con apertura entro il 30 novembre: controlla il tasso sul sito Mediolanum prima di aprire"
+        "Buoni Amazon.it consegnati entro 6 mesi dalla fine dell'operazione (seconda metà 2027)",
+        "Verifica dei requisiti entro il 15 giugno 2027",
+        "Il buono da 200€ comporta l'acquisto di prodotti assicurativi o di investimento: valuta se ti servono davvero",
+        "Regolamento nella sezione Promozioni e manifestazioni a premio del sito Mediolanum"
       ],
       "costi": "0€ under 30; over 30 gratis il primo anno, poi 3,75€/mese azzerabile",
       "referral": {
@@ -441,11 +442,11 @@ window.PROMO_DATA = {
         "valore": "fino a 20€ ad amico"
       },
       "link": "https://www.bancamediolanum.it/",
-      "fonte": "https://www.aziendabanca.it/notizie/recensioni/selfyconto-mediolanum",
+      "fonte": "https://www.punto-informatico.it/fintech/conti/selfyconto-nuova-promo-250-euro-buoni-amazon/",
       "verifica": "media",
-      "note": "Condizioni lette da un articolo di settore, non dal Documento Promozioni ufficiale.",
+      "note": "Letto da articolo di stampa del 2 novembre 2026 che riporta il regolamento; non verificato sul sito ufficiale.",
       "profittevole": false,
-      "profitto": "Serve spostare lo stipendio e vincolare capitale: 1.000€ rendono circa 15€ netti in 6 mesi.",
+      "profitto": "Solo 50€ sono facili (spesa di 50€); i 200€ richiedono di sottoscrivere polizze o investimenti, quindi non conviene per il bonus.",
       "italia": null
     },
     {
