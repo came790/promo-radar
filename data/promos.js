@@ -4,14 +4,17 @@ window.PROMO_DATA = {
     {
       "data": "2026-11-13",
       "voci": [
-        "Nuova edizione Crédit Agricole: buoni Amazon fino a 800€ + 4% per 4 mesi, apertura entro il 12 gennaio 2027 (da una fonte di stampa, verifica media). Sostituisce la promo da 250€ scaduta il 2 novembre.",
-        "Nuova edizione SelfyConto Mediolanum (1 novembre - 31 dicembre 2026): fino a 250€ in buoni Amazon, 50€ facili e 200€ solo con prodotti assicurativi/investimento. Sostituisce il 4% su Time Deposit scaduto. Non profittevole.",
-        "Nuova: Credem Link, 200€ in buoni Amazon con codice PROMOLINK, apertura entro il 30 novembre 2026 e stipendio accreditato o PAC (fonti di stampa, regolamento da controllare).",
-        "BBVA: confermata la scadenza dell'11 dicembre 2026 (4% interessi + 4% cashback per 6 mesi). Promo invariata.",
-        "Controllo parziale: siti dei comparatori (qualebanca, ponss, sostariffe) non raggiungibili oggi, verifica fatta solo con ricerche web. Le altre promo restano come prima.",
-        "In scadenza nei prossimi 10 giorni: Buddybank 80€ il 16 novembre (nessuna proroga trovata, bonus poi a 50€). Prossime: BPER e Credem il 30 novembre, BBVA l'11 dicembre.",
-        "Non confermate oggi (nessuna fonte nuova): Buddybank 80€, Revolut, HYPE, Trade Republic, bunq, Fineco, crypto, airdrop e DeFi.",
-        "Scadute da meno di 30 giorni (restano in Scadute): Fineco Codice Amico, Banco BPM Conto You, Tinaba, IBL Banca, ING 4% e ING Codice Amico. Nessuna rimossa. Ricerche su ING, Fineco, Buddybank ed exchange: nessuna nuova edizione trovata."
+        "Nuova edizione Crédit Agricole: buoni Amazon fino a 800€ + 4% per 4 mesi, apertura entro il 12 gennaio 2027 (fonti di stampa, verifica media). Sostituisce la promo da 250€ scaduta il 2 novembre.",
+        "Nuova edizione SelfyConto Mediolanum (1 novembre - 31 dicembre 2026): fino a 250€ in buoni Amazon, 50€ facili e 200€ solo con prodotti assicurativi/investimento. Non profittevole.",
+        "Nuova: Credem Link con codice PROMOLINK, apertura entro il 30 novembre 2026. Buono da 100€ con un traguardo (stipendio, 2.000€ di spese o PAC da 50€/mese), 200€ con almeno due.",
+        "Revolut: promo Black Friday, 20€ con un solo pagamento con carta (anche 0,01€) entro il 31 dicembre 2026, più concorso con buoni Amazon fino al 9 dicembre.",
+        "bunq: tasso bonus salito al 3,11% (base 1,61%), confermato sul sito ufficiale.",
+        "DeFi: rendimenti in leggera risalita. Sky sUSDS circa 3,8%, Aave USDC circa 3,9%, vault Morpho circa 3,4-4,5%.",
+        "Bitpanda: codice HELLOBITPANDA forse non più valido (era una campagna estiva), affidabilità abbassata. Tinaba: fonti discordanti, una indica il codice valido fino al 31 dicembre; affidabilità abbassata.",
+        "Confermate senza variazioni: BBVA (fino all'11 dicembre), Buddybank 80€, Trade Republic, HYPE, Fineco 100 ordini, BPER, Bitvavo, Young Platform, airdrop (nessun token confermato per MetaMask, Base, Hyperliquid, xStocks).",
+        "In scadenza nei prossimi 10 giorni: Buddybank 80€ il 16 novembre (nessuna proroga trovata). Prossime: BPER e Credem il 30 novembre, BBVA l'11 dicembre.",
+        "Scadute da meno di 30 giorni (restano in Scadute): Fineco Codice Amico, Banco BPM Conto You, IBL Banca (vincolo attivabile entro il 15 novembre solo da chi ha aperto il conto entro il 31 ottobre), ING 4% e ING Codice Amico. Nessuna nuova edizione trovata. Nessuna promo rimossa.",
+        "Alcuni comparatori (sostariffe, facile.it) non raggiungibili oggi: verifiche fatte con ricerche web, siti ufficiali e DefiLlama."
       ]
     },
     {
@@ -186,24 +189,25 @@ window.PROMO_DATA = {
       "categoria": "conto",
       "valore": "20€",
       "valoreStima": 20,
-      "sintesi": "20€ sul conto spendendone 20 con la carta nei primi 30 giorni. Conto gratuito con IBAN italiano.",
+      "sintesi": "20€ sul conto aprendo da un link promozionale e facendo almeno un pagamento con carta (anche 0,01€) entro il 31 dicembre 2026. Conto gratuito con IBAN italiano.",
       "facilita": 5,
       "tempo": "10 minuti",
-      "capitale": "20€ di spesa",
+      "capitale": "Un pagamento con carta (anche minimo)",
       "rischio": "basso",
-      "scadenza": null,
+      "scadenza": "2026-12-31",
       "aggiunta": "2026-10-06",
-      "aggiornata": "2026-10-06",
-      "novita": "",
+      "aggiornata": "2026-11-13",
+      "novita": "Promo Black Friday: ora basta un pagamento con carta di almeno 0,01€ entro il 31 dicembre 2026 (prima servivano 20€ di spesa in 30 giorni). In più concorso con 3 buoni Amazon da 800€ fino al 9 dicembre.",
       "requisiti": [
-        "Aprire il conto da un link promozionale o di invito (non dall'app store diretto)",
+        "Aprire il conto dal link della promozione (non dall'app store diretto)",
         "Completare la verifica dell'identità",
-        "Spendere almeno 20€ con la carta Revolut entro 30 giorni"
+        "Fare almeno un pagamento con la carta Revolut, anche di 0,01€, entro il 31 dicembre 2026"
       ],
       "termini": [
-        "Solo nuovi clienti maggiorenni",
-        "In più: 3,5% annuo lordo per 4 mesi sui primi 15.000€ nel conto deposito libero per i nuovi clienti",
-        "Promo valida fino a nuova comunicazione, può cambiare senza preavviso"
+        "Solo nuovi clienti maggiorenni in Italia",
+        "Concorso collegato: 3 buoni Amazon da 800€ estratti tra chi si iscrive entro il 9 dicembre 2026 (anche già clienti)",
+        "Altre pagine Revolut chiedono ancora 20€ di spesa entro 30 giorni: valgono le condizioni del link da cui ti registri",
+        "In più: 3,5% annuo lordo per 4 mesi sui primi 15.000€ nel conto deposito libero per i nuovi clienti"
       ],
       "costi": "Piano Standard gratuito; la carta fisica può avere costi di spedizione",
       "referral": {
@@ -211,11 +215,11 @@ window.PROMO_DATA = {
         "valore": "fino a 50€ ad amico"
       },
       "link": "https://www.revolut.com/it-IT/",
-      "fonte": "https://www.qualebanca.com/guide/conti/promozioni-conti-correnti",
-      "verifica": "alta",
-      "note": "",
+      "fonte": "https://www.aranzulla.it/promo-revolut-black-friday-buoni-amazon-da-800-euro-e-bonus-da-20-euro-1984263.html",
+      "verifica": "media",
+      "note": "Condizioni da articolo sponsorizzato in collaborazione con Revolut; pagina ufficiale della promo non raggiungibile oggi.",
       "profittevole": true,
-      "profitto": "Spendi 20€ e ricevi 20€.",
+      "profitto": "Basta un pagamento minimo con carta per ricevere 20€.",
       "italia": null
     },
     {
@@ -311,8 +315,8 @@ window.PROMO_DATA = {
       "rischio": "basso",
       "scadenza": "2026-10-31",
       "aggiunta": "2026-10-06",
-      "aggiornata": "2026-10-06",
-      "novita": "",
+      "aggiornata": "2026-11-13",
+      "novita": "Fonti discordanti sulla scadenza: un comparatore indica ancora il codice TINABA2026 valido fino al 31 dicembre 2026, mentre la fonte precedente dava il 31 ottobre.",
       "requisiti": [
         "Aprire il conto con il codice promo TINABA2026 entro il 31 ottobre 2026",
         "Accreditare uno stipendio di almeno 800€ entro 60 giorni",
@@ -327,8 +331,8 @@ window.PROMO_DATA = {
       "referral": null,
       "link": "https://www.tinaba.bancaprofilo.it/",
       "fonte": "https://www.qualebanca.com/guide/conti/promozioni-conti-correnti",
-      "verifica": "media",
-      "note": "",
+      "verifica": "bassa",
+      "note": "Una pagina di aziendabanca.it indica validità fino al 31/12/2026, ma non è datata; il sito Tinaba non era leggibile oggi. Controlla in app se il codice è ancora accettato.",
       "profittevole": true,
       "profitto": "Nessuna spesa: 120€ in un anno, ma devi spostare lo stipendio.",
       "italia": null
@@ -601,37 +605,39 @@ window.PROMO_DATA = {
     },
     {
       "id": "bunq-301",
-      "nome": "bunq: 3,01% sul conto risparmio",
+      "nome": "bunq: 3,11% sul conto risparmio",
       "provider": "bunq",
       "categoria": "liquidita",
-      "valore": "3,01% lordo",
+      "valore": "3,11% lordo (tasso bonus)",
       "valoreStima": 30,
-      "sintesi": "Conto risparmio al 3,01% fino a 100.000€, con primo mese di piano a pagamento gratuito.",
+      "sintesi": "Conto risparmio al 3,11% lordo (tasso bonus) sui nuovi risparmi in euro, interessi pagati ogni settimana, anche col piano gratuito.",
       "facilita": 3,
       "tempo": "10 minuti",
       "capitale": "Nessun minimo",
       "rischio": "basso",
       "scadenza": null,
       "aggiunta": "2026-10-06",
-      "aggiornata": "2026-10-06",
-      "novita": "",
+      "aggiornata": "2026-11-13",
+      "novita": "Tasso salito dal 3,01% al 3,11% (tasso bonus); il tasso base sale dall'1,51% all'1,61%.",
       "requisiti": [
         "Aprire un conto bunq dall'app",
         "Spostare la liquidità nel conto di risparmio"
       ],
       "termini": [
-        "Tasso variabile, valido fino a 100.000€",
+        "Il 3,11% vale su tutti i risparmi fino al primo ricalcolo della soglia (1° gennaio o 1° luglio); dopo, solo sulla parte sopra la soglia personale",
+        "La soglia è il saldo di risparmio più alto degli ultimi 6 mesi: sotto la soglia rendi solo il tasso base (1,61%)",
+        "Tasso variabile; depositi garantiti dal fondo olandese fino a 100.000€",
         "bunq è una banca olandese: non fa da sostituto d'imposta, interessi e conto vanno dichiarati (quadri RM e RW)",
         "Dopo il mese di prova i piani a pagamento hanno un canone: scegli il piano gratuito se non ti servono"
       ],
       "costi": "Piano gratuito disponibile; piani a pagamento dopo 30 giorni di prova",
       "referral": null,
       "link": "https://www.bunq.com/it-it",
-      "fonte": "https://www.qualebanca.com/investimenti/i-migliori-conti-deposito",
-      "verifica": "media",
-      "note": "",
+      "fonte": "https://www.bunq.com/it-it/savings",
+      "verifica": "alta",
+      "note": "Tassi letti sulla pagina ufficiale bunq il 13 novembre 2026 (aumento comunicato a metà ottobre).",
       "profittevole": false,
-      "profitto": "Su 1.000€ sono circa 22€ netti l'anno e devi dichiarare il conto estero.",
+      "profitto": "Su 1.000€ sono circa 23€ netti l'anno, il tasso pieno vale solo sui nuovi risparmi e devi dichiarare il conto estero.",
       "italia": null
     },
     {
@@ -931,7 +937,7 @@ window.PROMO_DATA = {
       "nome": "Sky sUSDS: tasso di risparmio",
       "provider": "Sky (ex MakerDAO)",
       "categoria": "defi",
-      "valore": "circa 3,5-3,6% annuo",
+      "valore": "circa 3,8% annuo",
       "valoreStima": 0,
       "sintesi": "Il modo più semplice in DeFi: converti stablecoin in sUSDS e il saldo cresce da solo al tasso di risparmio di Sky.",
       "facilita": 3,
@@ -940,8 +946,8 @@ window.PROMO_DATA = {
       "rischio": "medio",
       "scadenza": null,
       "aggiunta": "2026-10-06",
-      "aggiornata": "2026-10-11",
-      "novita": "Tasso sceso: ora circa 3,5-3,6% annuo (prima 3,75-4,5%).",
+      "aggiornata": "2026-11-13",
+      "novita": "Tasso risalito: ora circa 3,8% annuo (prima 3,5-3,6%).",
       "requisiti": [
         "Avere un wallet (es. MetaMask) con USDC o USDS",
         "Convertire in sUSDS dall'app Sky o Spark",
@@ -956,9 +962,9 @@ window.PROMO_DATA = {
       "costi": "Commissioni di rete; nessuna commissione di ingresso",
       "referral": null,
       "link": "https://sky.money/",
-      "fonte": "https://eco.com/support/en/articles/15253991-best-usdc-yield-platforms-2026-aave-morpho-sky-compared",
+      "fonte": "https://defillama.com/yields?project=sky-lending",
       "verifica": "media",
-      "note": "Tasso rilevato l'11 ottobre 2026 su sky.money e DefiLlama: controlla il valore in tempo reale sull'app.",
+      "note": "Tasso rilevato il 13 novembre 2026 su DefiLlama (Ethereum e Arbitrum): controlla il valore in tempo reale sull'app.",
       "profittevole": false,
       "profitto": "Rende in proporzione al capitale: su 1.000€ circa 35€ l'anno, con rischio tecnico e di cambio euro/dollaro.",
       "italia": {
@@ -971,7 +977,7 @@ window.PROMO_DATA = {
       "nome": "Aave: prestito di USDC",
       "provider": "Aave",
       "categoria": "defi",
-      "valore": "circa 3,7% annuo variabile",
+      "valore": "circa 3,9% annuo variabile",
       "valoreStima": 0,
       "sintesi": "Depositi USDC nel più grande protocollo di lending e ricevi interessi variabili, prelevabili quando vuoi.",
       "facilita": 3,
@@ -980,8 +986,8 @@ window.PROMO_DATA = {
       "rischio": "medio",
       "scadenza": null,
       "aggiunta": "2026-10-06",
-      "aggiornata": "2026-10-11",
-      "novita": "Tasso sceso: ora circa 3,7% annuo su USDC (prima 4-5%).",
+      "aggiornata": "2026-11-13",
+      "novita": "Tasso risalito: ora circa 3,9% annuo su USDC (prima 3,7%).",
       "requisiti": [
         "Wallet con USDC su una rete supportata (Base, Arbitrum, Ethereum)",
         "Collegare il wallet all'app Aave e fare Supply"
@@ -996,7 +1002,7 @@ window.PROMO_DATA = {
       "link": "https://app.aave.com/",
       "fonte": "https://defillama.com/yields/pool/aa70268e-4b52-42bf-a116-608b370f9501",
       "verifica": "media",
-      "note": "Tasso rilevato l'11 ottobre 2026 su DefiLlama e Aavescan (Ethereum); su Arbitrum circa 3%. Controlla il valore in tempo reale.",
+      "note": "Tasso rilevato il 13 novembre 2026 su DefiLlama (Ethereum). Controlla il valore in tempo reale.",
       "profittevole": false,
       "profitto": "Rende in proporzione al capitale: su 1.000€ circa 37€ l'anno, con rischio tecnico e di cambio euro/dollaro.",
       "italia": {
@@ -1009,7 +1015,7 @@ window.PROMO_DATA = {
       "nome": "Morpho: vault USDC curati",
       "provider": "Morpho",
       "categoria": "defi",
-      "valore": "circa 2,8-4,3% annuo variabile",
+      "valore": "circa 3,4-4,5% annuo variabile",
       "valoreStima": 0,
       "sintesi": "Vault gestiti da curatori professionali. In questo periodo rendono quanto o poco più di Aave, con un rischio in più legato alle scelte del curatore.",
       "facilita": 3,
@@ -1018,8 +1024,8 @@ window.PROMO_DATA = {
       "rischio": "medio",
       "scadenza": null,
       "aggiunta": "2026-10-06",
-      "aggiornata": "2026-10-11",
-      "novita": "Rendimenti scesi: i vault USDC principali ora rendono circa 2,8-4,3% (prima 5-7%).",
+      "aggiornata": "2026-11-13",
+      "novita": "Rendimenti risaliti: i vault USDC principali ora rendono circa 3,4-4,5% (prima 2,8-4,3%).",
       "requisiti": [
         "Wallet con USDC (Base o Ethereum)",
         "Scegliere un vault USDC di un curatore noto con molta liquidità",
@@ -1035,7 +1041,7 @@ window.PROMO_DATA = {
       "link": "https://app.morpho.org/",
       "fonte": "https://eco.com/support/en/articles/15253991-best-usdc-yield-platforms-2026-aave-morpho-sky-compared",
       "verifica": "media",
-      "note": "Tassi rilevati tra il 22 settembre e il 9 ottobre 2026 sui vault Steakhouse, Gauntlet e Spark. Vault con rendimenti molto più alti accettano garanzie più rischiose.",
+      "note": "Tassi rilevati il 13 novembre 2026 su DefiLlama per i vault Steakhouse, Gauntlet e Spark (Base ed Ethereum). Vault con rendimenti molto più alti accettano garanzie più rischiose.",
       "profittevole": false,
       "profitto": "Rende in proporzione al capitale: su 1.000€ circa 28-43€ l'anno, con rischio tecnico e di cambio euro/dollaro.",
       "italia": {
@@ -1253,9 +1259,9 @@ window.PROMO_DATA = {
     {
       "scadenza": null,
       "aggiunta": "2026-10-06",
-      "aggiornata": "2026-10-09",
-      "novita": "Trovate le condizioni della campagna in corso: 25€ in Bitcoin con codice HELLOBITPANDA e un acquisto di almeno 100€ di crypto. Prima era indicato un generico 'fino a 50€' senza requisiti.",
-      "note": "Codice e importo vengono da un comparatore, non confermati oggi sul sito ufficiale: le campagne Bitpanda cambiano ogni pochi mesi.",
+      "aggiornata": "2026-11-13",
+      "novita": "Il codice HELLOBITPANDA è indicato dal comparatore come campagna estiva e non abbiamo trovato una campagna di novembre: potrebbe non essere più valido.",
+      "note": "Codice e importo da un comparatore che indica il periodo 'estate' senza date; nessuna conferma ufficiale per novembre 2026. Controlla la pagina della campagna Bitpanda prima di comprare.",
       "referral": {
         "testo": "Programma 'Dillo a un amico' sempre attivo: fino a 100€ per amico, a scaglioni in base a quanto l'amico acquista in totale (da 500€ a 10.000€). Poco conveniente da proporre a chi non investe.",
         "valore": "fino a 100€ ad amico"
@@ -1287,7 +1293,7 @@ window.PROMO_DATA = {
       "costi": "Nessun canone; spread sugli scambi",
       "link": "https://www.bitpanda.com/it",
       "fonte": "https://www.promarketer.it/?p=18454",
-      "verifica": "media",
+      "verifica": "bassa",
       "profittevole": true,
       "profitto": "Compri 100€ di crypto che restano tue e ricevi 25€ in Bitcoin (25%).",
       "italia": {
@@ -1374,39 +1380,40 @@ window.PROMO_DATA = {
     },
     {
       "id": "credem-link-200-amazon",
-      "nome": "Credem Link: 200€ in buoni Amazon",
+      "nome": "Credem Link: fino a 200€ in buoni Amazon",
       "provider": "Credem",
       "categoria": "conto",
-      "valore": "200€ Amazon",
+      "valore": "100€ o 200€ Amazon",
       "valoreStima": 200,
-      "sintesi": "Buono Amazon da 200€ aprendo Credem Link con il codice PROMOLINK entro il 30 novembre e accreditando lo stipendio oppure attivando un PAC in fondi.",
+      "sintesi": "Buono Amazon da 100€ con un traguardo o 200€ con due, aprendo Credem Link con il codice PROMOLINK entro il 30 novembre. Traguardi: stipendio accreditato, 2.000€ di spese con carta o PAC da 50€ al mese.",
       "facilita": 3,
       "tempo": "20 minuti + accredito stipendio o PAC",
-      "capitale": "Stipendio accreditato oppure PAC in fondi comuni",
+      "capitale": "Stipendio accreditato, 2.000€ di spese con carta o PAC da 50€/mese (almeno 2 su 3 per i 200€)",
       "rischio": "basso",
       "scadenza": "2026-11-30",
       "aggiunta": "2026-11-13",
       "aggiornata": "2026-11-13",
-      "novita": "",
+      "novita": "Precisate le condizioni: 100€ con un traguardo, 200€ solo con almeno due su tre (stipendio, 2.000€ di spese con carta, PAC da 50€ al mese) entro il 31 maggio 2027.",
       "requisiti": [
-        "Essere nuovo cliente e aprire Credem Link entro il 30 novembre 2026 inserendo il codice PROMOLINK",
-        "Accreditare lo stipendio oppure attivare un PAC (piano di accumulo) in fondi comuni, come da regolamento",
-        "Mantenere il conto attivo fino alla scadenza della promo"
+        "Essere nuovo cliente e aprire online Credem Link, monointestato, entro il 30 novembre 2026 con il codice PROMOLINK",
+        "Entro il 31 maggio 2027 raggiungere almeno uno di questi traguardi: accredito di stipendio o pensione; 2.000€ di acquisti con Credemcard; PAC da almeno 50€ al mese su fondi o SICAV Euromobiliare",
+        "Un traguardo = buono da 100€; due o tre traguardi = buono da 200€"
       ],
       "termini": [
         "Premio in buoni regalo Amazon.it, non in denaro",
-        "Le fonti trovate non riportano le soglie esatte di stipendio o PAC: leggi il regolamento Credem prima di aprire",
+        "Esclusi: chi ha o ha chiuso da meno di 18 mesi un conto Credem, chi ha Internet Banking Credem o rapporti con Credem Euromobiliare Private Banking",
+        "Il PAC è un investimento con rischio di mercato",
         "Non usare i codici delle vecchie edizioni (BONUS200, PROMO200)",
-        "Fonti secondarie: data di invio del buono non indicata"
+        "Data di invio del buono non indicata dalle fonti: leggi il regolamento Credem"
       ],
       "costi": "Conto a canone zero per i nuovi clienti secondo le fonti; verifica il foglio informativo",
       "referral": null,
       "link": "https://www.credem.it/",
-      "fonte": "https://www.finanza.com/conti/conto-corrente-smart-e-buono-amazon-200-euro-scopri-offerta-credem-link-con-il-codice-di-risparmio",
+      "fonte": "https://www.finanzadigitale.com/news/bonus-credem-ottobre-2026/",
       "verifica": "media",
-      "note": "Regolamento ufficiale non consultato (rete limitata): dati da articoli di stampa finanziaria.",
+      "note": "Condizioni da articolo di stampa finanziaria del 15 ottobre 2026; regolamento ufficiale non consultato. Una fonte cita solo stipendio o PAC senza la soglia di spesa.",
       "profittevole": true,
-      "profitto": "Se già accrediti lo stipendio, 200€ in buoni senza spese obbligatorie; con il PAC dovresti investire, quindi controlla la soglia richiesta.",
+      "profitto": "Accreditando lo stipendio ricevi 100€ senza spese; per arrivare a 200€ serve un secondo traguardo (2.000€ di spese o un PAC).",
       "italia": null
     }
   ],
