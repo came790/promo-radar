@@ -1,6 +1,18 @@
 window.PROMO_DATA = {
-  "aggiornato": "2026-10-11",
+  "aggiornato": "2026-11-13",
   "changelog": [
+    {
+      "data": "2026-11-13",
+      "voci": [
+        "Nuova: Credem Link, 200€ in buoni Amazon con codice PROMOLINK, apertura entro il 30 novembre 2026 e stipendio accreditato o PAC (fonti di stampa, regolamento da controllare).",
+        "BBVA: confermata la scadenza dell'11 dicembre 2026 (4% interessi + 4% cashback per 6 mesi). Promo invariata.",
+        "Controllo parziale: siti dei comparatori (qualebanca, ponss, sostariffe) non raggiungibili oggi, verifica fatta solo con ricerche web. Le altre promo restano come prima.",
+        "Scadute da meno di 30 giorni (restano nella sezione Scadute): Fineco Codice Amico (15 ottobre), Banco BPM Conto You (21 ottobre), SelfyConto (30 ottobre), Tinaba e IBL Banca (31 ottobre), ING 4% e ING Codice Amico, Crédit Agricole (2 novembre). Nessuna rimossa.",
+        "Per ING una fonte indica ora un tetto di 200.000€ per il 4% (nel catalogo 50.000€): promo comunque scaduta il 2 novembre, dato non modificato.",
+        "In scadenza nei prossimi 10 giorni: Buddybank 80€ il 16 novembre (nessuna proroga trovata, bonus poi a 50€). Prossime: BPER e Credem il 30 novembre, BBVA l'11 dicembre.",
+        "Non confermate oggi (nessuna fonte nuova): Buddybank 80€, Revolut, HYPE, Trade Republic, bunq, Fineco, crypto, airdrop e DeFi."
+      ]
+    },
     {
       "data": "2026-10-11",
       "voci": [
@@ -1357,6 +1369,43 @@ window.PROMO_DATA = {
       "note": "Regolamento 2026 non reperito: canone dei piani e vincoli da confermare.",
       "profittevole": false,
       "profitto": "Devi spendere 500€ al mese per ricevere 20€ (4%): 2.500€ di spese per 100€.",
+      "italia": null
+    },
+    {
+      "id": "credem-link-200-amazon",
+      "nome": "Credem Link: 200€ in buoni Amazon",
+      "provider": "Credem",
+      "categoria": "conto",
+      "valore": "200€ Amazon",
+      "valoreStima": 200,
+      "sintesi": "Buono Amazon da 200€ aprendo Credem Link con il codice PROMOLINK entro il 30 novembre e accreditando lo stipendio oppure attivando un PAC in fondi.",
+      "facilita": 3,
+      "tempo": "20 minuti + accredito stipendio o PAC",
+      "capitale": "Stipendio accreditato oppure PAC in fondi comuni",
+      "rischio": "basso",
+      "scadenza": "2026-11-30",
+      "aggiunta": "2026-11-13",
+      "aggiornata": "2026-11-13",
+      "novita": "",
+      "requisiti": [
+        "Essere nuovo cliente e aprire Credem Link entro il 30 novembre 2026 inserendo il codice PROMOLINK",
+        "Accreditare lo stipendio oppure attivare un PAC (piano di accumulo) in fondi comuni, come da regolamento",
+        "Mantenere il conto attivo fino alla scadenza della promo"
+      ],
+      "termini": [
+        "Premio in buoni regalo Amazon.it, non in denaro",
+        "Le fonti trovate non riportano le soglie esatte di stipendio o PAC: leggi il regolamento Credem prima di aprire",
+        "Non usare i codici delle vecchie edizioni (BONUS200, PROMO200)",
+        "Fonti secondarie: data di invio del buono non indicata"
+      ],
+      "costi": "Conto a canone zero per i nuovi clienti secondo le fonti; verifica il foglio informativo",
+      "referral": null,
+      "link": "https://www.credem.it/",
+      "fonte": "https://www.finanza.com/conti/conto-corrente-smart-e-buono-amazon-200-euro-scopri-offerta-credem-link-con-il-codice-di-risparmio",
+      "verifica": "media",
+      "note": "Regolamento ufficiale non consultato (rete limitata): dati da articoli di stampa finanziaria.",
+      "profittevole": true,
+      "profitto": "Se già accrediti lo stipendio, 200€ in buoni senza spese obbligatorie; con il PAC dovresti investire, quindi controlla la soglia richiesta.",
       "italia": null
     }
   ],
