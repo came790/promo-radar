@@ -231,8 +231,8 @@
     let html = "";
     const age = DATA.aggiornato ? -daysTo(DATA.aggiornato) : 0;
     if (age > 1) {
-      html += '<div class="banner"><b>Dati fermi da ' + age + " giorni.</b> L'aggiornamento automatico gira solo con l'app Claude aperta: " +
-        "aprila oppure avvia a mano il task \"Aggiorna Promo Radar\". Controlla le scadenze prima di procedere.</div>";
+      html += '<div class="banner"><b>Dati fermi da ' + age + " giorni.</b> L'aggiornamento automatico di ogni mattina non è andato a buon fine: " +
+        "controlla il task \"Aggiorna Promo Radar\" su claude.ai/code/routines. Controlla le scadenze prima di procedere.</div>";
     }
     const back = active.filter(isBack);
     const fresh = active.filter((p) => (isNew(p) || isChanged(p)) && !isBack(p));
@@ -254,10 +254,21 @@
     return html;
   }
 
+  // Le promo scadute non stanno tra le attive: finiscono in una sezione chiusa in fondo
+  function expiredFold(items) {
+    const gone = items.filter(isExpired).sort((a, b) => b.scadenza.localeCompare(a.scadenza));
+    if (!gone.length) return "";
+    return '<details class="fold"><summary>Scadute (' + gone.length + ")</summary>" +
+      '<p class="section-sub">Non più attive. Restano qui finché il prossimo aggiornamento non le toglie dal catalogo.</p>' +
+      '<div class="list">' + gone.map(card).join("") + "</div></details>";
+  }
+
   function viewCrypto(visible) {
-    const items = sorted(visible.filter((p) => CRYPTO.includes(p.categoria)));
+    const all = visible.filter((p) => CRYPTO.includes(p.categoria));
+    const items = sorted(all.filter((p) => !isExpired(p)));
     let html = CRYPTO.map((c) => section(CRYPTO_SEZIONI[c][0], CRYPTO_SEZIONI[c][1], items.filter((p) => p.categoria === c))).join("");
     if (!html) html = '<p class="empty">Nessuna promo crypto corrisponde ai filtri.</p>';
+    html += expiredFold(all);
     if (DATA.esclusi.length) {
       html += '<h2 class="section-title">Escluse: non utilizzabili dall\'Italia</h2>' +
         '<p class="section-sub">Piattaforme controllate e lasciate fuori dal radar.</p>' +
@@ -267,11 +278,12 @@
   }
 
   function viewTutte(visible) {
-    const items = sorted(visible);
+    const items = sorted(visible.filter((p) => !isExpired(p)));
     let html =
       section("Profittevoli", "Guadagno alto rispetto a quello che devi spendere o impegnare.", items.filter((p) => p.profittevole)) +
       section("Non profittevoli", "Guadagno basso, incerto o legato a capitale da impegnare.", items.filter((p) => !p.profittevole));
     if (!html) html = '<p class="empty">Nessuna promo corrisponde ai filtri.</p>';
+    html += expiredFold(visible);
     const gone = DATA.promo.filter(isHidden);
     if (gone.length) {
       html += '<details class="fold"><summary>Promo eliminate (' + gone.length + ")</summary>" +
