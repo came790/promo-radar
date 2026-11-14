@@ -1,6 +1,23 @@
 window.PROMO_DATA = {
-  "aggiornato": "2026-11-13",
+  "aggiornato": "2026-11-14",
   "changelog": [
+    {
+      "data": "2026-11-14",
+      "voci": [
+        "Nuova edizione ING Codice Amico: 50€ a te e 50€ a chi invita, apertura entro il 20 dicembre 2026 e 150€ di spese con carta entro il 28 febbraio 2027 (confermato sul sito ING).",
+        "Nuova edizione Banco BPM Conto You: buono Amazon da 100€ con 1.000€ di spese in due mesi, apertura entro il 3 dicembre 2026 (sito ufficiale). Non profittevole.",
+        "Tinaba: il codice TINABA2026 non è più tra le promo ufficiali. Ora c'è la promo VALOREMESE: 20€ + 5% sulle bollette domiciliate (fino a 20€ al mese) con stipendio e deposito vincolato, adesione entro il 30 novembre.",
+        "Coinbase: per l'Italia ruota premi fino a 150€ in Bitcoin dopo il primo acquisto (fonte italiana, verifica media).",
+        "Crédit Agricole: precisati i requisiti (codice VISA, spese tra 1.000€ e 3.000€, stipendio entro il 14 marzo 2027); canone gratuito solo per chi chiede il conto entro il 30 novembre.",
+        "Buddybank: ultimi giorni per gli 80€ (fino al 16 novembre); dopo resta il bonus da 50€ fino al 20 gennaio 2027 secondo il comparatore.",
+        "DeFi: Aave USDC in forte salita (circa 6,2% oggi, media 30 giorni 4,3%); vault Morpho circa 4-4,5%; Sky sUSDS invariato al 3,8%.",
+        "Confermate senza variazioni: BBVA (fino all'11 dicembre), Revolut 20€, HYPE, SelfyConto Mediolanum, BPER (fino al 30 novembre, confermato sul sito ufficiale), Credem Link, Fineco 100 ordini, Trade Republic 3%, bunq 3,11%, Robinhood, Bitvavo, Young Platform, Bybit EU, OKX, Crypto.com, Kraken, Bitpanda (ancora non confermato), airdrop (nessun token confermato per MetaMask, Base, Hyperliquid, xStocks; Grass invariato).",
+        "In scadenza nei prossimi 10 giorni: Buddybank 80€ il 16 novembre. Poi Tinaba, BPER e Credem Link il 30 novembre, Banco BPM il 3 dicembre.",
+        "Scadute da meno di 30 giorni (restano in Scadute): Fineco Codice Amico (domani compie 30 giorni e verrà rimossa), IBL Banca, ING 4% per 12 mesi. Nessuna nuova edizione trovata. Nessuna promo rimossa.",
+        "Non inserite: MeglioBanca (promo in scadenza il 15 novembre), Webank (scadenza 3 dicembre ma condizioni non chiare), Findomestic (promo da 150€ scaduta).",
+        "Alcuni siti non raggiungibili oggi (BBVA, buddy UniCredit, sostariffe): verifiche fatte con ricerche web, comparatori e DefiLlama."
+      ]
+    },
     {
       "data": "2026-11-13",
       "voci": [
@@ -144,42 +161,42 @@ window.PROMO_DATA = {
     },
     {
       "id": "ing-codice-amico",
-      "nome": "ING Codice Amico: 75€ + 75€",
+      "nome": "ING Codice Amico: 50€ + 50€",
       "provider": "ING",
       "categoria": "conto",
-      "valore": "75€ cashback",
-      "valoreStima": 75,
-      "sintesi": "75€ di cashback a chi apre Conto Corrente Arancio Più con un codice amico e spende 250€ con carta. 75€ anche a chi invita.",
+      "valore": "50€ cashback",
+      "valoreStima": 50,
+      "sintesi": "50€ di cashback a chi apre Conto Corrente Arancio Più con un codice amico entro il 20 dicembre e spende 150€ con carta. 50€ anche a chi invita.",
       "facilita": 4,
-      "tempo": "15 minuti + 250€ di spese normali",
-      "capitale": "250€ di spesa con carta",
+      "tempo": "15 minuti + 150€ di spese normali",
+      "capitale": "150€ di spesa con carta",
       "rischio": "basso",
-      "scadenza": "2026-11-02",
+      "scadenza": "2026-12-20",
       "aggiunta": "2026-10-06",
-      "aggiornata": "2026-10-06",
-      "novita": "",
+      "aggiornata": "2026-11-14",
+      "novita": "Nuova edizione: 50€ a te e 50€ a chi ti invita (prima 75€ + 75€). Apertura entro il 20 dicembre 2026 e 150€ di spesa con carta entro il 28 febbraio 2027 (prima servivano 250€).",
       "requisiti": [
-        "Aprire il primo Conto Corrente Arancio Più inserendo un Codice Amico entro il 2 novembre 2026",
-        "Richiedere una carta ING (se di credito va attivata entro fine anno)",
-        "Spendere almeno 250€ con la carta entro il 31 dicembre 2026"
+        "Aprire il primo Conto Corrente Arancio Più inserendo un Codice Amico entro il 20 dicembre 2026",
+        "Richiedere la carta di debito Mastercard ING e/o la carta di credito Mastercard Gold ING (se di credito va attivata entro il 28 febbraio 2027)",
+        "Spendere almeno 150€ con la carta entro il 28 febbraio 2027"
       ],
       "termini": [
         "Vale solo per chi non ha mai avuto un conto corrente ING",
-        "Chi invita riceve 75€ per ogni amico idoneo, a patto di avere una carta ING e spendere a sua volta 250€ per ogni presentato entro il 31 dicembre 2026",
-        "Superbonus di 250€ ogni 10 amici idonei, fino a 50 amici",
+        "Chi invita riceve 50€ per ogni amico idoneo, fino a 10 amici (massimo 500€)",
+        "Il sito ING indica l'iniziativa valida fino al 28 febbraio 2027 (termine per spese e accrediti)",
         "Il cashback viene accreditato sul conto dopo la verifica dei requisiti"
       ],
       "costi": "Canone azzerabile con accredito stipendio o entrate mensili; verifica il canone di Arancio Più nel foglio informativo",
       "referral": {
-        "testo": "Ottimo per la famiglia: 75€ a te e 75€ a ogni persona che inviti. Ogni 10 inviti riusciti altri 250€.",
-        "valore": "75€ ad amico + 250€ ogni 10"
+        "testo": "50€ a te e 50€ a ogni persona che inviti, fino a 10 amici (500€ in totale).",
+        "valore": "50€ ad amico, max 10"
       },
       "link": "https://www.ing.it/",
       "fonte": "https://www.ponss.it/codice-amico/banca-ing-italia",
       "verifica": "alta",
-      "note": "",
+      "note": "Importo e validità fino al 28 febbraio 2027 confermati sulla home del sito ING; date di apertura e soglia di spesa dal comparatore.",
       "profittevole": true,
-      "profitto": "Spendi 250€ in acquisti normali e ricevi 75€ (30%).",
+      "profitto": "Spendi 150€ in acquisti normali e ricevi 50€ (33%).",
       "italia": null
     },
     {
@@ -236,21 +253,22 @@ window.PROMO_DATA = {
       "rischio": "basso",
       "scadenza": "2027-01-12",
       "aggiunta": "2026-10-06",
-      "aggiornata": "2026-11-13",
-      "novita": "Nuova edizione: buoni Amazon fino a 800€ (prima 250€) e 4% lordo per 4 mesi. Richiesta di apertura entro il 12 gennaio 2027 secondo una fonte di stampa; regolamento ufficiale non letto.",
+      "aggiornata": "2026-11-14",
+      "novita": "Precisati i requisiti grazie a un comparatore: 50€ con codice VISA e una spesa entro 60 giorni, fino a 150€ con spese tra 1.000€ e 3.000€, 100€ con stipendio entro il 14 marzo 2027. Canone gratuito solo per richieste entro il 30 novembre.",
       "requisiti": [
-        "Aprire il conto online da nuovo cliente entro il 12 gennaio 2027 (data da una sola fonte di stampa, da verificare)",
-        "50€: welcome bonus",
-        "100€: accredito di stipendio o pensione",
-        "Fino a 150€: spese con la carta di debito nei primi 60 giorni",
+        "Aprire il conto online da nuovo cliente entro il 12 gennaio 2027",
+        "50€: welcome bonus con codice VISA e una transazione con carta entro 60 giorni",
+        "100€: accredito di stipendio o pensione entro il 14 marzo 2027",
+        "Fino a 150€: spese con carta tra 1.000€ e 3.000€ nei primi 60 giorni",
         "Fino a 500€: 50€ per ogni amico che apre il conto"
       ],
       "termini": [
         "Premi in buoni regalo Amazon, non in denaro",
         "Solo nuovi clienti",
+        "Il canone gratuito vale per le richieste di apertura entro il 30 novembre 2026",
         "Interessi 4% lordo annuo per i primi 4 mesi dall'apertura; limiti di importo non indicati dalla fonte",
-        "Canone conto 0€; carta di debito gratuita per 2 anni, poi 2€/mese; carta di credito 49,99€/anno",
-        "Soglie di spesa e scadenze esatte da controllare sul regolamento ufficiale"
+        "Carta di debito gratuita per 2 anni, poi 2€/mese; carta di credito 49,99€/anno",
+        "Una fonte indica un massimo di 5 inviti (250€) invece di 10: controlla il regolamento"
       ],
       "costi": "Canone conto 0€; carta di debito gratis 2 anni, poi 2€/mese",
       "referral": {
@@ -258,9 +276,9 @@ window.PROMO_DATA = {
         "valore": "50€ ad amico"
       },
       "link": "https://www.credit-agricole.it/",
-      "fonte": "https://punto-informatico.it/fintech/conti/conto-credit-agricole-interessi-al-4-per-4-mesi-e-fino-a-800e-in-regalo-su-amazon",
+      "fonte": "https://www.qualebanca.com/guide/conti/promozioni-conti-correnti",
       "verifica": "media",
-      "note": "Edizione trovata solo su articoli di stampa (3-5 novembre 2026): importi e scadenza da confermare sul sito ufficiale.",
+      "note": "Dati da comparatore (verificato il 6 novembre 2026) e articoli di stampa; il sito ufficiale non mostrava i dettagli. Controlla il regolamento prima di aprire.",
       "profittevole": true,
       "profitto": "50€ con il benvenuto e altri 100€ con lo stipendio senza spese obbligatorie; gli scaglioni sulle spese da soli non convengono.",
       "italia": null
@@ -303,38 +321,42 @@ window.PROMO_DATA = {
     },
     {
       "id": "tinaba-120",
-      "nome": "Tinaba: fino a 120€ di cashback",
+      "nome": "Tinaba: 20€ + 5% di cashback sulle bollette",
       "provider": "Tinaba (Banca Profilo)",
       "categoria": "conto",
-      "valore": "10€/mese per 12 mesi",
-      "valoreStima": 120,
-      "sintesi": "10€ al mese per un anno a chi accredita lo stipendio su Tinaba.",
+      "valore": "20€ + 5% sugli addebiti diretti (max 20€/mese)",
+      "valoreStima": 80,
+      "sintesi": "Nuova promo con codice VALOREMESE: 20€ subito e il 5% delle bollette domiciliate (SDD) per 12 mesi, fino a 20€ al mese, a chi accredita lo stipendio e apre un deposito vincolato.",
       "facilita": 2,
-      "tempo": "15 minuti + cambio accredito stipendio",
-      "capitale": "Stipendio da 800€",
+      "tempo": "15 minuti + cambio accredito stipendio e domiciliazioni",
+      "capitale": "Stipendio da 800€ + somma in deposito vincolato 12 mesi",
       "rischio": "basso",
-      "scadenza": "2026-10-31",
+      "scadenza": "2026-11-30",
       "aggiunta": "2026-10-06",
-      "aggiornata": "2026-11-13",
-      "novita": "Fonti discordanti sulla scadenza: un comparatore indica ancora il codice TINABA2026 valido fino al 31 dicembre 2026, mentre la fonte precedente dava il 31 ottobre.",
+      "aggiornata": "2026-11-14",
+      "novita": "Il codice TINABA2026 (10€ al mese) non compare più tra le promozioni ufficiali. Al suo posto la promo Casa con codice VALOREMESE: 20€ + 5% sulle bollette domiciliate, adesione entro il 30 novembre 2026.",
       "requisiti": [
-        "Aprire il conto con il codice promo TINABA2026 entro il 31 ottobre 2026",
-        "Accreditare uno stipendio di almeno 800€ entro 60 giorni",
-        "Mantenere l'accredito: 10€ per ogni mese, massimo 12 mesi"
+        "Registrarsi su Tinaba inserendo il codice VALOREMESE entro il 30 novembre 2026",
+        "Accreditare uno stipendio o pensione di almeno 800€ al mese (non valgono più accrediti piccoli sommati)",
+        "Domiciliare almeno un addebito diretto (SDD) da almeno 20€",
+        "Attivare un Conto Deposito vincolato a 12 mesi entro 60 giorni dall'adesione e tenerlo attivo"
       ],
       "termini": [
-        "Il bonus arriva mese per mese, non in un'unica soluzione",
-        "Se sposti lo stipendio il cashback si interrompe",
+        "20€ di cashback iniziale una tantum",
+        "5% sugli SDD validi, fino a 20€ al mese e 240€ in 12 mesi: matura solo nei mesi con stipendio e almeno un SDD",
+        "Non valgono gli addebiti di PayPal e Satispay",
+        "Importo minimo e tasso del deposito vincolato non indicati nella pagina letta: controllali in app",
+        "Plafond complessivo della promo 20.000€: può finire prima della scadenza",
         "Solo nuovi clienti"
       ],
       "costi": "Piano Start 0€",
       "referral": null,
       "link": "https://www.tinaba.bancaprofilo.it/",
-      "fonte": "https://www.qualebanca.com/guide/conti/promozioni-conti-correnti",
-      "verifica": "bassa",
-      "note": "Una pagina di aziendabanca.it indica validità fino al 31/12/2026, ma non è datata; il sito Tinaba non era leggibile oggi. Controlla in app se il codice è ancora accettato.",
+      "fonte": "https://tinaba.bancaprofilo.it/promozioni-e-regolamenti-valore",
+      "verifica": "alta",
+      "note": "Regolamento sulla pagina ufficiale Tinaba; il testo cita anche una 'prima proroga' al 31 ottobre, ma il periodo di adesione indicato termina il 30 novembre 2026. Il valore stimato (80€) è un esempio con 100€ di bollette al mese.",
       "profittevole": true,
-      "profitto": "Nessuna spesa: 120€ in un anno, ma devi spostare lo stipendio.",
+      "profitto": "Nessuna spesa extra: 20€ subito e il 5% di bollette che paghi comunque (es. 100€/mese = 5€/mese). Devi però spostare stipendio e domiciliazioni e vincolare una somma per 12 mesi.",
       "italia": null
     },
     {
@@ -344,31 +366,32 @@ window.PROMO_DATA = {
       "categoria": "conto",
       "valore": "100€ Amazon",
       "valoreStima": 100,
-      "sintesi": "Buono Amazon da 100€ aprendo Conto You online, richiedendo la carta di debito e spendendo 1.000€ in due mesi.",
+      "sintesi": "Nuova edizione: buono Amazon da 100€ aprendo Conto You entro il 3 dicembre, richiedendo la carta di debito Mastercard e spendendo 1.000€ in due mesi.",
       "facilita": 3,
       "tempo": "20 minuti + 2 mesi di spese",
       "capitale": "1.000€ di spesa con carta",
       "rischio": "basso",
-      "scadenza": "2026-10-21",
+      "scadenza": "2026-12-03",
       "aggiunta": "2026-10-06",
-      "aggiornata": "2026-10-09",
-      "novita": "Corretta la banca: la promo da 100€ Amazon con apertura entro il 21 ottobre è di Banco BPM (Conto You), non di Credem. La promo Credem (fino a 200€ con codice ESTATE200) è scaduta il 30 settembre.",
+      "aggiornata": "2026-11-14",
+      "novita": "Nuova edizione autunno 2026: stesso premio (100€ Amazon con 1.000€ di spese), apertura entro il 3 dicembre 2026. Confermata sul sito ufficiale Banco BPM.",
       "requisiti": [
-        "Aprire Conto You online entro il 21 ottobre 2026",
-        "Richiedere la carta di debito entro il 18 novembre 2026",
-        "Spendere 500€ nei primi 30 giorni e altri 500€ nei 30 giorni successivi"
+        "Aprire Conto You online entro il 3 dicembre 2026 (il regolamento dell'operazione indica aperture dal 4 novembre fino al 31 dicembre 2026)",
+        "Richiedere la carta Numia Debito Internazionale Mastercard (secondo il regolamento entro il 15 gennaio 2027)",
+        "Spendere almeno 500€ con la carta su circuito Mastercard nei 30 giorni dalla richiesta e altri 500€ nei 30 giorni successivi, entro il 16 marzo 2027"
       ],
       "termini": [
         "Premio in buono Amazon",
         "Solo nuovi clienti",
-        "Verifica sul sito Banco BPM il regolamento e l'eventuale codice da inserire"
+        "Non valgono prelievi di contante né spese su circuiti diversi da Mastercard",
+        "La pagina collega regolamenti di più edizioni (estate e autunno 2026): controlla quello dell'edizione in corso"
       ],
       "costi": "Canone del conto e della carta 0€ per chi apre in promo, bonifici SEPA gratuiti",
       "referral": null,
-      "link": "https://www.bancobpm.it/",
-      "fonte": "https://www.qualebanca.com/guide/conti/promozioni-conti-correnti",
-      "verifica": "media",
-      "note": "Regolamento ufficiale non trovato: i dati vengono dal comparatore. Controllalo prima di aprire.",
+      "link": "https://www.bancobpm.it/privati/conti/conti-correnti/conto-you/",
+      "fonte": "https://www.bancobpm.it/privati/conti/conti-correnti/conto-you/",
+      "verifica": "alta",
+      "note": "Il sito indica 'aprilo online entro il 3.12.2026'; il regolamento parla di aperture fino al 31 dicembre 2026. Un comparatore indica la carta da richiedere entro il 18 novembre (probabile dato dell'edizione precedente). Nel dubbio apri entro il 3 dicembre e richiedi subito la carta.",
       "profittevole": false,
       "profitto": "Devi spendere 1.000€ per ricevere 100€ in buoni Amazon (10%).",
       "italia": null
@@ -387,8 +410,8 @@ window.PROMO_DATA = {
       "rischio": "basso",
       "scadenza": "2026-11-16",
       "aggiunta": "2026-10-06",
-      "aggiornata": "2026-10-09",
-      "novita": "Il bonus maggiorato da 80€ non è finito il 4 ottobre: è stato prorogato per chi apre il conto entro il 16 novembre 2026.",
+      "aggiornata": "2026-11-14",
+      "novita": "Ultimi giorni per gli 80€ (fino al 16 novembre). Dopo, secondo il comparatore, resta il bonus da 50€ con codice amico, valido fino al 20 gennaio 2027.",
       "requisiti": [
         "Scaricare l'app Buddybank e inserire un codice amico in registrazione",
         "Completare l'apertura del conto entro il 16 novembre 2026",
@@ -398,7 +421,7 @@ window.PROMO_DATA = {
         "Il codice va inserito in fase di registrazione, dopo non si può più aggiungere",
         "Il premio è composto da 50€ di bonus base più 30€ aggiuntivi per chi diventa cliente dal 4 settembre al 16 novembre 2026",
         "Le fonti non concordano sulla forma del premio (accredito sul conto oppure buono Amazon): controlla il regolamento in app",
-        "Dopo il 16 novembre, salvo nuova proroga, il bonus torna a 50€"
+        "Dopo il 16 novembre il bonus torna a 50€: il comparatore indica l'iniziativa base valida fino al 20 gennaio 2027"
       ],
       "costi": "Canone 0€, carta di debito digitale gratuita",
       "referral": {
@@ -408,7 +431,7 @@ window.PROMO_DATA = {
       "link": "https://www.buddybank.com/",
       "fonte": "https://www.ponss.it/codice-amico/buddy-unicredit",
       "verifica": "media",
-      "note": "Il sito ufficiale non era consultabile oggi: importi e proroga vengono da siti di codici amico aggiornati all'8 ottobre.",
+      "note": "Sito ufficiale non consultabile (errore 403): importi e date da un sito di codici amico aggiornato al 14 novembre 2026.",
       "profittevole": true,
       "profitto": "Spendi 10€ e ricevi 80€, più 50€ per ogni amico invitato.",
       "italia": null
@@ -642,28 +665,30 @@ window.PROMO_DATA = {
     },
     {
       "id": "coinbase-10-btc",
-      "nome": "Coinbase: 10$ in Bitcoin",
+      "nome": "Coinbase: fino a 150€ in Bitcoin",
       "provider": "Coinbase",
       "categoria": "crypto",
-      "valore": "circa 10$ in BTC",
-      "valoreStima": 9,
-      "sintesi": "Bonus in Bitcoin registrandosi da link invito e completando la verifica dell'identità.",
+      "valore": "da pochi euro fino a 150€ in BTC",
+      "valoreStima": 10,
+      "sintesi": "Dopo il primo acquisto di crypto si gira una ruota premi che assegna un bonus in Bitcoin fino a 150€; l'importo esatto è casuale.",
       "facilita": 4,
       "tempo": "15 minuti",
-      "capitale": "Nessuno o minimo",
+      "capitale": "Un primo deposito e un acquisto (anche piccolo)",
       "rischio": "medio",
       "scadenza": null,
       "aggiunta": "2026-10-06",
-      "aggiornata": "2026-10-06",
-      "novita": "",
+      "aggiornata": "2026-11-14",
+      "novita": "Per l'Italia una fonte italiana (aggiornata al 18 ottobre 2026) descrive una ruota premi fino a 150€ in Bitcoin dopo il primo acquisto, al posto dei circa 10$ indicati prima.",
       "requisiti": [
-        "Registrarsi da un link invito",
+        "Registrarsi da un link promozionale o invito",
         "Completare la verifica dell'identità (documento + selfie)",
-        "Controllare in app se è richiesto un primo acquisto minimo per sbloccare il premio"
+        "Fare un primo deposito e un primo acquisto di crypto (la fonte non indica un minimo)",
+        "Girare la ruota premi che compare dopo il primo acquisto"
       ],
       "termini": [
-        "L'importo e le condizioni cambiano a seconda del paese e della campagna",
-        "Il premio è in Bitcoin: il valore oscilla",
+        "Il premio è casuale: 150€ è il massimo, la maggior parte delle vincite è più bassa",
+        "Il bonus arriva in Bitcoin entro 24 ore: il valore oscilla",
+        "Solo nuovi clienti",
         "Le plusvalenze crypto sono tassate e vanno dichiarate"
       ],
       "costi": "Nessun canone; commissioni su acquisto e vendita",
@@ -672,11 +697,11 @@ window.PROMO_DATA = {
         "valore": "variabile"
       },
       "link": "https://www.coinbase.com/it",
-      "fonte": "https://www.finder.com/cryptocurrency/crypto-bonuses",
-      "verifica": "bassa",
-      "note": "Fonte in lingua inglese riferita soprattutto agli USA: verifica l'offerta per l'Italia.",
+      "fonte": "https://www.finanza.com/finanza-personale/criptovalute/coinbase-bonus-150-euro-bitcoin",
+      "verifica": "media",
+      "note": "Fonte italiana con link di affiliazione, regolamento ufficiale non letto: controlla l'offerta nella pagina Coinbase da cui ti registri.",
       "profittevole": true,
-      "profitto": "Secondo la fonte basta la verifica dell'identità: circa 10$ senza spendere. Da confermare per l'Italia.",
+      "profitto": "Basta un piccolo acquisto per ricevere un premio in Bitcoin; l'importo è casuale (minimo non dichiarato).",
       "italia": {
         "stato": "autorizzato",
         "testo": "Autorizzato MiCA in Lussemburgo (CSSF), opera regolarmente in Italia."
@@ -977,7 +1002,7 @@ window.PROMO_DATA = {
       "nome": "Aave: prestito di USDC",
       "provider": "Aave",
       "categoria": "defi",
-      "valore": "circa 3,9% annuo variabile",
+      "valore": "circa 4-6% annuo variabile",
       "valoreStima": 0,
       "sintesi": "Depositi USDC nel più grande protocollo di lending e ricevi interessi variabili, prelevabili quando vuoi.",
       "facilita": 3,
@@ -986,8 +1011,8 @@ window.PROMO_DATA = {
       "rischio": "medio",
       "scadenza": null,
       "aggiunta": "2026-10-06",
-      "aggiornata": "2026-11-13",
-      "novita": "Tasso risalito: ora circa 3,9% annuo su USDC (prima 3,7%).",
+      "aggiornata": "2026-11-14",
+      "novita": "Tasso in forte salita oggi: circa 6,2% su USDC Ethereum (media degli ultimi 30 giorni 4,3%). Picchi così di solito durano poco.",
       "requisiti": [
         "Wallet con USDC su una rete supportata (Base, Arbitrum, Ethereum)",
         "Collegare il wallet all'app Aave e fare Supply"
@@ -1002,9 +1027,9 @@ window.PROMO_DATA = {
       "link": "https://app.aave.com/",
       "fonte": "https://defillama.com/yields/pool/aa70268e-4b52-42bf-a116-608b370f9501",
       "verifica": "media",
-      "note": "Tasso rilevato il 13 novembre 2026 su DefiLlama (Ethereum). Controlla il valore in tempo reale.",
+      "note": "Tasso rilevato il 14 novembre 2026 su DefiLlama (Ethereum): 6,2% oggi, media 30 giorni 4,3%. Controlla il valore in tempo reale.",
       "profittevole": false,
-      "profitto": "Rende in proporzione al capitale: su 1.000€ circa 37€ l'anno, con rischio tecnico e di cambio euro/dollaro.",
+      "profitto": "Rende in proporzione al capitale: su 1.000€ circa 40-60€ l'anno, con rischio tecnico e di cambio euro/dollaro.",
       "italia": {
         "stato": "non-regolamentato",
         "testo": "Protocollo DeFi non custodial, accessibile dall'Italia con un wallet. Nessuna autorità lo vigila e non esistono garanzie sui depositi."
@@ -1015,7 +1040,7 @@ window.PROMO_DATA = {
       "nome": "Morpho: vault USDC curati",
       "provider": "Morpho",
       "categoria": "defi",
-      "valore": "circa 3,4-4,5% annuo variabile",
+      "valore": "circa 4-4,5% annuo variabile",
       "valoreStima": 0,
       "sintesi": "Vault gestiti da curatori professionali. In questo periodo rendono quanto o poco più di Aave, con un rischio in più legato alle scelte del curatore.",
       "facilita": 3,
@@ -1024,8 +1049,8 @@ window.PROMO_DATA = {
       "rischio": "medio",
       "scadenza": null,
       "aggiunta": "2026-10-06",
-      "aggiornata": "2026-11-13",
-      "novita": "Rendimenti risaliti: i vault USDC principali ora rendono circa 3,4-4,5% (prima 2,8-4,3%).",
+      "aggiornata": "2026-11-14",
+      "novita": "Rendimenti dei vault principali in lieve salita: ora circa 4-4,5% (prima 3,4-4,5%).",
       "requisiti": [
         "Wallet con USDC (Base o Ethereum)",
         "Scegliere un vault USDC di un curatore noto con molta liquidità",
@@ -1041,9 +1066,9 @@ window.PROMO_DATA = {
       "link": "https://app.morpho.org/",
       "fonte": "https://eco.com/support/en/articles/15253991-best-usdc-yield-platforms-2026-aave-morpho-sky-compared",
       "verifica": "media",
-      "note": "Tassi rilevati il 13 novembre 2026 su DefiLlama per i vault Steakhouse, Gauntlet e Spark (Base ed Ethereum). Vault con rendimenti molto più alti accettano garanzie più rischiose.",
+      "note": "Tassi rilevati il 14 novembre 2026 su DefiLlama per i vault Steakhouse, Gauntlet e Spark (Base ed Ethereum). Vault con rendimenti molto più alti accettano garanzie più rischiose.",
       "profittevole": false,
-      "profitto": "Rende in proporzione al capitale: su 1.000€ circa 28-43€ l'anno, con rischio tecnico e di cambio euro/dollaro.",
+      "profitto": "Rende in proporzione al capitale: su 1.000€ circa 40-45€ l'anno, con rischio tecnico e di cambio euro/dollaro.",
       "italia": {
         "stato": "non-regolamentato",
         "testo": "Protocollo DeFi non custodial, accessibile dall'Italia con un wallet. Nessuna autorità lo vigila e non esistono garanzie sui depositi."
