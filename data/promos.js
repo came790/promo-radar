@@ -1,6 +1,25 @@
 window.PROMO_DATA = {
-  "aggiornato": "2026-11-14",
+  "aggiornato": "2026-11-15",
   "changelog": [
+    {
+      "data": "2026-11-15",
+      "voci": [
+        "Nuova edizione IBL Banca: Time Deposit a 12 mesi al 3,50% lordo per attivazioni entro il 31 dicembre 2026, confermato sul sito ufficiale (non è indicato se vale anche per i già clienti).",
+        "Kraken: confermati sul sito ufficiale 20€ a te e 20€ a chi invita (prima indicavamo circa 10$), Italia inclusa.",
+        "Crypto.com: pubblicati gli importi ufficiali, fino a 4 Mystery Box per un massimo di 180$ con 100$-5.000$ di scambi in 30 giorni. Chi usa un codice invito è escluso.",
+        "Bitpanda: il codice HELLOBITPANDA non risulta più valido. Resta solo il premio con invito, da 5€ con 500€ di acquisti. Ora non profittevole.",
+        "Robinhood: nuovo regolamento del 3 novembre, premio da 10€ in su in crypto con vincolo di 180 giorni; i link invito mostrano 25-30€.",
+        "MetaMask: il sito ufficiale dice che non ci sono piani per un token MASK e che la Stagione 1 di Rewards è finita.",
+        "Bitvavo: aggiunta la scadenza della promo, registrazione entro il 31 dicembre 2026. OKX: ricompense bloccate fino a 45 giorni (non 30).",
+        "Tinaba: aggiunto il programma Invita un amico (10€, o 20€ con Premium, a chi invita e 10€ all'amico). ING 4%: corretto il tetto a 200.000€ (promo chiusa).",
+        "DeFi: Aave USDC rientrato a circa 4,7% dal picco del 6,2%; Sky sUSDS 3,8% e vault Morpho circa 4-4,5% invariati.",
+        "Rimossa: Fineco Codice Amico, scaduta il 15 ottobre (più di 30 giorni) e senza nuova edizione.",
+        "In scadenza nei prossimi 10 giorni: Buddybank 80€ domani, 16 novembre (poi resta il bonus da 50€ fino al 20 gennaio 2027). Subito dopo: Tinaba, BPER e Credem Link il 30 novembre, Banco BPM il 3 dicembre.",
+        "Confermate senza variazioni: BBVA, ING Codice Amico, Revolut, Crédit Agricole, HYPE, Banco BPM, Buddybank, SelfyConto, Fineco 100 ordini, Trade Republic, bunq, BPER, Credem Link, Coinbase, Young Platform, Bybit EU, airdrop Grass, Base, Hyperliquid, xStocks, Sky e Morpho.",
+        "Scaduta da meno di 30 giorni (resta in Scadute): ING 4% per 12 mesi, nessuna nuova edizione trovata.",
+        "Siti non raggiungibili oggi (Revolut, buddy UniCredit, Bitvavo): verifiche fatte con comparatori e risultati di ricerca."
+      ]
+    },
     {
       "data": "2026-11-14",
       "voci": [
@@ -126,22 +145,23 @@ window.PROMO_DATA = {
       "categoria": "conto",
       "valore": "4% lordo per 12 mesi",
       "valoreStima": 150,
-      "sintesi": "4% lordo per un anno sulla liquidità (fino a 50.000€) senza vincoli, aprendo il conto corrente e accreditando 1.000€ al mese.",
+      "sintesi": "4% lordo per un anno sulla liquidità (fino a 200.000€) senza vincoli, aprendo il conto corrente e accreditando 1.000€ al mese.",
       "facilita": 4,
       "tempo": "15 minuti + bonifico mensile",
       "capitale": "Entrate da 1.000€/mese",
       "rischio": "basso",
       "scadenza": "2026-11-02",
       "aggiunta": "2026-10-06",
-      "aggiornata": "2026-10-06",
-      "novita": "",
+      "aggiornata": "2026-11-15",
+      "novita": "Corretto il tetto: il 4% valeva fino a 200.000€, non 50.000€. Promo chiusa il 2 novembre, nessuna nuova edizione trovata.",
       "requisiti": [
         "Aprire Conto Corrente Arancio entro il 2 novembre 2026",
         "Attivare il conto entro il 30 novembre 2026",
         "Accreditare stipendio/pensione oppure fare un bonifico in entrata di almeno 1.000€ al mese (il primo entro il 31 gennaio 2027)"
       ],
       "termini": [
-        "Tasso 4% annuo lordo per 12 mesi, su un massimo di 50.000€",
+        "Tasso 4% annuo lordo per 12 mesi, su un massimo di 200.000€ (fino a 400.000€ per chi investiva almeno 100.000€ con MyMoneyCoach entro il 30 novembre)",
+        "Se in un mese manca l'accredito da 1.000€, per quel mese il tasso scende allo 0,20%; dopo i 12 mesi il tasso scende all'1%",
         "Somme sempre disponibili, nessun vincolo",
         "Riservato a nuovi clienti ING",
         "Interessi tassati al 26%"
@@ -153,7 +173,7 @@ window.PROMO_DATA = {
       },
       "link": "https://www.ing.it/",
       "fonte": "https://www.qualebanca.com/guide/conti/promozioni-conti-correnti",
-      "verifica": "alta",
+      "verifica": "media",
       "note": "",
       "profittevole": true,
       "profitto": "Nessuna spesa: basta far entrare 1.000€ al mese. Su 10.000€ sono circa 300€ netti in un anno, senza vincoli.",
@@ -333,8 +353,8 @@ window.PROMO_DATA = {
       "rischio": "basso",
       "scadenza": "2026-11-30",
       "aggiunta": "2026-10-06",
-      "aggiornata": "2026-11-14",
-      "novita": "Il codice TINABA2026 (10€ al mese) non compare più tra le promozioni ufficiali. Al suo posto la promo Casa con codice VALOREMESE: 20€ + 5% sulle bollette domiciliate, adesione entro il 30 novembre 2026.",
+      "aggiornata": "2026-11-15",
+      "novita": "Aggiunto il programma Invita un amico: 10€ (20€ con Premium) a chi invita e 10€ all'amico, secondo il comparatore. Condizioni della promo VALOREMESE invariate, adesione entro il 30 novembre.",
       "requisiti": [
         "Registrarsi su Tinaba inserendo il codice VALOREMESE entro il 30 novembre 2026",
         "Accreditare uno stipendio o pensione di almeno 800€ al mese (non valgono più accrediti piccoli sommati)",
@@ -350,7 +370,10 @@ window.PROMO_DATA = {
         "Solo nuovi clienti"
       ],
       "costi": "Piano Start 0€",
-      "referral": null,
+      "referral": {
+        "testo": "Programma 'Invita un amico' secondo il comparatore: 10€ a chi invita con piano Start (20€ con Premium) e 10€ all'amico. Controlla le condizioni in app.",
+        "valore": "10-20€ ad amico"
+      },
       "link": "https://www.tinaba.bancaprofilo.it/",
       "fonte": "https://tinaba.bancaprofilo.it/promozioni-e-regolamenti-valore",
       "verifica": "alta",
@@ -512,46 +535,6 @@ window.PROMO_DATA = {
       "italia": null
     },
     {
-      "id": "fineco-codice-amico",
-      "nome": "Fineco Codice Amico: 50€ + 50€",
-      "provider": "Fineco",
-      "categoria": "conto",
-      "valore": "50€",
-      "valoreStima": 50,
-      "sintesi": "50€ a chi apre il conto Fineco con un codice amico entro il 15 ottobre e completa una tra quattro azioni (la più semplice: accredito dello stipendio). 50€ anche a chi invita.",
-      "profittevole": true,
-      "profitto": "Nessuna spesa obbligatoria se accrediti lo stipendio o la pensione: ricevi 50€. Le alternative con 2.500€ di pagamenti (2%) o 20.000€ da tenere fermi non convengono.",
-      "italia": null,
-      "facilita": 3,
-      "tempo": "20 minuti + una delle azioni richieste",
-      "capitale": "Nessuno con l'accredito dello stipendio",
-      "rischio": "basso",
-      "scadenza": "2026-10-15",
-      "aggiunta": "2026-10-11",
-      "aggiornata": "2026-10-11",
-      "novita": "",
-      "requisiti": [
-        "Aprire il conto Fineco inserendo un Codice Amico entro il 15 ottobre 2026",
-        "Completare entro il 4 gennaio 2027 almeno una di queste azioni: accreditare stipendio o pensione; eseguire 5 ordini di trading; richiedere una carta e fare pagamenti per 2.500€; trasferire almeno 20.000€ entro il 30 novembre 2026 e mantenerli fino al 4 gennaio 2027"
-      ],
-      "termini": [
-        "Solo nuovi clienti Fineco",
-        "La fonte indica 50€ accreditati sul conto; nelle edizioni passate il premio era un buono Amazon: controlla il regolamento",
-        "I 5 ordini di trading hanno commissioni e rischio di mercato",
-        "La stessa fonte in un punto dice che l'iniziativa 'al momento non è disponibile' e un'altra colloca l'ultima edizione tra giugno e luglio 2026: verifica in app o sul sito Fineco che sia attiva prima di aprire",
-        "Non è confermato se si può cumulare con il codice dei 100 ordini gratis"
-      ],
-      "costi": "Canone azzerabile con accredito di stipendio o pensione, sempre gratuito per gli under 30: verifica l'importo nel foglio informativo",
-      "referral": {
-        "testo": "50€ a te per ogni amico che apre il conto con il tuo codice e completa una delle azioni. Massimo annuo non indicato dalla fonte.",
-        "valore": "50€ ad amico"
-      },
-      "link": "https://finecobank.com/",
-      "fonte": "https://www.ponss.it/codice-amico/fineco",
-      "verifica": "bassa",
-      "note": "Edizione non confermata sul sito ufficiale: dati da un sito di codici amico aggiornato all'8 ottobre 2026. Scade tra pochi giorni."
-    },
-    {
       "id": "trade-republic-3",
       "nome": "Trade Republic: 3% sulla liquidità + 10€ in azioni",
       "provider": "Trade Republic",
@@ -598,30 +581,33 @@ window.PROMO_DATA = {
       "categoria": "liquidita",
       "valore": "3,50% lordo (2,59% netto)",
       "valoreStima": 90,
-      "sintesi": "Deposito vincolato a 12 mesi al 3,50% lordo per i nuovi clienti che aprono il conto corrente.",
+      "sintesi": "Time Deposit IBL a 12 mesi al 3,50% lordo per attivazioni entro il 31 dicembre 2026. Ci sono anche durate da 3 a 48 mesi (fino al 3,75%).",
       "facilita": 3,
       "tempo": "20 minuti",
       "capitale": "Somma da vincolare 12 mesi",
       "rischio": "basso",
-      "scadenza": "2026-10-31",
+      "scadenza": "2026-12-31",
       "aggiunta": "2026-10-06",
-      "aggiornata": "2026-10-06",
-      "novita": "",
+      "aggiornata": "2026-11-15",
+      "novita": "Nuova edizione: il 3,50% a 12 mesi è di nuovo disponibile per attivazioni entro il 31 dicembre 2026 (sito ufficiale).",
       "requisiti": [
-        "Essere nuovo cliente e aprire il conto corrente IBL tra il 10 settembre e il 31 ottobre 2026",
-        "Attivare il vincolo a 12 mesi entro il 15 novembre 2026"
+        "Avere o aprire il conto corrente IBL collegato",
+        "Attivare il Time Deposit a 12 mesi entro il 31 dicembre 2026 (l'offerta può chiudere prima)"
       ],
       "termini": [
-        "I soldi restano bloccati 12 mesi: controlla le condizioni di svincolo anticipato",
+        "Tassi lordi del Time Deposit: 3 mesi 2%, 6 mesi 3,10%, 12 mesi 3,50%, 18 mesi 3,45%, 24 e 36 mesi 3,60%, 48 mesi 3,75%",
+        "Versione svincolabile (soldi ritirabili, ma con tasso più basso in caso di svincolo): 6 mesi 2,70%, 12 mesi 2,95%, 24 mesi 3,20%",
+        "Importo fino a 1 milione di euro; i soldi del Time Deposit restano bloccati fino alla scadenza scelta",
         "3,50% lordo equivale a 2,59% netto dopo la ritenuta del 26%",
+        "La pagina ufficiale non dice se i tassi valgono solo per i nuovi clienti (nell'edizione precedente i già clienti avevano il 3%)",
         "Depositi protetti dal Fondo Interbancario fino a 100.000€"
       ],
       "costi": "Verifica canone del conto corrente collegato e imposta di bollo",
       "referral": null,
-      "link": "https://www.iblbanca.it/",
-      "fonte": "https://www.aziendabanca.it/notizie/banche/ibl-banca-promozione-conto-deposito-controcorrente",
-      "verifica": "media",
-      "note": "La fonte riporta in un punto le date della promo con anno 2025: conferma sul sito IBL che l'offerta sia attiva fino al 31 ottobre 2026 prima di aprire.",
+      "link": "https://www.iblbanca.it/conto_vincolato.html",
+      "fonte": "https://www.iblbanca.it/conto_vincolato.html",
+      "verifica": "alta",
+      "note": "Tassi e scadenza letti sul sito IBL il 15 novembre 2026. Non è chiaro se i già clienti abbiano lo stesso tasso: chiedi alla banca prima di vincolare.",
       "profittevole": false,
       "profitto": "Capitale bloccato 12 mesi: 1.000€ rendono circa 26€ netti.",
       "italia": null
@@ -753,10 +739,10 @@ window.PROMO_DATA = {
       }
     },
     {
-      "scadenza": null,
+      "scadenza": "2026-12-31",
       "aggiunta": "2026-10-09",
-      "aggiornata": "2026-10-09",
-      "novita": "",
+      "aggiornata": "2026-11-15",
+      "novita": "Le pagine partner ufficiali indicano ora una scadenza: registrazione entro il 31 dicembre 2026.",
       "note": "Condizioni lette dalle pagine partner ufficiali di Bitvavo tramite motore di ricerca; la pagina non era apribile direttamente oggi.",
       "referral": null,
       "id": "bitvavo-10",
@@ -771,7 +757,7 @@ window.PROMO_DATA = {
       "capitale": "10€ di deposito",
       "rischio": "medio",
       "requisiti": [
-        "Registrarsi da una pagina partner Bitvavo con bonus di benvenuto",
+        "Registrarsi da una pagina partner Bitvavo con bonus di benvenuto entro il 31 dicembre 2026",
         "Completare la verifica dell'identità",
         "Fare un primo deposito di almeno 10€ entro 7 giorni dalla registrazione"
       ],
@@ -796,38 +782,37 @@ window.PROMO_DATA = {
     },
     {
       "id": "airdrop-metamask",
-      "nome": "MetaMask: airdrop MASK",
+      "nome": "MetaMask Rewards: nessun token MASK per ora",
       "provider": "MetaMask",
       "categoria": "airdrop",
       "valore": "Non stimabile",
       "valoreStima": 0,
-      "sintesi": "Token confermato dal team. Si accumulano punti MetaMask Rewards usando swap, bridge e la stablecoin mUSD dentro il wallet.",
+      "sintesi": "Il centro assistenza MetaMask ora dice che non ci sono piani per un token MASK e che la Stagione 1 di Rewards è finita. Restano solo piccole campagne, come il 3% di bonus convertendo stablecoin in mUSD.",
       "facilita": 3,
       "tempo": "Qualche operazione al mese",
-      "capitale": "Da 50€ + commissioni",
+      "capitale": "Nessuno, salvo le campagne che scegli",
       "rischio": "medio",
       "scadenza": null,
       "aggiunta": "2026-10-06",
-      "aggiornata": "2026-10-06",
-      "novita": "",
+      "aggiornata": "2026-11-15",
+      "novita": "Il sito ufficiale MetaMask ora dice che non ci sono piani per un token MASK e che la Stagione 1 di Rewards è finita senza stagioni future in programma.",
       "requisiti": [
         "Installare MetaMask e aderire a MetaMask Rewards",
-        "Usare swap e bridge integrati nel wallet",
-        "Tenere o usare mUSD",
-        "Costruire uno storico regolare, non concentrato in pochi giorni"
+        "Seguire in app le campagne attive (ad esempio la conversione di stablecoin in mUSD)"
       ],
       "termini": [
-        "Data e criteri non pubblicati",
-        "Controlli anti-sybil: un solo wallet per persona",
+        "Testo ufficiale: 'non ci sono piani per un token $MASK' e 'la Stagione 1 è finita, senza piani concreti per stagioni future'",
+        "La partecipazione passata 'potrebbe o non potrebbe' contare per incentivi futuri",
+        "Secondo fonti di stampa i premi della Stagione 1 sono stati pagati in token LINEA",
         "Swap e bridge interni hanno una commissione MetaMask (circa 0,875%)",
         "Non condividere mai la seed phrase, nemmeno con familiari che aiuti"
       ],
       "costi": "Commissioni di rete e di swap",
       "referral": null,
       "link": "https://metamask.io/",
-      "fonte": "https://www.coingecko.com/learn/new-crypto-airdrop-rewards",
-      "verifica": "media",
-      "note": "",
+      "fonte": "https://support.metamask.io/trade/metamask-rewards/what-is-metamask-rewards/",
+      "verifica": "alta",
+      "note": "Non vale la pena fare operazioni solo per un possibile airdrop: al momento non è previsto.",
       "profittevole": false,
       "profitto": "Guadagno non garantito e non quantificabile: è una scommessa, non un bonus.",
       "italia": {
@@ -1011,8 +996,8 @@ window.PROMO_DATA = {
       "rischio": "medio",
       "scadenza": null,
       "aggiunta": "2026-10-06",
-      "aggiornata": "2026-11-14",
-      "novita": "Tasso in forte salita oggi: circa 6,2% su USDC Ethereum (media degli ultimi 30 giorni 4,3%). Picchi così di solito durano poco.",
+      "aggiornata": "2026-11-15",
+      "novita": "Il picco è rientrato: oggi circa 4,7% su USDC Ethereum (media degli ultimi 30 giorni 4,3%).",
       "requisiti": [
         "Wallet con USDC su una rete supportata (Base, Arbitrum, Ethereum)",
         "Collegare il wallet all'app Aave e fare Supply"
@@ -1027,7 +1012,7 @@ window.PROMO_DATA = {
       "link": "https://app.aave.com/",
       "fonte": "https://defillama.com/yields/pool/aa70268e-4b52-42bf-a116-608b370f9501",
       "verifica": "media",
-      "note": "Tasso rilevato il 14 novembre 2026 su DefiLlama (Ethereum): 6,2% oggi, media 30 giorni 4,3%. Controlla il valore in tempo reale.",
+      "note": "Tasso rilevato il 15 novembre 2026 su DefiLlama (Ethereum): 4,7% oggi, media 30 giorni 4,3%; su Base circa 4,6%, su Arbitrum circa 3%. Controlla il valore in tempo reale.",
       "profittevole": false,
       "profitto": "Rende in proporzione al capitale: su 1.000€ circa 40-60€ l'anno, con rischio tecnico e di cambio euro/dollaro.",
       "italia": {
@@ -1077,41 +1062,42 @@ window.PROMO_DATA = {
     {
       "scadenza": null,
       "aggiunta": "2026-10-06",
-      "aggiornata": "2026-10-09",
-      "novita": "Confermata l'autorizzazione: Robinhood Europe ha la licenza MiCA della Banca di Lituania, quindi è utilizzabile dall'Italia.",
-      "note": "",
+      "aggiornata": "2026-11-15",
+      "novita": "Nuovo regolamento (3 novembre): premio 'da 10€ in su' in crypto, deposito indicato in app, vincolo di 180 giorni confermato. Gli importi visti sui link invito vanno da 25€ a 30€.",
+      "note": "Importo variabile: controlla nella pagina dell'invito quanto ricevi e quanto devi depositare.",
       "referral": {
-        "testo": "25€ in crypto a te per ogni amico che si registra dal tuo link e deposita 25€ (una fonte indica un massimo di 30 amici).",
-        "valore": "25€ in crypto ad amico"
+        "testo": "Premio in crypto a te per ogni amico che si registra dal tuo link e deposita: importo e numero massimo di amici sono indicati in app.",
+        "valore": "da 10€ in crypto ad amico"
       },
       "id": "robinhood-25",
-      "nome": "Robinhood: 25€ in crypto",
+      "nome": "Robinhood: da 10€ in crypto con invito",
       "provider": "Robinhood",
       "categoria": "crypto",
-      "valore": "25€ in crypto",
-      "valoreStima": 25,
-      "sintesi": "25€ in criptovaluta registrandoti da link invito e depositando almeno 25€, che restano tuoi.",
+      "valore": "da 10€ in crypto (25-30€ con alcuni inviti)",
+      "valoreStima": 10,
+      "sintesi": "Premio in criptovaluta (almeno 10€, alcuni link invito mostrano 25-30€) registrandoti da un link invito e depositando l'importo indicato in app.",
       "facilita": 4,
       "tempo": "15 minuti",
-      "capitale": "25€ di deposito",
+      "capitale": "10-25€ di deposito",
       "rischio": "medio",
       "requisiti": [
         "Registrarsi da un link invito",
         "Completare la verifica dell'identità",
-        "Depositare almeno 25€"
+        "Depositare almeno 10€ o l'importo indicato in app (alcuni inviti chiedono 20€ o 25€)"
       ],
       "termini": [
+        "Regolamento ufficiale aggiornato al 3 novembre 2026: premio di 10€ o più in crypto, o l'importo mostrato in app",
+        "Il valore del premio deve restare sul conto per 180 giorni (ora confermato dal regolamento)",
         "Il premio è in criptovaluta: il valore oscilla",
-        "Una fonte meno recente indica 30€ e un vincolo di 180 giorni prima di poter prelevare il bonus: controlla le condizioni in app",
-        "In Europa l'offerta è quasi solo crypto, più limitata rispetto agli USA",
+        "Le fonti non concordano sull'importo: un comparatore indica 25€ con deposito di 25€, un link invito attivo 30€ con deposito di 20€",
         "Le plusvalenze crypto vanno dichiarate"
       ],
       "costi": "Nessun canone; spread sugli scambi",
       "link": "https://robinhood.com/",
-      "fonte": "https://www.ponss.it/codice-amico/robinhood",
-      "verifica": "media",
+      "fonte": "https://robinhood.com/eu/it/support/articles/sign-up-and-referral-terms-and-conditions/",
+      "verifica": "bassa",
       "profittevole": true,
-      "profitto": "Depositi 25€ che restano tuoi e ricevi 25€ in crypto, più 25€ per ogni amico invitato.",
+      "profitto": "Depositi una piccola somma che resta tua e ricevi almeno 10€ in crypto, ma il premio resta fermo 180 giorni.",
       "italia": {
         "stato": "autorizzato",
         "testo": "Robinhood Europe UAB è autorizzata MiCA (CASP) dalla Banca di Lituania e opera in Italia con il passaporto europeo."
@@ -1164,8 +1150,8 @@ window.PROMO_DATA = {
     {
       "scadenza": null,
       "aggiunta": "2026-10-06",
-      "aggiornata": "2026-10-06",
-      "novita": "",
+      "aggiornata": "2026-11-15",
+      "novita": "Il regolamento ufficiale indica un blocco delle ricompense fino a 45 giorni (non 30) e importi visibili solo in app.",
       "note": "Condizioni discordanti tra le fonti.",
       "referral": null,
       "id": "okx-benvenuto",
@@ -1185,10 +1171,11 @@ window.PROMO_DATA = {
         "Depositare almeno 100€ e fare scambi per almeno 100€ entro 14 giorni (un'altra fonte indica 10€ acquistando 200€ di crypto)"
       ],
       "termini": [
+        "Regolamento ufficiale (9 settembre 2026): importi, deposito e volume minimo sono indicati solo in app e possono variare da utente a utente",
         "Una fonte del 1° ottobre 2026 indica 'fino a 50 USD' con codice invito e fino a 50 USD a chi invita, senza specificare depositi o volumi richiesti",
         "Le fonti riportano condizioni diverse: verifica gli scaglioni in app",
         "Scaglioni alti: 40€ acquistando almeno 1.000€ e 150€ acquistando almeno 10.000€",
-        "Bonus e deposito possono dover restare fermi 30 giorni",
+        "Le ricompense in crypto restano bloccate fino a 45 giorni (si possono usare per fare trading ma non prelevare); accredito entro 48 ore",
         "Rischio di mercato sulle crypto acquistate"
       ],
       "costi": "Nessun canone; commissioni di trading",
@@ -1205,38 +1192,39 @@ window.PROMO_DATA = {
     {
       "scadenza": null,
       "aggiunta": "2026-10-06",
-      "aggiornata": "2026-10-11",
-      "novita": "Cambiata la meccanica: non più 25$ con stake di CRO, ma fino a 75€ a traguardi di volume di trading entro 30 giorni dalla verifica. Importi per l'Italia non pubblicati.",
-      "note": "Meccanica e importi discordanti tra le fonti.",
+      "aggiornata": "2026-11-15",
+      "novita": "Pubblicati gli importi ufficiali: fino a 4 Mystery Box, in tutto fino a 180$, con 100$-5.000$ di scambi in 30 giorni. Chi usa un codice invito è escluso.",
+      "note": "Alcuni siti di codici promettono ancora 'fino a 75$' con codice invito, ma il regolamento ufficiale esclude chi si registra con un codice invito dalle Mystery Box.",
       "referral": null,
       "id": "crypto-com-25",
-      "nome": "Crypto.com: fino a 75€ a traguardi",
+      "nome": "Crypto.com: fino a 180$ con le Mystery Box",
       "provider": "Crypto.com",
       "categoria": "crypto",
-      "valore": "fino a 75€ (a traguardi)",
+      "valore": "fino a 180$ (a traguardi)",
       "valoreStima": 0,
-      "sintesi": "Ricompense progressive per i nuovi utenti che fanno trading nei primi 30 giorni; l'importo dipende dai volumi raggiunti.",
+      "sintesi": "Fino a 4 Mystery Box per i nuovi utenti che fanno trading nei primi 30 giorni: da 1-10$ con 100$ scambiati fino a 25-100$ con 5.000$.",
       "facilita": 2,
       "tempo": "30 giorni di trading",
-      "capitale": "Volumi di trading non pubblicati",
+      "capitale": "Da 100$ a 5.000$ di volume di trading",
       "rischio": "alto",
       "requisiti": [
-        "Registrarsi da un link o codice invito",
+        "Registrarsi senza codice invito (chi usa un codice invito è escluso da questo bonus)",
         "Completare la verifica dell'identità",
-        "Fare trading entro 30 giorni dall'approvazione della verifica fino a raggiungere i traguardi di volume indicati in app"
+        "Fare trading entro 30 giorni: 100$ per la prima box, 500$, 1.000$ e 5.000$ per le successive"
       ],
       "termini": [
-        "L'Italia rientra nella fascia con ricompense progressive in dollari: gli importi dei singoli traguardi non sono pubblicati dalla fonte",
-        "Le ricompense possono essere pagate in CRO, il cui prezzo oscilla",
-        "Per raggiungere i volumi paghi commissioni e ti esponi al rischio di mercato",
-        "Una fonte di marzo 2026 descriveva invece 25$ con stake di circa 350€ di CRO per 6 mesi: controlla in app quale offerta ti viene proposta"
+        "Premi per box: 100$ scambiati = 1-10$; 500$ = 5-20$; 1.000$ = 10-50$; 5.000$ = 25-100$. L'importo dentro ogni fascia è casuale",
+        "Gli scambi tra stablecoin non contano",
+        "Le box non aperte si possono aprire ancora dal 31° al 37° giorno",
+        "La pagina ufficiale non nomina esplicitamente l'Italia: controlla in app che il bonus ti venga proposto",
+        "Per raggiungere i volumi paghi commissioni e ti esponi al rischio di mercato"
       ],
       "costi": "Nessun canone; spread sull'acquisto di CRO",
       "link": "https://crypto.com/it",
-      "fonte": "https://www.trovacodici.com/crypto-com",
-      "verifica": "bassa",
+      "fonte": "https://help.crypto.com/it/articles/9575514-bonus-di-benvenuto",
+      "verifica": "media",
       "profittevole": false,
-      "profitto": "Serve fare volumi di trading non dichiarati per un premio 'fino a 75€': commissioni e rischio possono superare il bonus.",
+      "profitto": "Il premio sicuro è piccolo (1-10$ con 100$ scambiati); per arrivare a 180$ servono 5.000$ di scambi, con commissioni e rischio.",
       "italia": {
         "stato": "autorizzato",
         "testo": "Autorizzato MiCA a Malta (MFSA), opera in Italia."
@@ -1245,37 +1233,42 @@ window.PROMO_DATA = {
     {
       "scadenza": null,
       "aggiunta": "2026-10-06",
-      "aggiornata": "2026-10-06",
-      "novita": "",
-      "note": "Requisiti del bonus non confermati.",
-      "referral": null,
+      "aggiornata": "2026-11-15",
+      "novita": "Confermato sul sito ufficiale: 20€ a te e 20€ a chi invita (prima indicavamo circa 10$), Italia inclusa.",
+      "note": "L'importo minimo di deposito e di acquisto non è nel regolamento: lo vedi in app prima di depositare.",
+      "referral": {
+        "testo": "Anche chi invita riceve 20€ quando l'amico completa i requisiti.",
+        "valore": "20€ ad amico"
+      },
       "id": "kraken-10",
-      "nome": "Kraken: circa 10$ di benvenuto",
+      "nome": "Kraken: 20€ con link invito",
       "provider": "Kraken",
       "categoria": "crypto",
-      "valore": "circa 10$",
-      "valoreStima": 9,
-      "sintesi": "Piccolo bonus di benvenuto con link invito su uno degli exchange più solidi autorizzati in UE.",
+      "valore": "20€ in crypto",
+      "valoreStima": 20,
+      "sintesi": "20€ (pagati nella valuta del conto, ad esempio in BTC) a chi si registra dall'app con un link invito, deposita e compra crypto per l'importo indicato in app.",
       "facilita": 3,
       "tempo": "15 minuti",
-      "capitale": "Da verificare",
+      "capitale": "Deposito e acquisto indicati in app",
       "rischio": "medio",
       "requisiti": [
-        "Registrarsi da un link invito",
+        "Registrarsi dall'app Kraken con un link invito",
         "Completare la verifica dell'identità",
-        "Controllare in app l'importo minimo di scambio richiesto per sbloccare il bonus"
+        "Depositare denaro con bonifico (i depositi con carta non valgono) e comprare crypto fino all'importo indicato in app, entro 30 giorni"
       ],
       "termini": [
-        "Le fonti non riportano i requisiti per l'Italia: leggili prima di depositare",
-        "Gli importi pubblicizzati più alti (fino a 1.500$) riguardano il programma inviti negli USA",
+        "Regolamento ufficiale aggiornato al 4 novembre 2026: premio fisso di 20$ nella valuta del conto, quindi 20€ per chi usa l'euro",
+        "Stablecoin e 'bundle' non contano per i requisiti",
+        "Bonus accreditato entro 14 giorni; Kraken dice che importo e forma non sono garantiti",
+        "Italia inclusa tra i Paesi ammessi",
         "Rischio di mercato sulle crypto acquistate"
       ],
       "costi": "Nessun canone; commissioni di trading",
       "link": "https://www.kraken.com/it",
-      "fonte": "https://cryptovalute24ore.it/bonus-crypto/",
-      "verifica": "bassa",
+      "fonte": "https://support.kraken.com/it/articles/kraken-app-referral-program",
+      "verifica": "alta",
       "profittevole": false,
-      "profitto": "Importo piccolo e requisiti non confermati per l'Italia: da rivalutare quando saranno chiari.",
+      "profitto": "20€ sono interessanti, ma deposito e acquisto richiesti non sono pubblicati: da valutare quando li vedi in app.",
       "italia": {
         "stato": "autorizzato",
         "testo": "Autorizzato MiCA in Irlanda (Central Bank of Ireland), opera in Italia."
@@ -1284,43 +1277,42 @@ window.PROMO_DATA = {
     {
       "scadenza": null,
       "aggiunta": "2026-10-06",
-      "aggiornata": "2026-11-13",
-      "novita": "Il codice HELLOBITPANDA è indicato dal comparatore come campagna estiva e non abbiamo trovato una campagna di novembre: potrebbe non essere più valido.",
-      "note": "Codice e importo da un comparatore che indica il periodo 'estate' senza date; nessuna conferma ufficiale per novembre 2026. Controlla la pagina della campagna Bitpanda prima di comprare.",
+      "aggiornata": "2026-11-15",
+      "novita": "Il codice HELLOBITPANDA non risulta più valido: le campagne con codice del 2026 sono finite. Resta solo il premio con invito, da 5€ con 500€ di acquisti.",
+      "note": "Dati da una fonte secondaria che cita la pagina Dillo a un amico di Bitpanda (7 novembre 2026); nessun codice promo ufficiale attivo trovato.",
       "referral": {
-        "testo": "Programma 'Dillo a un amico' sempre attivo: fino a 100€ per amico, a scaglioni in base a quanto l'amico acquista in totale (da 500€ a 10.000€). Poco conveniente da proporre a chi non investe.",
+        "testo": "Programma 'Dillo a un amico': fino a 100€ per amico, a scaglioni in base a quanto l'amico acquista in totale (da 500€ a 10.000€).",
         "valore": "fino a 100€ ad amico"
       },
       "id": "bitpanda-50",
-      "nome": "Bitpanda: 25€ in Bitcoin",
+      "nome": "Bitpanda: premio con invito di un amico",
       "provider": "Bitpanda",
       "categoria": "crypto",
-      "valore": "25€ in BTC",
-      "valoreStima": 25,
-      "sintesi": "25€ in Bitcoin a chi si registra con il codice promo e compra almeno 100€ di criptovalute, che restano sue.",
+      "valore": "da 5€ a 100€ (in base agli acquisti)",
+      "valoreStima": 5,
+      "sintesi": "Le campagne con codice promo sono finite: oggi il premio di benvenuto passa dal programma 'Dillo a un amico' e parte da 5€ acquistando 500€ di crypto.",
       "facilita": 4,
-      "tempo": "15 minuti, bonus dopo 30-45 giorni",
-      "capitale": "100€ di acquisto crypto",
+      "tempo": "15 minuti, bonus dopo l'acquisto",
+      "capitale": "500€ di acquisto crypto",
       "rischio": "medio",
       "requisiti": [
-        "Registrarsi da un link promozionale inserendo il codice HELLOBITPANDA",
+        "Registrarsi da un link invito 'Dillo a un amico'",
         "Completare la verifica dell'identità",
-        "Acquistare almeno 100€ di criptovalute su Bitpanda Broker"
+        "Acquistare almeno 500€ in totale (il premio sale fino a 100€ con 10.000€ di acquisti)"
       ],
       "termini": [
+        "Secondo una fonte di novembre 2026 tutte le campagne con codice del 2026 sono finite (l'ultima, BTCBONUS, dal 10 al 31 agosto); HELLOBITPANDA non risulta da fonti ufficiali",
+        "Scaglioni: 5€ in tutto con 500€ di acquisti, fino a 100€ a testa con 10.000€",
         "Solo nuovi clienti: chi ha già avuto un account è escluso",
-        "Contano solo gli acquisti di crypto sul Broker; scambi tra asset e Fusion non valgono",
-        "Il bonus arriva in Bitcoin entro 30-45 giorni dall'acquisto: il suo valore oscilla",
         "Le crypto acquistate sono tue e puoi rivenderle, ma paghi lo spread e il prezzo può scendere",
-        "Scadenza della campagna e tempo massimo per l'acquisto non riportati dalla fonte: controlla i termini sulla pagina Bitpanda prima di comprare",
         "Bitpanda fa da sostituto d'imposta per i clienti italiani"
       ],
       "costi": "Nessun canone; spread sugli scambi",
       "link": "https://www.bitpanda.com/it",
-      "fonte": "https://www.promarketer.it/?p=18454",
+      "fonte": "https://cryptoticker.io/en/bitpanda-promo-code/",
       "verifica": "bassa",
-      "profittevole": true,
-      "profitto": "Compri 100€ di crypto che restano tue e ricevi 25€ in Bitcoin (25%).",
+      "profittevole": false,
+      "profitto": "Per 5€ devi comprare 500€ di crypto pagando lo spread: il premio è piccolo rispetto alla spesa.",
       "italia": {
         "stato": "autorizzato",
         "testo": "Autorizzato MiCA in Germania (BaFin) e Austria (FMA), opera in Italia."
