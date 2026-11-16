@@ -1,6 +1,23 @@
 window.PROMO_DATA = {
-  "aggiornato": "2026-11-15",
+  "aggiornato": "2026-11-16",
   "changelog": [
+    {
+      "data": "2026-11-16",
+      "voci": [
+        "Nuova edizione ING 4% per 12 mesi (II edizione 2026): 4% lordo sul Conto Arancio fino a 200.000€ con 1.000€ al mese, richiesta dal 16 novembre al 20 dicembre 2026, ora anche per ex clienti senza conti Arancio dal 2025 (sito ufficiale).",
+        "Trade Republic: dal 12 novembre 4% lordo sui primi 20.000€ per i nuovi clienti fino al 1° marzo 2027 (prima 3% fino a 50.000€). Oltre, tasso BCE al 2,5% (comparatori concordi, verifica media).",
+        "Nuova: XTB, 1 azione Enel in regalo depositando 30€ entro 7 giorni, fino al 30 novembre (comparatori, non confermata sul sito XTB). Profittevole.",
+        "Nuova: Maple syrupUSDC, rendimento variabile circa 4,5-6% su USDC prestati a istituzioni (DeFi, rischio alto). Non profittevole.",
+        "Bybit EU: pacchetto di benvenuto cambiato, ora fino a 30 USDC di regali più bonus sul saldo USDC fino a 100 USDC (solo comparatore, verifica bassa).",
+        "OKX: premio massimo salito a 400€ con nuovi scaglioni (da 5€ con 1€ di scambi a 400€ con 80.000€ di deposito). Coinbase: chi usa un invito non può girare la ruota premi; importi discordanti, verifica bassa.",
+        "HYPE: confermato sul sito ufficiale il codice CIAOHYPER valido fino al 31 dicembre. Bitpanda: programma inviti confermato sulla pagina ufficiale. BBVA: precisato il tasso dopo i 6 mesi (25% del tasso BCE).",
+        "DeFi: Aave USDC sceso a circa 3,8% su Ethereum; Sky sUSDS 3,8% e vault Morpho 4-4,5% invariati.",
+        "In scadenza nei prossimi 10 giorni: Buddybank 80€ oggi, 16 novembre (da domani resta il bonus da 50€ fino al 20 gennaio 2027). Subito dopo: Tinaba, BPER, Credem Link e XTB il 30 novembre.",
+        "Confermate senza variazioni: ING Codice Amico, Revolut 20€ e risparmio 3,5%, Crédit Agricole, Tinaba, Banco BPM, SelfyConto, Fineco 100 ordini, IBL Banca, bunq, BPER, Credem Link, Fideuram Direct, Webank, Young Platform, Bitvavo, Robinhood, Crypto.com, Kraken, airdrop MetaMask, Grass, Base, Hyperliquid, xStocks.",
+        "Nessuna promo rimossa. Non inserite: Extended (airdrop XTEN, piattaforma non regolamentata), concorso isybank (premio a estrazione), buono Amazon Webank con carta (da verificare), Crédit Agricole deposito 4% (fonti discordanti).",
+        "Siti non raggiungibili oggi (BBVA, buddy UniCredit, Crédit Agricole, Bitvavo, centro assistenza Coinbase, Revolut, Trade Republic): verifiche fatte con comparatori e risultati di ricerca."
+      ]
+    },
     {
       "data": "2026-11-15",
       "voci": [
@@ -124,7 +141,7 @@ window.PROMO_DATA = {
         "Per gli interessi: basta tenere i soldi sul conto, nessun vincolo"
       ],
       "termini": [
-        "Interessi 4% lordo annuo per 6 mesi dall'apertura, poi tasso standard (fino al 2,10% circa)",
+        "Interessi 4% lordo annuo per 6 mesi dall'apertura fino a 200.000€ (2,10% sulla parte tra 200.000€ e 1 milione); dopo i 6 mesi tasso variabile pari al 25% del tasso BCE, aggiornato ogni trimestre",
         "Cashback 4% sugli acquisti per 6 mesi, calcolato su un massimo di 210€ di spesa al mese: al massimo 8,40€ al mese, 50,40€ in tutto",
         "Gli interessi sono tassati al 26%; imposta di bollo 34,20€/anno se la giacenza media supera 5.000€",
         "Non serve accreditare lo stipendio"
@@ -144,40 +161,42 @@ window.PROMO_DATA = {
     },
     {
       "id": "ing-4-12mesi",
-      "nome": "ING Conto Corrente Arancio: 4% per 12 mesi",
+      "nome": "ING Conto Arancio: 4% per 12 mesi (II edizione)",
       "provider": "ING",
       "categoria": "conto",
       "valore": "4% lordo per 12 mesi",
       "valoreStima": 150,
-      "sintesi": "4% lordo per un anno sulla liquidità (fino a 200.000€) senza vincoli, aprendo il conto corrente e accreditando 1.000€ al mese.",
+      "sintesi": "4% lordo per un anno sul Conto Arancio (fino a 200.000€), senza vincoli, aprendo Conto Corrente Arancio e accreditando almeno 1.000€ al mese.",
       "facilita": 4,
       "tempo": "15 minuti + bonifico mensile",
       "capitale": "Entrate da 1.000€/mese",
       "rischio": "basso",
-      "scadenza": "2026-11-02",
+      "scadenza": "2026-12-20",
       "aggiunta": "2026-10-06",
-      "aggiornata": "2026-11-15",
-      "novita": "Corretto il tetto: il 4% valeva fino a 200.000€, non 50.000€. Promo chiusa il 2 novembre, nessuna nuova edizione trovata.",
+      "aggiornata": "2026-11-16",
+      "novita": "Nuova edizione dal 16 novembre al 20 dicembre 2026: sempre 4% per 12 mesi fino a 200.000€ con 1.000€ al mese; ora anche per chi era già cliente ma non ha avuto conti Arancio dal 1° gennaio 2025.",
       "requisiti": [
-        "Aprire Conto Corrente Arancio entro il 2 novembre 2026",
-        "Attivare il conto entro il 30 novembre 2026",
-        "Accreditare stipendio/pensione oppure fare un bonifico in entrata di almeno 1.000€ al mese (il primo entro il 31 gennaio 2027)"
+        "Richiedere Conto Corrente Arancio (Più o Light) tra il 16 novembre e il 20 dicembre 2026",
+        "Attivare il conto corrente con un primo versamento entro il 31 gennaio 2027",
+        "Aprire e attivare anche il Conto Arancio (deposito, basta 1€) entro il 31 gennaio 2027",
+        "Accreditare stipendio/pensione o un bonifico di almeno 1.000€: il primo entro il 28 febbraio 2027, poi ogni mese"
       ],
       "termini": [
-        "Tasso 4% annuo lordo per 12 mesi, su un massimo di 200.000€ (fino a 400.000€ per chi investiva almeno 100.000€ con MyMoneyCoach entro il 30 novembre)",
-        "Se in un mese manca l'accredito da 1.000€, per quel mese il tasso scende allo 0,20%; dopo i 12 mesi il tasso scende all'1%",
-        "Somme sempre disponibili, nessun vincolo",
-        "Riservato a nuovi clienti ING",
-        "Interessi tassati al 26%"
+        "Il 4% annuo lordo è pagato sul Conto Arancio (conto deposito), per al massimo 365 giorni, fino a 200.000€",
+        "Il tetto sale a 400.000€ con un primo ordine MyMoneyCoach di almeno 100.000€ tra il 16 novembre 2026 e il 31 gennaio 2027",
+        "Se in un mese manca l'accredito da 1.000€, dal mese dopo si passa al tasso base e il 4% non torna più (il valore del tasso base va letto nel regolamento)",
+        "Non contano come accredito: giroconti tra conti ING, disinvestimenti, mutui/prestiti, cedole e dividendi",
+        "Per nuovi clienti e per chi non ha avuto Conto Corrente Arancio o Conto Arancio dal 1° gennaio 2025 al 15 novembre 2026",
+        "Somme sempre disponibili; interessi tassati al 26%"
       ],
       "costi": "Canone 0€ con accredito stipendio o entrate da 1.000€/mese, altrimenti 2€/mese",
       "referral": {
-        "testo": "Si combina con il Codice Amico ING (vedi promo dedicata): 75€ a chi invita e 75€ all'invitato.",
-        "valore": "75€ ad amico"
+        "testo": "Si combina con il Codice Amico ING (vedi promo dedicata): 50€ a chi invita e 50€ all'invitato.",
+        "valore": "50€ ad amico"
       },
-      "link": "https://www.ing.it/",
-      "fonte": "https://www.qualebanca.com/guide/conti/promozioni-conti-correnti",
-      "verifica": "media",
+      "link": "https://www.ing.it/conto-corrente-arancio/promo-4-per-12-MMC-ed-2.html",
+      "fonte": "https://www.ing.it/conto-corrente-arancio/promo-4-per-12-MMC-ed-2.html",
+      "verifica": "alta",
       "note": "",
       "profittevole": true,
       "profitto": "Nessuna spesa: basta far entrare 1.000€ al mese. Su 10.000€ sono circa 300€ netti in un anno, senza vincoli.",
@@ -321,10 +340,10 @@ window.PROMO_DATA = {
       "rischio": "basso",
       "scadenza": "2026-12-31",
       "aggiunta": "2026-10-06",
-      "aggiornata": "2026-10-06",
-      "novita": "",
+      "aggiornata": "2026-11-16",
+      "novita": "Confermato sul sito HYPE il codice promo CIAOHYPER, valido fino al 31 dicembre 2026 (l'altro codice citato da alcune fonti non è indicato).",
       "requisiti": [
-        "Registrarsi inserendo il codice promo (le fonti riportano CIAOHYPER e HELLOHYPER: controlla quale è valido sul sito HYPE)",
+        "Registrarsi inserendo il codice promo CIAOHYPER entro il 31 dicembre 2026",
         "Fare transazioni per almeno 50€ entro 30 giorni",
         "Per i 20€/25€: scegliere il piano Next o Premium e pagare 2 canoni mensili entro 3 mesi"
       ],
@@ -336,9 +355,9 @@ window.PROMO_DATA = {
       "costi": "Piano base 0€; Next 2,90€/mese; Premium 9,90€/mese",
       "referral": null,
       "link": "https://www.hype.it/",
-      "fonte": "https://www.qualebanca.com/guide/conti/promozioni-conti-correnti",
-      "verifica": "media",
-      "note": "Codice promo da confermare: due fonti indicano codici diversi.",
+      "fonte": "https://www.hype.it/",
+      "verifica": "alta",
+      "note": "",
       "profittevole": false,
       "profitto": "Sul piano gratuito muovi 50€ per riceverne 5; sui piani a pagamento i canoni assorbono buona parte del bonus.",
       "italia": null
@@ -437,8 +456,8 @@ window.PROMO_DATA = {
       "rischio": "basso",
       "scadenza": "2026-11-16",
       "aggiunta": "2026-10-06",
-      "aggiornata": "2026-11-14",
-      "novita": "Ultimi giorni per gli 80€ (fino al 16 novembre). Dopo, secondo il comparatore, resta il bonus da 50€ con codice amico, valido fino al 20 gennaio 2027.",
+      "aggiornata": "2026-11-16",
+      "novita": "Oggi, 16 novembre, è l'ultimo giorno per gli 80€: nessuna proroga trovata. Da domani resta il bonus da 50€ con codice amico, fino al 20 gennaio 2027 (comparatore); vale anche richiedendo la carta Genius Pay.",
       "requisiti": [
         "Scaricare l'app Buddybank e inserire un codice amico in registrazione",
         "Completare l'apertura del conto entro il 16 novembre 2026",
@@ -448,11 +467,11 @@ window.PROMO_DATA = {
         "Il codice va inserito in fase di registrazione, dopo non si può più aggiungere",
         "Il premio è composto da 50€ di bonus base più 30€ aggiuntivi per chi diventa cliente dal 4 settembre al 16 novembre 2026",
         "Le fonti non concordano sulla forma del premio (accredito sul conto oppure buono Amazon): controlla il regolamento in app",
-        "Dopo il 16 novembre il bonus torna a 50€: il comparatore indica l'iniziativa base valida fino al 20 gennaio 2027"
+        "Dal 17 novembre il bonus torna a 50€: il comparatore indica l'iniziativa base (conto buddy o carta Genius Pay con codice invito) valida fino al 20 gennaio 2027"
       ],
       "costi": "Canone 0€, carta di debito digitale gratuita",
       "referral": {
-        "testo": "50€ a te per ogni amico che completa i requisiti. Il massimo di amici va verificato in app: le fonti indicano 20 oppure 100 a seconda dell'edizione.",
+        "testo": "50€ a te per ogni amico che completa i requisiti, fino a 100 amici (secondo il comparatore).",
         "valore": "50€ ad amico"
       },
       "link": "https://www.buddybank.com/",
@@ -540,27 +559,28 @@ window.PROMO_DATA = {
     },
     {
       "id": "trade-republic-3",
-      "nome": "Trade Republic: 3% sulla liquidità + 10€ in azioni",
+      "nome": "Trade Republic: 4% sulla liquidità + 10€ in azioni",
       "provider": "Trade Republic",
       "categoria": "liquidita",
-      "valore": "3% + 10€ in azioni",
+      "valore": "4% fino a 20.000€ + 10€ in azioni",
       "valoreStima": 40,
-      "sintesi": "3% annuo lordo sulla liquidità senza vincoli, più 10€ in azioni se entri con un invito.",
+      "sintesi": "4% annuo lordo sui primi 20.000€ di liquidità per i nuovi clienti fino al 1° marzo 2027, senza vincoli, più 10€ in azioni se entri con un invito.",
       "facilita": 4,
       "tempo": "15 minuti",
       "capitale": "100€ per il bonus azioni",
       "rischio": "basso",
       "scadenza": null,
       "aggiunta": "2026-10-06",
-      "aggiornata": "2026-10-06",
-      "novita": "",
+      "aggiornata": "2026-11-16",
+      "novita": "Dal 12 novembre i nuovi clienti ricevono il 4% lordo sui primi 20.000€ fino al 1° marzo 2027 (prima 3% fino a 50.000€). Oltre i 20.000€ si applica il tasso BCE, oggi 2,5%.",
       "requisiti": [
         "Registrarsi da link o codice invito",
         "Depositare almeno 100€",
         "Fare 2 investimenti entro 21 giorni dalla registrazione (bastano piccoli importi o piani di accumulo)"
       ],
       "termini": [
-        "Il 3% vale sulla liquidità fino a 50.000€, il tasso è variabile e può cambiare",
+        "4% lordo sui primi 20.000€ per chi apre il conto dal 12 novembre 2026, fino al 1° marzo 2027 (salvo proroghe); oltre i 20.000€ e dopo quella data tasso BCE (oggi 2,5%), senza limite di importo",
+        "Chi ha aperto il conto prima del 12 novembre riceve il 2,5%; può avere il 4% per 2 mesi per ogni amico invitato (massimo 4)",
         "Il premio è in azioni: il valore può salire o scendere",
         "Trade Republic fa da sostituto d'imposta in Italia",
         "Gli investimenti richiesti comportano rischio di mercato, anche se minimo su importi piccoli"
@@ -571,11 +591,11 @@ window.PROMO_DATA = {
         "valore": "10€ in azioni ad amico"
       },
       "link": "https://traderepublic.com/it-it",
-      "fonte": "https://www.ponss.it/codice-amico/trade-republic",
-      "verifica": "alta",
-      "note": "",
+      "fonte": "https://www.qualebanca.com/blog/investimenti/trade-republic-interessi-sulla-liquidita-non-investita",
+      "verifica": "media",
+      "note": "Sito ufficiale non leggibile oggi: il 4% è confermato da più comparatori (qualebanca, aziendabanca, investimi). Il bonus da 10€ in azioni con invito è indicato da ponss.it al 15 novembre: controllalo in app.",
       "profittevole": true,
-      "profitto": "Depositi 100€ che restano tuoi, fai 2 piccoli investimenti e ricevi 10€ in azioni, più il 3% sulla liquidità.",
+      "profitto": "Depositi 100€ che restano tuoi, fai 2 piccoli investimenti e ricevi 10€ in azioni, più il 4% sulla liquidità fino a 20.000€.",
       "italia": null
     },
     {
@@ -667,10 +687,10 @@ window.PROMO_DATA = {
       "rischio": "medio",
       "scadenza": null,
       "aggiunta": "2026-10-06",
-      "aggiornata": "2026-11-14",
-      "novita": "Per l'Italia una fonte italiana (aggiornata al 18 ottobre 2026) descrive una ruota premi fino a 150€ in Bitcoin dopo il primo acquisto, al posto dei circa 10$ indicati prima.",
+      "aggiornata": "2026-11-16",
+      "novita": "Il centro assistenza Coinbase indica che chi si registra con un invito non può girare la ruota premi. Le fonti italiane non concordano sull'importo (ruota fino a 150€, 50€ con primo acquisto da 50€, 10€ con invito e acquisto da 100$).",
       "requisiti": [
-        "Registrarsi da un link promozionale o invito",
+        "Registrarsi da un link promozionale Coinbase (non da un invito: secondo il centro assistenza Coinbase chi si iscrive con un invito non può girare la ruota)",
         "Completare la verifica dell'identità (documento + selfie)",
         "Fare un primo deposito e un primo acquisto di crypto (la fonte non indica un minimo)",
         "Girare la ruota premi che compare dopo il primo acquisto"
@@ -688,8 +708,8 @@ window.PROMO_DATA = {
       },
       "link": "https://www.coinbase.com/it",
       "fonte": "https://www.finanza.com/finanza-personale/criptovalute/coinbase-bonus-150-euro-bitcoin",
-      "verifica": "media",
-      "note": "Fonte italiana con link di affiliazione, regolamento ufficiale non letto: controlla l'offerta nella pagina Coinbase da cui ti registri.",
+      "verifica": "bassa",
+      "note": "Fonti discordanti: una fonte italiana (18 ottobre 2026) indica la ruota fino a 150€, un altro articolo dello stesso sito 50€ in BTC con primo acquisto da almeno 50€, un comparatore (9 novembre) 10€ con invito e acquisto da 100$. Controlla l'offerta nella pagina Coinbase da cui ti registri.",
       "profittevole": true,
       "profitto": "Basta un piccolo acquisto per ricevere un premio in Bitcoin; l'importo è casuale (minimo non dichiarato).",
       "italia": {
@@ -991,7 +1011,7 @@ window.PROMO_DATA = {
       "nome": "Aave: prestito di USDC",
       "provider": "Aave",
       "categoria": "defi",
-      "valore": "circa 4-6% annuo variabile",
+      "valore": "circa 3-5% annuo variabile",
       "valoreStima": 0,
       "sintesi": "Depositi USDC nel più grande protocollo di lending e ricevi interessi variabili, prelevabili quando vuoi.",
       "facilita": 3,
@@ -1000,8 +1020,8 @@ window.PROMO_DATA = {
       "rischio": "medio",
       "scadenza": null,
       "aggiunta": "2026-10-06",
-      "aggiornata": "2026-11-15",
-      "novita": "Il picco è rientrato: oggi circa 4,7% su USDC Ethereum (media degli ultimi 30 giorni 4,3%).",
+      "aggiornata": "2026-11-16",
+      "novita": "Tasso sceso: oggi circa 3,8% su USDC Ethereum (media 30 giorni 4,3%), 4,8% su Base, 3,2% su Arbitrum.",
       "requisiti": [
         "Wallet con USDC su una rete supportata (Base, Arbitrum, Ethereum)",
         "Collegare il wallet all'app Aave e fare Supply"
@@ -1016,9 +1036,9 @@ window.PROMO_DATA = {
       "link": "https://app.aave.com/",
       "fonte": "https://defillama.com/yields/pool/aa70268e-4b52-42bf-a116-608b370f9501",
       "verifica": "media",
-      "note": "Tasso rilevato il 15 novembre 2026 su DefiLlama (Ethereum): 4,7% oggi, media 30 giorni 4,3%; su Base circa 4,6%, su Arbitrum circa 3%. Controlla il valore in tempo reale.",
+      "note": "Tasso rilevato il 16 novembre 2026 su DefiLlama: Ethereum 3,8% (media 30 giorni 4,3%), Base 4,8%, Arbitrum 3,2%. Controlla il valore in tempo reale.",
       "profittevole": false,
-      "profitto": "Rende in proporzione al capitale: su 1.000€ circa 40-60€ l'anno, con rischio tecnico e di cambio euro/dollaro.",
+      "profitto": "Rende in proporzione al capitale: su 1.000€ circa 30-50€ l'anno, con rischio tecnico e di cambio euro/dollaro.",
       "italia": {
         "stato": "non-regolamentato",
         "testo": "Protocollo DeFi non custodial, accessibile dall'Italia con un wallet. Nessuna autorità lo vigila e non esistono garanzie sui depositi."
@@ -1110,42 +1130,43 @@ window.PROMO_DATA = {
     {
       "scadenza": null,
       "aggiunta": "2026-10-06",
-      "aggiornata": "2026-10-06",
-      "novita": "",
-      "note": "",
+      "aggiornata": "2026-11-16",
+      "novita": "Cambiato il pacchetto di benvenuto: ora fino a 30 USDC di regali (5+5 USDC di sconto commissioni, 20 USDC con 20.000€ di scambi) e bonus sul saldo USDC fino a 100 USDC. Non si trovano più i 100 USDC in crediti.",
+      "note": "Dati da un comparatore aggiornato al 20 ottobre 2026, non confermati su fonte ufficiale: verifica le condizioni in app.",
       "referral": {
         "testo": "Con la Bybit Card: 20 USDC a chi invita e 10 USDC all'amico che richiede la carta e completa le condizioni.",
         "valore": "20 USDC ad amico"
       },
       "id": "bybit-eu-100",
-      "nome": "Bybit EU: 100 USDC in crediti",
+      "nome": "Bybit EU: regali di benvenuto fino a 30 USDC + bonus sul saldo",
       "provider": "Bybit EU",
       "categoria": "crypto",
-      "valore": "100 USDC in crediti",
+      "valore": "fino a 30 USDC + fino a 100 USDC sul saldo",
       "valoreStima": 0,
-      "sintesi": "Pacchetto di benvenuto in crediti da usare sulla piattaforma, più bonus proporzionale al deposito.",
+      "sintesi": "Regali di benvenuto fino a 30 USDC (in buona parte sconti commissioni) e un bonus proporzionale al saldo USDC medio dei primi 14 giorni, fino a 100 USDC.",
       "facilita": 3,
       "tempo": "20 minuti",
-      "capitale": "Da 100$ in crypto",
+      "capitale": "Da 100€ di deposito",
       "rischio": "medio",
       "requisiti": [
-        "Registrarsi su Bybit EU con un codice invito",
-        "Completare la verifica dell'identità",
-        "Completare i task del Rewards Hub prima della prima ricarica",
-        "Ricaricare almeno 100$ in crypto per ottenere 30 giorni di livello VIP 1"
+        "Registrarsi su Bybit EU (residenti SEE, Malta esclusa) e completare la verifica dell'identità",
+        "Entro 15 giorni: depositare almeno 100€ (5 USDC di sconto commissioni), scambiare almeno 500€ (altri 5 USDC) e 20.000€ (20 USDC)",
+        "Per il bonus sul saldo: tenere USDC sul conto nei primi 14 giorni (100 USDC di saldo medio danno 12 USDC, 500 danno 30, 1.000 danno 50, 5.000 danno 100)"
       ],
       "termini": [
-        "Il bonus non è denaro prelevabile: sono crediti per operazioni o sconto commissioni",
-        "Il bonus sul deposito arriva fino a 5.000 USDC ma è proporzionale a quanto versi",
-        "Il precedente regalo da 30€ in Bitcoin è terminato a settembre 2026",
-        "Solo residenti nello Spazio Economico Europeo"
+        "Regali di benvenuto per account creati dal 16 settembre 2026",
+        "I primi 10 USDC sono sconti sulle commissioni spot, non denaro prelevabile",
+        "Secondo la fonte gli USDC del bonus sul saldo non sono bloccati e si possono prelevare",
+        "Le fonti non concordano sulla promo 'Move Your Funds' (VIP 1 per 30 giorni): forse terminata",
+        "Bybit Card: 10€ con ricarica di almeno 100 entro 30 giorni, più cashback del 10% fino a 110€",
+        "Rischio di cambio euro/dollaro sugli USDC"
       ],
       "costi": "Nessun canone; commissioni di trading",
       "link": "https://www.bybit.eu/",
-      "fonte": "https://www.promarketer.it/investimenti/crypto/bonus/bybit-bonus/",
-      "verifica": "media",
+      "fonte": "https://investingintheweb.com/crypto/bybit-referral-code/",
+      "verifica": "bassa",
       "profittevole": false,
-      "profitto": "Il bonus è in crediti per commissioni e trading, non si può prelevare.",
+      "profitto": "Con 100€ di deposito si ottengono soprattutto sconti commissioni; il bonus sul saldo rende poco rispetto al capitale (12 USDC su 100, 50 su 1.000) e i premi alti richiedono 20.000€ di scambi.",
       "italia": {
         "stato": "autorizzato",
         "testo": "Bybit EU è autorizzato MiCA in Austria (FMA) e può operare in Italia."
@@ -1154,40 +1175,39 @@ window.PROMO_DATA = {
     {
       "scadenza": null,
       "aggiunta": "2026-10-06",
-      "aggiornata": "2026-11-15",
-      "novita": "Il regolamento ufficiale indica un blocco delle ricompense fino a 45 giorni (non 30) e importi visibili solo in app.",
+      "aggiornata": "2026-11-16",
+      "novita": "Il premio massimo indicato ora è fino a 400€ (non 200€). Nuovi scaglioni: 5€ con 1€ di scambi, 15€ con 1.000€ di deposito e 20.000€ di scambi, fino a 400€ con 80.000€ e 600.000€.",
       "note": "Condizioni discordanti tra le fonti.",
       "referral": null,
       "id": "okx-benvenuto",
       "nome": "OKX: bonus di benvenuto a scaglioni",
       "provider": "OKX",
       "categoria": "crypto",
-      "valore": "5-10€ (fino a 200€)",
+      "valore": "5€ (fino a 400€)",
       "valoreStima": 5,
-      "sintesi": "Piccolo bonus per chi deposita e scambia; gli importi più alti richiedono acquisti da migliaia di euro.",
+      "sintesi": "Piccolo bonus da 5€ con un primo scambio minimo; gli importi più alti richiedono depositi e scambi da decine di migliaia di euro.",
       "facilita": 3,
       "tempo": "20 minuti",
-      "capitale": "100-200€",
+      "capitale": "Pochi euro per i 5€; da 1.000€ per gli scaglioni successivi",
       "rischio": "medio",
       "requisiti": [
-        "Registrarsi con un codice invito",
-        "Completare la verifica dell'identità",
-        "Depositare almeno 100€ e fare scambi per almeno 100€ entro 14 giorni (un'altra fonte indica 10€ acquistando 200€ di crypto)"
+        "Registrarsi con un codice invito e completare la verifica dell'identità",
+        "Attivare il bonus in app prima del primo deposito",
+        "Per i 5€: fare scambi per almeno 1€ (secondo una fonte: entro 14 giorni)"
       ],
       "termini": [
         "Regolamento ufficiale (9 settembre 2026): importi, deposito e volume minimo sono indicati solo in app e possono variare da utente a utente",
-        "Una fonte del 1° ottobre 2026 indica 'fino a 50 USD' con codice invito e fino a 50 USD a chi invita, senza specificare depositi o volumi richiesti",
-        "Le fonti riportano condizioni diverse: verifica gli scaglioni in app",
-        "Scaglioni alti: 40€ acquistando almeno 1.000€ e 150€ acquistando almeno 10.000€",
-        "Le ricompense in crypto restano bloccate fino a 45 giorni (si possono usare per fare trading ma non prelevare); accredito entro 48 ore",
+        "Scaglioni riportati da un comparatore: 15€ con 1.000€ di deposito e 20.000€ di scambi; 35€ con 20.000€/80.000€; 100€ con 30.000€/150.000€; 200€ con 50.000€/300.000€; 400€ con 80.000€/600.000€",
+        "Le ricompense restano bloccate fino a 45 giorni e lo sblocco richiede di mantenere un saldo minimo; accredito entro 48 ore",
+        "Gli scambi USDC/EUR non contano",
         "Rischio di mercato sulle crypto acquistate"
       ],
       "costi": "Nessun canone; commissioni di trading",
       "link": "https://www.okx.com/it",
-      "fonte": "https://guadagnissimo.com/bonus-crypto/",
+      "fonte": "https://www.okx.com/help/new-user-bonus-program-terms-and-conditions-eea",
       "verifica": "bassa",
       "profittevole": false,
-      "profitto": "Devi depositare e scambiare 100-200€ per ricevere 5-10€; gli scaglioni alti richiedono da 1.000€ a 10.000€.",
+      "profitto": "I 5€ costano poco, ma gli scaglioni successivi richiedono migliaia di euro di deposito e scambi: guadagno basso rispetto a quanto bisogna muovere.",
       "italia": {
         "stato": "autorizzato",
         "testo": "Autorizzato MiCA a Malta (MFSA), opera in Italia."
@@ -1281,8 +1301,8 @@ window.PROMO_DATA = {
     {
       "scadenza": null,
       "aggiunta": "2026-10-06",
-      "aggiornata": "2026-11-15",
-      "novita": "Il codice HELLOBITPANDA non risulta più valido: le campagne con codice del 2026 sono finite. Resta solo il premio con invito, da 5€ con 500€ di acquisti.",
+      "aggiornata": "2026-11-16",
+      "novita": "Il programma inviti è confermato sulla pagina ufficiale: 5€ a testa quando l'amico investe 500€, fino a 100€ a testa con 10.000€ di acquisti.",
       "note": "Dati da una fonte secondaria che cita la pagina Dillo a un amico di Bitpanda (7 novembre 2026); nessun codice promo ufficiale attivo trovato.",
       "referral": {
         "testo": "Programma 'Dillo a un amico': fino a 100€ per amico, a scaglioni in base a quanto l'amico acquista in totale (da 500€ a 10.000€).",
@@ -1313,8 +1333,8 @@ window.PROMO_DATA = {
       ],
       "costi": "Nessun canone; spread sugli scambi",
       "link": "https://www.bitpanda.com/it",
-      "fonte": "https://cryptoticker.io/en/bitpanda-promo-code/",
-      "verifica": "bassa",
+      "fonte": "https://www.bitpanda.com/it/tell-a-friend",
+      "verifica": "media",
       "profittevole": false,
       "profitto": "Per 5€ devi comprare 500€ di crypto pagando lo spread: il premio è piccolo rispetto alla spesa.",
       "italia": {
@@ -1552,6 +1572,85 @@ window.PROMO_DATA = {
       "note": "Condizioni dal messaggio promozionale del sito ufficiale Webank (15 novembre 2026).",
       "profittevole": false,
       "profitto": "È un tasso sulla giacenza e serve spostare lo stipendio: su 10.000€ circa 45€ netti in 4 mesi e mezzo."
+    },
+    {
+      "id": "xtb-azione-enel",
+      "nome": "XTB: 1 azione Enel in regalo",
+      "provider": "XTB",
+      "categoria": "conto",
+      "valore": "1 azione Enel",
+      "valoreStima": 8,
+      "sintesi": "Apri un conto di investimento XTB, deposita almeno 30€ entro 7 giorni e ricevi un'azione Enel gratis. Il deposito resta tuo.",
+      "facilita": 4,
+      "tempo": "20 minuti",
+      "capitale": "30€ di deposito (restano tuoi)",
+      "rischio": "basso",
+      "scadenza": "2026-11-30",
+      "aggiunta": "2026-11-16",
+      "aggiornata": "2026-11-16",
+      "novita": "",
+      "requisiti": [
+        "Essere maggiorenni e residenti in Italia, senza un conto XTB negli ultimi 12 mesi",
+        "Aprire il conto XTB e accettare i termini della promo nel banner dell'app al primo accesso",
+        "Depositare almeno 30€ entro 7 giorni (168 ore) dall'apertura"
+      ],
+      "termini": [
+        "Non servono acquisti né volumi di trading",
+        "Il valore dell'azione segue la Borsa e può scendere",
+        "La promo può chiudere prima se finiscono le azioni disponibili",
+        "Le fonti la indicano legata a codici partner (es. PROMARKETER): controlla il banner in app prima di depositare"
+      ],
+      "costi": "Conto 0€; zero commissioni su azioni ed ETF fino a 100.000€ al mese",
+      "referral": {
+        "testo": "Codice partner indicato dal comparatore: PROMARKETER.",
+        "valore": "1 azione Enel"
+      },
+      "link": "https://www.xtb.com/it",
+      "fonte": "https://www.promarketer.it/?p=20781",
+      "verifica": "media",
+      "note": "Non confermata sul sito ufficiale XTB (la pagina promozioni mostra solo zero commissioni): dati da due comparatori (promarketer, rankia).",
+      "profittevole": true,
+      "profitto": "Depositi 30€ che restano tuoi e ricevi un'azione Enel gratis, senza spese.",
+      "italia": null
+    },
+    {
+      "id": "defi-maple-syrupusdc",
+      "nome": "Maple syrupUSDC: prestito a istituzioni",
+      "provider": "Maple Finance",
+      "categoria": "defi",
+      "valore": "circa 4,5-6% annuo variabile",
+      "valoreStima": 0,
+      "sintesi": "Depositi USDC in syrupUSDC, che li presta a istituzioni con garanzie; rendimento variabile, nessuna verifica dell'identità.",
+      "facilita": 3,
+      "tempo": "15 minuti con wallet già pronto",
+      "capitale": "Qualsiasi importo",
+      "rischio": "alto",
+      "scadenza": null,
+      "aggiunta": "2026-11-16",
+      "aggiornata": "2026-11-16",
+      "novita": "",
+      "requisiti": [
+        "Wallet self-custody con USDC",
+        "Collegare il wallet all'app Maple (syrup.fi) e depositare"
+      ],
+      "termini": [
+        "Rendimento variabile: secondo rwa.xyz circa 6,2% medio negli ultimi 30 giorni e 5% nell'ultimo anno",
+        "Rischio di credito: se i prestiti a istituzioni non vengono restituiti si può perdere capitale",
+        "Rischio smart contract, di ancoraggio della stablecoin e di cambio euro/dollaro",
+        "Il prelievo può richiedere tempo se la liquidità è scarsa"
+      ],
+      "costi": "Commissioni di rete",
+      "referral": null,
+      "link": "https://syrup.fi/",
+      "fonte": "https://app.rwa.xyz/assets/syrupUSDC",
+      "verifica": "media",
+      "note": "Rendimento da aggregatore (rwa.xyz, 16 novembre 2026), dati non sempre concordi: controlla il valore in app.",
+      "profittevole": false,
+      "profitto": "Rende in proporzione al capitale (su 1.000€ circa 45-60€ l'anno) con rischio di credito e tecnico.",
+      "italia": {
+        "stato": "non-regolamentato",
+        "testo": "Servizio DeFi non autorizzato MiCA. L'Italia non è tra i paesi esclusi nella documentazione ufficiale Maple; nessuna garanzia sui depositi."
+      }
     }
   ],
   "esclusi": [
