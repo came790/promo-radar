@@ -1,6 +1,23 @@
 window.PROMO_DATA = {
-  "aggiornato": "2026-11-16",
+  "aggiornato": "2026-11-17",
   "changelog": [
+    {
+      "data": "2026-11-17",
+      "voci": [
+        "Nuova: Webank, buono Amazon da 100€ richiedendo il conto entro l'11 dicembre e spendendo 1.000€ con la carta Numia in due mesi (sito ufficiale). Non profittevole.",
+        "Buddybank: finita il 16 novembre l'offerta da 80€; ora 50€ con codice amico e 10€ di spesa, apertura entro il 20 gennaio 2027 (regolamento UniCredit). Il premio è in denaro.",
+        "Credem Link: corrette le condizioni leggendo il regolamento ufficiale. Il premio è un solo buono Amazon da 200€ con 2 stipendi accreditati oppure un PAC da 50€ al mese; non esistono il buono da 100€ né la soglia di 2.000€ di spese.",
+        "Young Platform: il vecchio bonus di benvenuto è finito; ora 10€ in crediti commissioni con codice amico e 50€ di acquisti (regolamento ufficiale).",
+        "SelfyConto: il prodotto per i 200€ va sottoscritto entro il 30 aprile 2027 (perfezionato entro il 31 maggio). XTB: deposito minimo indicato in 30$; i 7 giorni per depositare non risultano dalle fonti di oggi.",
+        "BPER: aggiunti i canoni dal sito ufficiale (Pro 2€ e Ultra 5€ al mese per 3 mesi). Bitpanda confermata sulla pagina ufficiale (+10€ al traguardo dei 1.000€). Bybit EU: la promo Move Your Funds è finita il 31 luglio.",
+        "xStocks: fino al 4 dicembre punti extra (5-20%) acquistando con il wallet Solflare; tenere xStocks su Kraken non dà punti. Hyperliquid: attenzione ai finti siti di riscatto per una 'Stagione 2'.",
+        "Coinbase: secondo una risposta dell'assistenza la ruota premi sarebbe solo per gli USA; verifica bassa invariata.",
+        "In scadenza nei prossimi 10 giorni: nessuna. Subito dopo: Tinaba, BPER, Credem Link e XTB il 30 novembre, Banco BPM e Webank (canone zero) il 3 dicembre.",
+        "Confermate senza variazioni: BBVA, ING 4% e Codice Amico, Revolut 20€ e risparmio 3,5%, Crédit Agricole, HYPE, Tinaba, Banco BPM, Fineco 100 ordini, Fideuram Direct, Webank 2%, Trade Republic, IBL Banca, bunq, Bitvavo, Robinhood, OKX, Crypto.com, Kraken, airdrop MetaMask, Grass, Base, Hyperliquid, DeFi Sky, Aave, Morpho e Maple.",
+        "Nessuna promo rimossa. Non inserite: airdrop Variational e infiniFi (piattaforme non regolamentate, dati non ufficiali), Extended (programma punti concluso).",
+        "Siti non raggiungibili oggi (BBVA, Crédit Agricole, Revolut, Bitvavo, centro assistenza Coinbase, Mediolanum, buddy UniCredit): verifiche fatte con comparatori e copie dei regolamenti."
+      ]
+    },
     {
       "data": "2026-11-16",
       "voci": [
@@ -444,42 +461,42 @@ window.PROMO_DATA = {
     },
     {
       "id": "buddybank-50",
-      "nome": "Buddybank: 80€ con codice amico",
+      "nome": "Buddybank: 50€ con codice amico",
       "provider": "Buddybank (UniCredit)",
       "categoria": "conto",
-      "valore": "80€ (50€ + 30€ extra)",
-      "valoreStima": 80,
-      "sintesi": "80€ a chi apre il conto con un codice amico entro il 16 novembre e fa una transazione da 10€. 50€ a chi invita.",
+      "valore": "50€",
+      "valoreStima": 50,
+      "sintesi": "50€ a chi apre per la prima volta un conto buddy (o la carta Genius Pay) con un codice amico entro il 20 gennaio 2027 e spende almeno 10€ con la carta. 50€ a chi invita.",
       "facilita": 5,
       "tempo": "15 minuti (solo iPhone/Android con app)",
       "capitale": "10€ di spesa",
       "rischio": "basso",
-      "scadenza": "2026-11-16",
+      "scadenza": "2027-01-20",
       "aggiunta": "2026-10-06",
-      "aggiornata": "2026-11-16",
-      "novita": "Oggi, 16 novembre, è l'ultimo giorno per gli 80€: nessuna proroga trovata. Da domani resta il bonus da 50€ con codice amico, fino al 20 gennaio 2027 (comparatore); vale anche richiedendo la carta Genius Pay.",
+      "aggiornata": "2026-11-17",
+      "novita": "Finita il 16 novembre l'offerta da 80€: ora il premio è di 50€, con apertura entro il 20 gennaio 2027 (regolamento UniCredit). Il premio è un accredito in denaro, non un buono Amazon.",
       "requisiti": [
-        "Scaricare l'app Buddybank e inserire un codice amico in registrazione",
-        "Completare l'apertura del conto entro il 16 novembre 2026",
-        "Fare una o più transazioni per almeno 10€ con la carta entro 30 giorni dall'apertura"
+        "Non avere avuto rapporti con UniCredit dal 1° gennaio 2020",
+        "Aprire per la prima volta dall'app o dal sito buddy un conto Genius buddy (o Genius Care buddy / Genius Care Top buddy) oppure la carta Genius Pay, inserendo un codice invito, entro il 20 gennaio 2027",
+        "Entro 30 giorni dall'apertura fare pagamenti per almeno 10€ in totale con la carta (POS, online, Apple Pay, Google Pay o Samsung Pay)"
       ],
       "termini": [
         "Il codice va inserito in fase di registrazione, dopo non si può più aggiungere",
-        "Il premio è composto da 50€ di bonus base più 30€ aggiuntivi per chi diventa cliente dal 4 settembre al 16 novembre 2026",
-        "Le fonti non concordano sulla forma del premio (accredito sul conto oppure buono Amazon): controlla il regolamento in app",
-        "Dal 17 novembre il bonus torna a 50€: il comparatore indica l'iniziativa base (conto buddy o carta Genius Pay con codice invito) valida fino al 20 gennaio 2027"
+        "I 50€ sono netti (ritenuta del 26% già applicata) e arrivano sul conto o sulla carta entro 90 giorni lavorativi dalla transazione",
+        "Non valgono bonifici, giroconti e ricariche come transazioni",
+        "Esclusi i dipendenti del gruppo UniCredit e la Genius Pay intestata a minorenni"
       ],
       "costi": "Canone 0€, carta di debito digitale gratuita",
       "referral": {
-        "testo": "50€ a te per ogni amico che completa i requisiti, fino a 100 amici (secondo il comparatore).",
+        "testo": "50€ a te per ogni amico che completa i requisiti, fino a 100 amici (5.000€). Il codice è nella sezione 'iniziative e promo' dell'app.",
         "valore": "50€ ad amico"
       },
       "link": "https://www.buddybank.com/",
-      "fonte": "https://www.ponss.it/codice-amico/buddy-unicredit",
-      "verifica": "media",
-      "note": "Sito ufficiale non consultabile (errore 403): importi e date da un sito di codici amico aggiornato al 14 novembre 2026.",
+      "fonte": "https://www.buddy.unicredit.it/wp-content/uploads/2026/04/MGM-buddy-club-100-new.pdf",
+      "verifica": "alta",
+      "note": "Regolamento 'buddy Club 100' prorogato al 20 gennaio 2027 (letto da una copia del PDF ufficiale, l'originale dà errore 403); confermato da ponss.it.",
       "profittevole": true,
-      "profitto": "Spendi 10€ e ricevi 80€, più 50€ per ogni amico invitato.",
+      "profitto": "Spendi 10€ e ricevi 50€, più 50€ per ogni amico invitato.",
       "italia": null
     },
     {
@@ -496,12 +513,12 @@ window.PROMO_DATA = {
       "rischio": "basso",
       "scadenza": "2027-01-08",
       "aggiunta": "2026-10-06",
-      "aggiornata": "2026-11-13",
-      "novita": "Nuova edizione (1 novembre - 31 dicembre 2026): buoni Amazon fino a 250€ al posto del 4% su Time Deposit, ora scaduto.",
+      "aggiornata": "2026-11-17",
+      "novita": "Precisata la data: il prodotto per i 200€ va sottoscritto entro il 30 aprile 2027 e perfezionato entro il 31 maggio 2027.",
       "requisiti": [
         "Essere nuovo cliente e aprire SelfyConto su bancamediolanum.it entro l'8 gennaio 2027",
         "50€: emettere la Mediolanum Card e spendere almeno 50€ entro il 30 aprile 2027",
-        "200€: sottoscrivere entro il 31 maggio 2027 un prodotto di protezione (premio annuo almeno 150€) o di risparmio gestito (versamento iniziale almeno 1.800€)"
+        "200€: sottoscrivere entro il 30 aprile 2027 (e perfezionare entro il 31 maggio 2027) un prodotto di protezione (premio annuo almeno 150€) o di risparmio gestito (versamento iniziale almeno 1.800€)"
       ],
       "termini": [
         "Buoni Amazon.it consegnati entro 6 mesi dalla fine dell'operazione (seconda metà 2027)",
@@ -709,7 +726,7 @@ window.PROMO_DATA = {
       "link": "https://www.coinbase.com/it",
       "fonte": "https://www.finanza.com/finanza-personale/criptovalute/coinbase-bonus-150-euro-bitcoin",
       "verifica": "bassa",
-      "note": "Fonti discordanti: una fonte italiana (18 ottobre 2026) indica la ruota fino a 150€, un altro articolo dello stesso sito 50€ in BTC con primo acquisto da almeno 50€, un comparatore (9 novembre) 10€ con invito e acquisto da 100$. Controlla l'offerta nella pagina Coinbase da cui ti registri.",
+      "note": "Fonti discordanti: una fonte italiana (18 ottobre 2026) indica la ruota fino a 150€, un altro articolo dello stesso sito 50€ in BTC con primo acquisto da almeno 50€, un comparatore (9 novembre) 10€ con invito e acquisto da 100$. Controlla l'offerta nella pagina Coinbase da cui ti registri. Inoltre, secondo una risposta dell'assistenza Coinbase riportata nei risultati di ricerca (data non nota), la ruota premi sarebbe disponibile solo negli USA: in Italia potrebbe non comparire.",
       "profittevole": true,
       "profitto": "Basta un piccolo acquisto per ricevere un premio in Bitcoin; l'importo è casuale (minimo non dichiarato).",
       "italia": {
@@ -719,44 +736,43 @@ window.PROMO_DATA = {
     },
     {
       "id": "young-platform-10",
-      "nome": "Young Platform: 5-10€ in crediti commissioni",
+      "nome": "Young Platform: 10€ in crediti commissioni",
       "provider": "Young Platform",
       "categoria": "crypto",
-      "valore": "5€ o 10€ in crediti",
+      "valore": "10€ in crediti",
       "valoreStima": 0,
-      "sintesi": "Exchange italiano autorizzato. Il bonus di benvenuto è un credito che copre solo le commissioni, non denaro prelevabile.",
+      "sintesi": "Exchange italiano autorizzato. Iscrivendoti con un codice amico e acquistando 50€ di crypto ricevi 10€ in crediti che coprono solo le commissioni.",
       "facilita": 4,
       "tempo": "15 minuti",
       "capitale": "50€ di acquisto crypto",
       "rischio": "medio",
       "scadenza": null,
       "aggiunta": "2026-10-06",
-      "aggiornata": "2026-10-09",
-      "novita": "Chiariti i requisiti dal regolamento ufficiale: serve un primo acquisto di crypto da 50€ e il bonus (5€, oppure 10€ con codice amico o partner) è un credito per le commissioni, non prelevabile.",
+      "aggiornata": "2026-11-17",
+      "novita": "Il vecchio bonus di benvenuto (5€ o 10€) è finito: oggi vale il programma Invita amici, con 10€ in crediti commissioni a chi si iscrive con un codice e acquista almeno 50€.",
       "requisiti": [
-        "Registrarsi con un link o codice invito e completare la verifica dell'identità",
-        "Fare un primo acquisto di criptovalute di almeno 50€ (il solo deposito in euro non basta)",
-        "Riscattare il bonus entro 90 giorni dalla registrazione"
+        "Registrarsi con il codice di un amico e completare la verifica dell'identità",
+        "Acquistare almeno 50€ di criptovalute (anche in più volte)",
+        "Riscattare il bonus entro 90 giorni"
       ],
       "termini": [
-        "Bonus di 5€ con link standard, 10€ con codice amico o di un partner",
-        "Il bonus è un credito utilizzabile solo per pagare le commissioni: non si preleva e non si converte in crypto",
+        "Il bonus è un credito nel Promo Wallet utilizzabile solo per pagare le commissioni: non si preleva",
         "Il credito riscattato scade dopo 180 giorni",
-        "Il regolamento pubblicato riporta come validità il 31 dicembre 2024: controlla in app che il programma sia ancora attivo",
+        "Il bonus di benvenuto senza codice (5€) è terminato il 31 dicembre 2024",
         "Fa da sostituto d'imposta opzionale per i clienti italiani",
         "Rischio di mercato su qualsiasi crypto acquistata"
       ],
       "costi": "Nessun canone; commissioni sulle operazioni",
       "referral": {
-        "testo": "10€ in crediti commissioni a te per ogni amico che si registra con il tuo codice e acquista almeno 50€ di crypto, massimo 10 amici.",
-        "valore": "10€ in crediti ad amico, max 100€"
+        "testo": "10€ in crediti commissioni a te per ogni amico che si registra con il tuo codice e acquista almeno 50€ di crypto, massimo 10 amici (il regolamento non è del tutto chiaro sul limite).",
+        "valore": "10€ in crediti ad amico"
       },
       "link": "https://youngplatform.com/",
-      "fonte": "https://youngplatform.com/legal/program-regulations-welcome-bonus",
-      "verifica": "media",
-      "note": "Validità attuale del programma da confermare in app.",
+      "fonte": "https://youngplatform.com/legal/program-regulations-invite-friends-bonus",
+      "verifica": "alta",
+      "note": "Regolamento Invita amici aggiornato al 9 dicembre 2025, senza data di fine; confermato da promarketer.it (1° novembre 2026).",
       "profittevole": false,
-      "profitto": "Devi comprare 50€ di crypto per ricevere 5-10€ di crediti che valgono solo come sconto sulle commissioni.",
+      "profitto": "Devi comprare 50€ di crypto per ricevere 10€ di crediti che valgono solo come sconto sulle commissioni.",
       "italia": {
         "stato": "autorizzato",
         "testo": "Exchange italiano autorizzato da Consob come CASP ai sensi di MiCA."
@@ -951,7 +967,8 @@ window.PROMO_DATA = {
       "termini": [
         "Il trading con leva può azzerare il capitale in poco tempo",
         "Nessun criterio ufficiale per la prossima distribuzione",
-        "Non adatta a chi inizia e sconsigliata da proporre ad amici e familiari"
+        "Non adatta a chi inizia e sconsigliata da proporre ad amici e familiari",
+        "Attenzione ai finti siti di 'checker' o riscatto per una presunta Stagione 2: non esiste alcun programma ufficiale attivo"
       ],
       "costi": "Commissioni di trading e funding",
       "referral": null,
@@ -1130,8 +1147,8 @@ window.PROMO_DATA = {
     {
       "scadenza": null,
       "aggiunta": "2026-10-06",
-      "aggiornata": "2026-11-16",
-      "novita": "Cambiato il pacchetto di benvenuto: ora fino a 30 USDC di regali (5+5 USDC di sconto commissioni, 20 USDC con 20.000€ di scambi) e bonus sul saldo USDC fino a 100 USDC. Non si trovano più i 100 USDC in crediti.",
+      "aggiornata": "2026-11-17",
+      "novita": "Confermato che la promo 'Move Your Funds' è finita il 31 luglio 2026; gli altri importi sono invariati (fonti ancora discordanti).",
       "note": "Dati da un comparatore aggiornato al 20 ottobre 2026, non confermati su fonte ufficiale: verifica le condizioni in app.",
       "referral": {
         "testo": "Con la Bybit Card: 20 USDC a chi invita e 10 USDC all'amico che richiede la carta e completa le condizioni.",
@@ -1157,7 +1174,7 @@ window.PROMO_DATA = {
         "Regali di benvenuto per account creati dal 16 settembre 2026",
         "I primi 10 USDC sono sconti sulle commissioni spot, non denaro prelevabile",
         "Secondo la fonte gli USDC del bonus sul saldo non sono bloccati e si possono prelevare",
-        "Le fonti non concordano sulla promo 'Move Your Funds' (VIP 1 per 30 giorni): forse terminata",
+        "La promo 'Move Your Funds' (VIP 1 per 30 giorni) è terminata il 31 luglio 2026",
         "Bybit Card: 10€ con ricarica di almeno 100 entro 30 giorni, più cashback del 10% fino a 110€",
         "Rischio di cambio euro/dollaro sugli USDC"
       ],
@@ -1301,9 +1318,9 @@ window.PROMO_DATA = {
     {
       "scadenza": null,
       "aggiunta": "2026-10-06",
-      "aggiornata": "2026-11-16",
-      "novita": "Il programma inviti è confermato sulla pagina ufficiale: 5€ a testa quando l'amico investe 500€, fino a 100€ a testa con 10.000€ di acquisti.",
-      "note": "Dati da una fonte secondaria che cita la pagina Dillo a un amico di Bitpanda (7 novembre 2026); nessun codice promo ufficiale attivo trovato.",
+      "aggiornata": "2026-11-17",
+      "novita": "Confermato sulla pagina ufficiale Dillo a un amico; in più, al traguardo dei 1.000€ di acquisti si aggiungono altri 10€.",
+      "note": "Condizioni lette sulla pagina ufficiale Tell-a-Friend il 17 novembre 2026; nessun codice promo ufficiale attivo.",
       "referral": {
         "testo": "Programma 'Dillo a un amico': fino a 100€ per amico, a scaglioni in base a quanto l'amico acquista in totale (da 500€ a 10.000€).",
         "valore": "fino a 100€ ad amico"
@@ -1326,7 +1343,7 @@ window.PROMO_DATA = {
       ],
       "termini": [
         "Secondo una fonte di novembre 2026 tutte le campagne con codice del 2026 sono finite (l'ultima, BTCBONUS, dal 10 al 31 agosto); HELLOBITPANDA non risulta da fonti ufficiali",
-        "Scaglioni: 5€ in tutto con 500€ di acquisti, fino a 100€ a testa con 10.000€",
+        "Scaglioni (500, 1.000, 2.000, 5.000 e 10.000€ di acquisti): 5€ a testa con 500€, altri 10€ a 1.000€, fino a 100€ a testa con 10.000€; contano solo acquisti di crypto o indici crypto",
         "Solo nuovi clienti: chi ha già avuto un account è escluso",
         "Le crypto acquistate sono tue e puoi rivenderle, ma paghi lo spread e il prezzo può scendere",
         "Bitpanda fa da sostituto d'imposta per i clienti italiani"
@@ -1334,7 +1351,7 @@ window.PROMO_DATA = {
       "costi": "Nessun canone; spread sugli scambi",
       "link": "https://www.bitpanda.com/it",
       "fonte": "https://www.bitpanda.com/it/tell-a-friend",
-      "verifica": "media",
+      "verifica": "alta",
       "profittevole": false,
       "profitto": "Per 5€ devi comprare 500€ di crypto pagando lo spread: il premio è piccolo rispetto alla spesa.",
       "italia": {
@@ -1345,8 +1362,8 @@ window.PROMO_DATA = {
     {
       "scadenza": null,
       "aggiunta": "2026-10-06",
-      "aggiornata": "2026-10-06",
-      "novita": "",
+      "aggiornata": "2026-11-17",
+      "novita": "Fino al 4 dicembre 2026 gli acquisti di xStocks tramite il wallet Solflare danno dal 5% al 20% di punti extra (fonte secondaria); tenere xStocks su Kraken non dà punti (FAQ Kraken).",
       "note": "",
       "referral": null,
       "id": "airdrop-xstocks",
@@ -1366,10 +1383,13 @@ window.PROMO_DATA = {
         "Facoltativo: fornire liquidità o usarle come garanzia (es. Kamino) per accumulare più punti"
       ],
       "termini": [
-        "Campagna annunciata a marzo 2026, senza data di fine comunicata",
+        "Campagna annunciata a marzo 2026, senza data di fine comunicata; nessuna data per il token o lo snapshot",
         "Nessuna regola pubblica su come i punti diventeranno token",
+        "Tenere o scambiare xStocks su Kraken NON fa guadagnare punti: contano solo le attività on-chain (FAQ ufficiale Kraken)",
+        "Bonus Solflare dal 12 ottobre al 4 dicembre 2026: +5% di punti con 100$ di acquisti, +10% con 1.000$, +15% con 5.000$, +20% con 10.000$ (non confermato su fonte ufficiale)",
         "Rischio di mercato azionario e perdita impermanente se fornisci liquidità",
-        "Verifica che il prodotto sia offerto ai residenti UE sulla piattaforma che usi"
+        "Verifica che il prodotto sia offerto ai residenti UE sulla piattaforma che usi",
+        "Esclusi USA e Regno Unito; per l'Italia non risultano esclusioni esplicite"
       ],
       "costi": "Commissioni di rete e di scambio",
       "link": "https://www.criptovaluta.it/170182/airdrop-crypto-2026-due-progetti/",
@@ -1396,8 +1416,8 @@ window.PROMO_DATA = {
       "rischio": "basso",
       "scadenza": "2026-11-30",
       "aggiunta": "2026-10-11",
-      "aggiornata": "2026-10-11",
-      "novita": "",
+      "aggiornata": "2026-11-17",
+      "novita": "Aggiunti i canoni dal sito ufficiale: Pro 2€ al mese per 3 mesi poi 7,30€, Ultra 5€ al mese per 3 mesi poi 10,30€.",
       "requisiti": [
         "Aprire il Conto Online BPER, piano Pro o Ultra, tra il 1° ottobre e il 30 novembre 2026",
         "Richiedere la carta di debito Plus Mastercard",
@@ -1409,11 +1429,11 @@ window.PROMO_DATA = {
         "Alcuni comparatori indicano il piano Light: fa fede il sito BPER, che cita i piani Pro e Ultra",
         "Controlla sul regolamento il canone dei piani Pro e Ultra e le condizioni di permanenza"
       ],
-      "costi": "Canone del piano Pro o Ultra da verificare; secondo i comparatori azzerato per under 35 o con accredito dello stipendio",
+      "costi": "Pro: 2€/mese per 3 mesi poi 7,30€; Ultra: 5€/mese per 3 mesi poi 10,30€ (offerta canoni fino al 31 gennaio 2027). Canone ridotto se hai meno di 35 anni, accrediti lo stipendio o ricevi un bonifico mensile da almeno 1.000€.",
       "referral": null,
       "link": "https://www.bper.it/privati/conti-libretti/conti-bper",
       "fonte": "https://www.bper.it/privati/promozioni-prodotti-bancari",
-      "verifica": "media",
+      "verifica": "alta",
       "note": "Regolamento 2026 non reperito: canone dei piani e vincoli da confermare.",
       "profittevole": false,
       "profitto": "Devi spendere 500€ al mese per ricevere 20€ (4%): 2.500€ di spese per 100€.",
@@ -1421,40 +1441,40 @@ window.PROMO_DATA = {
     },
     {
       "id": "credem-link-200-amazon",
-      "nome": "Credem Link: fino a 200€ in buoni Amazon",
+      "nome": "Credem Link: 200€ in buoni Amazon",
       "provider": "Credem",
       "categoria": "conto",
-      "valore": "100€ o 200€ Amazon",
+      "valore": "200€ Amazon",
       "valoreStima": 200,
-      "sintesi": "Buono Amazon da 100€ con un traguardo o 200€ con due, aprendo Credem Link con il codice PROMOLINK entro il 30 novembre. Traguardi: stipendio accreditato, 2.000€ di spese con carta o PAC da 50€ al mese.",
+      "sintesi": "Buono Amazon da 200€ aprendo Credem Link online con il codice PROMOLINK entro il 30 novembre e accreditando 2 stipendi (o attivando un PAC da 50€ al mese) entro il 31 maggio 2027.",
       "facilita": 3,
       "tempo": "20 minuti + accredito stipendio o PAC",
-      "capitale": "Stipendio accreditato, 2.000€ di spese con carta o PAC da 50€/mese (almeno 2 su 3 per i 200€)",
+      "capitale": "2 accrediti di stipendio, oppure un PAC da almeno 50€ al mese",
       "rischio": "basso",
       "scadenza": "2026-11-30",
       "aggiunta": "2026-11-13",
-      "aggiornata": "2026-11-13",
-      "novita": "Precisate le condizioni: 100€ con un traguardo, 200€ solo con almeno due su tre (stipendio, 2.000€ di spese con carta, PAC da 50€ al mese) entro il 31 maggio 2027.",
+      "aggiornata": "2026-11-17",
+      "novita": "Letto il regolamento ufficiale: il premio è un solo buono da 200€ con almeno una delle due condizioni (2 stipendi accreditati oppure PAC da 50€ al mese). Non esistono il buono da 100€ né la soglia di 2.000€ di spese con carta indicati da un articolo.",
       "requisiti": [
-        "Essere nuovo cliente e aprire online Credem Link, monointestato, entro il 30 novembre 2026 con il codice PROMOLINK",
-        "Entro il 31 maggio 2027 raggiungere almeno uno di questi traguardi: accredito di stipendio o pensione; 2.000€ di acquisti con Credemcard; PAC da almeno 50€ al mese su fondi o SICAV Euromobiliare",
-        "Un traguardo = buono da 100€; due o tre traguardi = buono da 200€"
+        "Essere nuovo cliente e aprire online Credem Link dal 15 ottobre al 30 novembre 2026 con il codice PROMOLINK",
+        "Entro il 31 maggio 2027 avere almeno DUE accrediti di stipendio o pensione, OPPURE un PAC da almeno 50€ al mese su fondi Euromobiliare o sulla SICAV Euromobiliare International Fund ancora attivo al 31 maggio 2027",
+        "Avere ancora il conto aperto al 31 maggio 2027"
       ],
       "termini": [
-        "Premio in buoni regalo Amazon.it, non in denaro",
-        "Esclusi: chi ha o ha chiuso da meno di 18 mesi un conto Credem, chi ha Internet Banking Credem o rapporti con Credem Euromobiliare Private Banking",
+        "Premio in buono regalo Amazon.it, non in denaro",
+        "Il buono arriva per email (da noreply-concorsi@credem.it) entro il 31 luglio 2027 e va scaricato entro 30 giorni",
+        "Esclusi: chi ha o ha chiuso da meno di 18 mesi un conto Credem, chi ha Internet Banking Credem, chi ha o ha avuto (negli ultimi 10 anni) rapporti con Credem Euromobiliare Private Banking, dipendenti e consulenti",
         "Il PAC è un investimento con rischio di mercato",
-        "Non usare i codici delle vecchie edizioni (BONUS200, PROMO200)",
-        "Data di invio del buono non indicata dalle fonti: leggi il regolamento Credem"
+        "Non usare i codici delle vecchie edizioni (BONUS200, PROMO200)"
       ],
       "costi": "Conto a canone zero per i nuovi clienti secondo le fonti; verifica il foglio informativo",
       "referral": null,
       "link": "https://www.credem.it/",
-      "fonte": "https://www.finanzadigitale.com/news/bonus-credem-ottobre-2026/",
-      "verifica": "media",
-      "note": "Condizioni da articolo di stampa finanziaria del 15 ottobre 2026; regolamento ufficiale non consultato. Una fonte cita solo stipendio o PAC senza la soglia di spesa.",
+      "fonte": "https://www.credem.it/content/dam/credem/documenti/Trasparenza/operazioni-a-premio/regolamento-conto-credem-link-ottobre-2026.pdf",
+      "verifica": "alta",
+      "note": "Condizioni dal regolamento ufficiale 'Conto Credem Link Ottobre 2026'.",
       "profittevole": true,
-      "profitto": "Accreditando lo stipendio ricevi 100€ senza spese; per arrivare a 200€ serve un secondo traguardo (2.000€ di spese o un PAC).",
+      "profitto": "Accreditando 2 stipendi ricevi 200€ in buoni Amazon senza spese.",
       "italia": null
     },
     {
@@ -1562,7 +1582,7 @@ window.PROMO_DATA = {
         "2% lordo annuo fino al 31 marzo 2027 sulla giacenza tra 3.000€ e 100.000€",
         "Sotto i 3.000€ la remunerazione non si applica",
         "Interessi tassati al 26%; bollo 34,20€/anno se la giacenza media supera 5.000€",
-        "Nessun bonus in denaro o buono"
+        "Nessun bonus in denaro; il buono Amazon da 100€ è una promo separata (vedi 'Webank: 100€ Amazon')"
       ],
       "costi": "Canone 0€",
       "referral": null,
@@ -1574,31 +1594,70 @@ window.PROMO_DATA = {
       "profitto": "È un tasso sulla giacenza e serve spostare lo stipendio: su 10.000€ circa 45€ netti in 4 mesi e mezzo."
     },
     {
+      "id": "webank-100-amazon",
+      "nome": "Webank: 100€ in buono Amazon",
+      "provider": "Webank (Banco BPM)",
+      "categoria": "conto",
+      "valore": "100€ Amazon",
+      "valoreStima": 100,
+      "sintesi": "Buono Amazon da 100€ a chi richiede il conto Webank entro l'11 dicembre, chiede la carta Numia entro il 18 dicembre e spende 1.000€ con la carta in due mesi.",
+      "facilita": 3,
+      "tempo": "15 minuti con SPID + 2 mesi di spese",
+      "capitale": "1.000€ di spese con carta (500€ + 500€)",
+      "rischio": "basso",
+      "scadenza": "2026-12-11",
+      "aggiunta": "2026-11-17",
+      "aggiornata": "2026-11-17",
+      "novita": "",
+      "requisiti": [
+        "Essere nuovo correntista Webank e richiedere il conto entro l'11 dicembre 2026",
+        "Richiedere la carta Numia debito internazionale entro il 18 dicembre 2026",
+        "Spendere almeno 500€ con la carta (circuito Mastercard) nei 30 giorni dalla richiesta della carta e altri 500€ nei 30 giorni successivi, comunque entro il 16 febbraio 2027"
+      ],
+      "termini": [
+        "Premio in buono regalo Amazon.it, non in denaro",
+        "Non contano i prelievi né le spese su circuiti diversi da Mastercard",
+        "Operazione a premi valida dall'8 ottobre 2026 al 16 febbraio 2027",
+        "Si può combinare con il canone zero e il 2% sulla giacenza se si richiede il conto entro il 3 dicembre (verifica il regolamento)"
+      ],
+      "costi": "Canone 0€ per chi richiede il conto entro il 3 dicembre 2026; verifica il foglio informativo per le richieste successive",
+      "referral": null,
+      "link": "https://www.webank.it/",
+      "fonte": "https://www.webank.it/webankpub/wbresp/t1/conto_webank.do",
+      "verifica": "alta",
+      "note": "Condizioni dalla pagina ufficiale del conto Webank (17 novembre 2026); regolamento completo non letto.",
+      "profittevole": false,
+      "profitto": "Servono 1.000€ di spese con carta in due mesi per 100€ in buoni: utile solo se sposti spese che faresti comunque.",
+      "italia": null
+    },
+    {
       "id": "xtb-azione-enel",
       "nome": "XTB: 1 azione Enel in regalo",
       "provider": "XTB",
       "categoria": "conto",
       "valore": "1 azione Enel",
-      "valoreStima": 8,
-      "sintesi": "Apri un conto di investimento XTB, deposita almeno 30€ entro 7 giorni e ricevi un'azione Enel gratis. Il deposito resta tuo.",
+      "valoreStima": 10,
+      "sintesi": "Apri un conto di investimento XTB con un codice partner, deposita almeno 30$ (circa 30€) e ricevi un'azione Enel gratis. Il deposito resta tuo.",
       "facilita": 4,
       "tempo": "20 minuti",
       "capitale": "30€ di deposito (restano tuoi)",
       "rischio": "basso",
       "scadenza": "2026-11-30",
       "aggiunta": "2026-11-16",
-      "aggiornata": "2026-11-16",
-      "novita": "",
+      "aggiornata": "2026-11-17",
+      "novita": "Precisato il deposito minimo (30$, si consiglia 30€ su conto in euro); la scadenza dei 7 giorni e l'esclusione dei clienti degli ultimi 12 mesi non risultano dalle fonti di oggi.",
       "requisiti": [
-        "Essere maggiorenni e residenti in Italia, senza un conto XTB negli ultimi 12 mesi",
-        "Aprire il conto XTB e accettare i termini della promo nel banner dell'app al primo accesso",
-        "Depositare almeno 30€ entro 7 giorni (168 ore) dall'apertura"
+        "Essere maggiorenni, residenti in Italia e al primo conto XTB",
+        "Registrarsi con un codice partner (es. PROMARKETER) e accettare i termini della promo nel banner dell'app al primo accesso",
+        "Depositare almeno 30$ (consigliato 30€ su conto in euro)"
       ],
       "termini": [
         "Non servono acquisti né volumi di trading",
-        "Il valore dell'azione segue la Borsa e può scendere",
+        "Il valore dell'azione segue la Borsa (circa 9,9€ a metà novembre) e può scendere",
         "La promo può chiudere prima se finiscono le azioni disponibili",
-        "Le fonti la indicano legata a codici partner (es. PROMARKETER): controlla il banner in app prima di depositare"
+        "Il codice va inserito in registrazione, dopo non si può aggiungere",
+        "Tempi per il deposito ed eventuali esclusioni per ex clienti: verificali nel banner in app",
+        "Una fonte indica come scadenza il 31 ottobre 2026: le date non sono concordi"
       ],
       "costi": "Conto 0€; zero commissioni su azioni ed ETF fino a 100.000€ al mese",
       "referral": {
