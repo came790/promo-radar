@@ -5,6 +5,8 @@ window.PROMO_DATA = {
       "data": "2026-11-17",
       "voci": [
         "Nuova: Webank, buono Amazon da 100€ richiedendo il conto entro l'11 dicembre e spendendo 1.000€ con la carta Numia in due mesi (sito ufficiale). Non profittevole.",
+        "Nuova: Satispay, 35€ di credito con il codice ALBA35 per i nuovi utenti che spendono 5€, registrazione entro il 21 dicembre (comparatori concordi, verifica media). Profittevole.",
+        "Nuova: eToro, bonus in azioni o crypto da 40$ a 500$ in base al primo deposito (da 500$), da tenere sul conto 90 giorni (regolamento ufficiale, eToro autorizzata MiCA). Non profittevole.",
         "Buddybank: finita il 16 novembre l'offerta da 80€; ora 50€ con codice amico e 10€ di spesa, apertura entro il 20 gennaio 2027 (regolamento UniCredit). Il premio è in denaro.",
         "Credem Link: corrette le condizioni leggendo il regolamento ufficiale. Il premio è un solo buono Amazon da 200€ con 2 stipendi accreditati oppure un PAC da 50€ al mese; non esistono il buono da 100€ né la soglia di 2.000€ di spese.",
         "Young Platform: il vecchio bonus di benvenuto è finito; ora 10€ in crediti commissioni con codice amico e 50€ di acquisti (regolamento ufficiale).",
@@ -14,7 +16,7 @@ window.PROMO_DATA = {
         "Coinbase: secondo una risposta dell'assistenza la ruota premi sarebbe solo per gli USA; verifica bassa invariata.",
         "In scadenza nei prossimi 10 giorni: nessuna. Subito dopo: Tinaba, BPER, Credem Link e XTB il 30 novembre, Banco BPM e Webank (canone zero) il 3 dicembre.",
         "Confermate senza variazioni: BBVA, ING 4% e Codice Amico, Revolut 20€ e risparmio 3,5%, Crédit Agricole, HYPE, Tinaba, Banco BPM, Fineco 100 ordini, Fideuram Direct, Webank 2%, Trade Republic, IBL Banca, bunq, Bitvavo, Robinhood, OKX, Crypto.com, Kraken, airdrop MetaMask, Grass, Base, Hyperliquid, DeFi Sky, Aave, Morpho e Maple.",
-        "Nessuna promo rimossa. Non inserite: airdrop Variational e infiniFi (piattaforme non regolamentate, dati non ufficiali), Extended (programma punti concluso).",
+        "Nessuna promo rimossa. Non inserite: airdrop Variational e infiniFi (piattaforme non regolamentate, dati non ufficiali), Extended (programma punti concluso), Deutsche Bank conto al 3% (fonti discordanti sulla scadenza), Satispay Spend & Invest (costo dell'abbonamento non verificato), Credem Presentaci un amico (solo una fonte).",
         "Siti non raggiungibili oggi (BBVA, Crédit Agricole, Revolut, Bitvavo, centro assistenza Coinbase, Mediolanum, buddy UniCredit): verifiche fatte con comparatori e copie dei regolamenti."
       ]
     },
@@ -1360,6 +1362,47 @@ window.PROMO_DATA = {
       }
     },
     {
+      "id": "etoro-benvenuto",
+      "nome": "eToro: bonus di benvenuto a scaglioni",
+      "provider": "eToro",
+      "categoria": "crypto",
+      "valore": "da 40$ a 500$ in azioni o crypto",
+      "valoreStima": 40,
+      "sintesi": "Bonus in azioni o crypto in base al primo deposito: 40$ con 500-999$, 100$ con 1.000-4.999$, 300$ con 5.000-9.999$, 500$ da 10.000$. Il deposito va tenuto sul conto 90 giorni.",
+      "facilita": 3,
+      "tempo": "20 minuti + 90 giorni di vincolo",
+      "capitale": "Almeno 500$ di primo deposito, bloccato 90 giorni",
+      "rischio": "medio",
+      "scadenza": null,
+      "aggiunta": "2026-11-17",
+      "aggiornata": "2026-11-17",
+      "novita": "",
+      "requisiti": [
+        "Aprire un nuovo conto eToro (nessun conto chiuso negli ultimi 30 giorni) e completare la verifica",
+        "Indicare come interesse solo azioni o crypto",
+        "Fare un primo deposito di almeno 500$ e lasciarlo sul conto per almeno 90 giorni"
+      ],
+      "termini": [
+        "Conta solo il primo deposito: 40$ (500-999$), 100$ (1.000-4.999$), 300$ (5.000-9.999$), 500$ (da 10.000$)",
+        "Il bonus arriva in azioni o crypto scelte tra quelle proposte, al netto delle commissioni eToro",
+        "Promo iniziata il 13 novembre 2025, senza data di fine: eToro può chiuderla in qualsiasi momento",
+        "Italia inclusa tra i Paesi ammessi (Appendice A del regolamento)",
+        "Rischio di mercato sugli strumenti ricevuti e sul capitale investito"
+      ],
+      "costi": "Nessun canone; commissioni su acquisto e vendita, costo di conversione per i depositi in euro",
+      "referral": null,
+      "link": "https://www.etoro.com/it/",
+      "fonte": "https://etoro-cdn.etorostatic.com/studio/content/lp/cache_1/etoro-lps/deposit/Tiered-Airdrop-T%26Cs.pdf",
+      "verifica": "alta",
+      "note": "Regolamento ufficiale aggiornato al 13 novembre 2025; promo citata anche da finanzadigitale.com (5 novembre 2026).",
+      "profittevole": false,
+      "profitto": "Il bonus vale circa l'8% del deposito, ma devi bloccare almeno 500$ per 90 giorni e ricevi strumenti che possono perdere valore.",
+      "italia": {
+        "stato": "autorizzato",
+        "testo": "eToro (Europe) Ltd è autorizzata MiCA a Cipro (CySEC) e può offrire servizi crypto in tutta la UE, Italia compresa."
+      }
+    },
+    {
       "scadenza": null,
       "aggiunta": "2026-10-06",
       "aggiornata": "2026-11-17",
@@ -1628,6 +1671,43 @@ window.PROMO_DATA = {
       "note": "Condizioni dalla pagina ufficiale del conto Webank (17 novembre 2026); regolamento completo non letto.",
       "profittevole": false,
       "profitto": "Servono 1.000€ di spese con carta in due mesi per 100€ in buoni: utile solo se sposti spese che faresti comunque.",
+      "italia": null
+    },
+    {
+      "id": "satispay-35",
+      "nome": "Satispay: 35€ di benvenuto con codice",
+      "provider": "Satispay",
+      "categoria": "conto",
+      "valore": "35€ di credito in app",
+      "valoreStima": 35,
+      "sintesi": "35€ di credito Satispay ai nuovi utenti che si registrano con il codice ALBA35 entro il 21 dicembre, impostano il Budget e spendono almeno 5€ in un negozio convenzionato.",
+      "facilita": 5,
+      "tempo": "10 minuti",
+      "capitale": "5€ di spesa",
+      "rischio": "basso",
+      "scadenza": "2026-12-21",
+      "aggiunta": "2026-11-17",
+      "aggiornata": "2026-11-17",
+      "novita": "",
+      "requisiti": [
+        "Non essere mai stato registrato su Satispay",
+        "Inserire il codice ALBA35 durante la registrazione (dopo non si può aggiungere) e completarla entro 2 giorni",
+        "Impostare il Budget nell'app e spendere almeno 5€ in negozi convenzionati (fisici o online) entro 30 giorni"
+      ],
+      "termini": [
+        "Il bonus è credito da spendere nei negozi Satispay: non si trasferisce sul conto né si invia ad altri utenti",
+        "Non contano ricariche telefoniche, bollettini, PagoPA, gift card, invii ad amici e investimenti",
+        "Codice valido fino al 21 dicembre 2026 secondo le fonti; il programma Welcome ufficiale vale fino al 31 dicembre 2026",
+        "Importo e codice non sono riportati sulla pagina ufficiale: controlla in app prima di registrarti"
+      ],
+      "costi": "App e conto gratuiti nel piano base",
+      "referral": null,
+      "link": "https://satispay.com/it-it/",
+      "fonte": "https://www.tuttoandroid.net/news/2026/09/23/satispay-bonus-35-euro-autunno-2026-1173455/",
+      "verifica": "media",
+      "note": "Codice e importo da articoli di siti tecnologici e comparatori (settembre-ottobre 2026), concordi; regolamento ufficiale del programma Welcome: https://satispay.com/en-it/legal-hub/programs/welcome-bonus/",
+      "profittevole": true,
+      "profitto": "Spendi 5€ e ricevi 35€ di credito da usare nei negozi che accettano Satispay.",
       "italia": null
     },
     {
