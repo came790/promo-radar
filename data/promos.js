@@ -1,6 +1,18 @@
 window.PROMO_DATA = {
-  "aggiornato": "2026-11-17",
+  "aggiornato": "2026-11-18",
   "changelog": [
+    {
+      "data": "2026-11-18",
+      "voci": [
+        "Nuova: Conto BancoPosta, canone azzerato per 12 mesi con il codice PROMOCONTO aprendo online entro il 21 dicembre (sito ufficiale Poste). Non profittevole: è solo un risparmio sul canone.",
+        "Crédit Agricole: precisati i dettagli da comparatori e stampa. Invita un amico vale per massimo 5 amici (50€ più altri 50€ se l'amico accredita lo stipendio); il 4% per 4 mesi sul conto deposito richiede almeno 5.000€ vincolati; scaglioni spese 50€/100€/150€ da 1.000€/2.000€/3.000€.",
+        "Revolut: oltre ai 20€ di benvenuto (fino al 31 dicembre) è attivo fino al 9 dicembre un concorso con 3 buoni Amazon da 800€ (a estrazione, quindi non inserito come promo).",
+        "In scadenza nei prossimi 10 giorni: nessuna. Subito dopo: Tinaba, BPER, Credem Link e XTB il 30 novembre, Banco BPM e Webank (canone zero e 2%) il 3 dicembre, punti extra xStocks con Solflare il 4 dicembre.",
+        "Confermate senza variazioni: BBVA, ING 4% e Codice Amico, Revolut 20€ e risparmio 3,5%, HYPE, Tinaba, Banco BPM, Buddybank, SelfyConto, Fineco 100 ordini, BPER, Credem Link, Fideuram Direct, Webank 2% e 100€ Amazon, Satispay, XTB, Trade Republic, IBL Banca, bunq, Coinbase, Young Platform, Bitvavo, Robinhood, Bybit EU, OKX, Crypto.com, Kraken, Bitpanda, eToro, airdrop MetaMask, Grass, Base, Hyperliquid, xStocks, DeFi Sky, Aave, Morpho e Maple.",
+        "Nessuna promo rimossa. Non inserite: Deutsche Bank conto al 3% (fonti ancora discordanti), Credem Presentaci un amico (regolamento ufficiale non trovato), Trading 212 (promo finita il 3 novembre), DEGIRO e Freedom24 (date discordanti), Bit2Me e Deblock (importi o stato MiCA non verificati), Robinhood 5% sui depositi (esclusa l'Italia).",
+        "Siti non raggiungibili oggi (BBVA, Crédit Agricole, Revolut, sostariffe, facile.it, buddy UniCredit, Tinaba): verifiche fatte con comparatori e regolamenti."
+      ]
+    },
     {
       "data": "2026-11-17",
       "voci": [
@@ -315,32 +327,32 @@ window.PROMO_DATA = {
       "rischio": "basso",
       "scadenza": "2027-01-12",
       "aggiunta": "2026-10-06",
-      "aggiornata": "2026-11-14",
-      "novita": "Precisati i requisiti grazie a un comparatore: 50€ con codice VISA e una spesa entro 60 giorni, fino a 150€ con spese tra 1.000€ e 3.000€, 100€ con stipendio entro il 14 marzo 2027. Canone gratuito solo per richieste entro il 30 novembre.",
+      "aggiornata": "2026-11-18",
+      "novita": "Precisati i dettagli: invita un amico vale fino a 5 amici (50€ più altri 50€ se l'amico accredita lo stipendio) e il 4% sul conto deposito richiede almeno 5.000€ vincolati.",
       "requisiti": [
         "Aprire il conto online da nuovo cliente entro il 12 gennaio 2027",
         "50€: welcome bonus con codice VISA e una transazione con carta entro 60 giorni",
         "100€: accredito di stipendio o pensione entro il 14 marzo 2027",
-        "Fino a 150€: spese con carta tra 1.000€ e 3.000€ nei primi 60 giorni",
-        "Fino a 500€: 50€ per ogni amico che apre il conto"
+        "Fino a 150€: spese con carta nei primi 60 giorni (50€ da 1.000€, 100€ da 2.000€, 150€ da 3.000€)",
+        "Fino a 500€: 50€ per ogni amico che apre il conto più altri 50€ se l'amico accredita lo stipendio, massimo 5 amici"
       ],
       "termini": [
         "Premi in buoni regalo Amazon, non in denaro",
         "Solo nuovi clienti",
         "Il canone gratuito vale per le richieste di apertura entro il 30 novembre 2026",
-        "Interessi 4% lordo annuo per i primi 4 mesi dall'apertura; limiti di importo non indicati dalla fonte",
+        "Interessi 4% lordo annuo per i primi 4 mesi sul conto deposito con almeno 5.000€ vincolati; la banca può interrompere l'offerta prima",
         "Carta di debito gratuita per 2 anni, poi 2€/mese; carta di credito 49,99€/anno",
-        "Una fonte indica un massimo di 5 inviti (250€) invece di 10: controlla il regolamento"
+        "Oltre a VISA, un comparatore indica anche i codici UNIBOXCA2025 e WIZBII"
       ],
       "costi": "Canone conto 0€; carta di debito gratis 2 anni, poi 2€/mese",
       "referral": {
-        "testo": "50€ in buoni Amazon per ogni amico che apre il conto (fino a 500€ in totale secondo la fonte).",
-        "valore": "50€ ad amico"
+        "testo": "50€ in buoni Amazon per ogni amico che apre il conto, più altri 50€ se l'amico accredita lo stipendio; massimo 5 amici (500€).",
+        "valore": "50-100€ ad amico, max 500€"
       },
       "link": "https://www.credit-agricole.it/",
-      "fonte": "https://www.qualebanca.com/guide/conti/promozioni-conti-correnti",
+      "fonte": "https://www.pagamentidigitali.it/?p=36264",
       "verifica": "media",
-      "note": "Dati da comparatore (verificato il 6 novembre 2026) e articoli di stampa; il sito ufficiale non mostrava i dettagli. Controlla il regolamento prima di aprire.",
+      "note": "Dati da comparatori e stampa (qualebanca, pagamentidigitali.it del 5 novembre 2026); il sito ufficiale non era raggiungibile. Controlla il regolamento prima di aprire.",
       "profittevole": true,
       "profitto": "50€ con il benvenuto e altri 100€ con lo stipendio senza spese obbligatorie; gli scaglioni sulle spese da soli non convengono.",
       "italia": null
@@ -1790,6 +1802,43 @@ window.PROMO_DATA = {
         "stato": "non-regolamentato",
         "testo": "Servizio DeFi non autorizzato MiCA. L'Italia non è tra i paesi esclusi nella documentazione ufficiale Maple; nessuna garanzia sui depositi."
       }
+    },
+    {
+      "id": "bancoposta-promoconto",
+      "nome": "Conto BancoPosta: canone azzerato per 12 mesi con codice PROMOCONTO",
+      "provider": "Poste Italiane (BancoPosta)",
+      "categoria": "conto",
+      "valore": "Canone a 0€ per 12 mesi (tramite cashback)",
+      "valoreStima": 0,
+      "sintesi": "Apri online il Conto BancoPosta (Start Giovani, Start o Medium) con il codice PROMOCONTO: per i primi 12 mesi il canone ti viene restituito con un cashback.",
+      "facilita": 4,
+      "tempo": "circa 15 minuti",
+      "capitale": "0€",
+      "rischio": "basso",
+      "scadenza": "2026-12-21",
+      "aggiunta": "2026-11-18",
+      "aggiornata": "2026-11-18",
+      "novita": "",
+      "requisiti": [
+        "Essere nuovo correntista (non avere già un Conto BancoPosta)",
+        "Aprire il conto online (app Poste Italiane o poste.it, più veloce con SPID) entro il 21 dicembre 2026",
+        "Scegliere l'opzione Start Giovani (under 30), Start o Medium; l'opzione Plus è esclusa",
+        "Inserire il codice PROMOCONTO"
+      ],
+      "termini": [
+        "Il canone dei primi 12 mesi viene restituito con un cashback",
+        "Dal 13° al 24° mese il canone è azzerato solo nei mesi con almeno 600€ in entrata (stipendio, pensione, bonifico o Postagiro) oppure con giacenza media di almeno 5.000€",
+        "Regolamento completo collegato dalla pagina ufficiale"
+      ],
+      "costi": "Dal 13° mese canone pieno (2€ Start Giovani, 7€ Start, 8€ Medium al mese) se non si rispettano le condizioni per azzerarlo",
+      "referral": null,
+      "link": "https://www.poste.it/prodotti/conto-corrente-bancoposta.html",
+      "fonte": "https://www.poste.it/prodotti/conto-corrente-bancoposta.html",
+      "verifica": "alta",
+      "note": "Non è un premio in denaro: si risparmia solo il canone del primo anno.",
+      "profittevole": false,
+      "profitto": "Non si guadagna nulla: si evita solo il canone del primo anno, poi il conto torna a pagamento se non si rispettano le condizioni.",
+      "italia": null
     }
   ],
   "esclusi": [
