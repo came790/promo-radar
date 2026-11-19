@@ -1,6 +1,21 @@
 window.PROMO_DATA = {
-  "aggiornato": "2026-11-18",
+  "aggiornato": "2026-11-19",
   "changelog": [
+    {
+      "data": "2026-11-19",
+      "voci": [
+        "Nuova: Findomestic Conto Smile, buono Amazon da 150€ richiedendo il conto entro l'11 gennaio 2027 e accreditando lo stipendio o almeno 500€ al mese per 3 mesi (sito ufficiale). Profittevole.",
+        "Nuova: Findomestic Conto Deposito, 3% lordo sulle nuove somme non vincolate fino al 30 dicembre 2026 (sito ufficiale). Non profittevole.",
+        "Nuova: OKX Europe Deposit Bonus, 2% sui depositi di crypto fatti dal 10 novembre al 10 dicembre 2026 (max 850€ in USDC), da tenere sul conto fino all'11 marzo 2027 (pagina ufficiale, Italia ammessa). Non profittevole.",
+        "Morpho: rendimenti dei vault USDC principali saliti a circa 4-5% (prima 4-4,5%).",
+        "Fineco: precisato che i 100 ordini gratis vanno usati entro 30 giorni dall'apertura e su quali mercati valgono (comparatori).",
+        "Precisazioni nelle note: bunq (la pagina ufficiale indica anche un tasso base 1,51% oltre i 10.000€, testo non coerente), Maple (rendimento attuale circa 4,5-5,3%), nuovo indirizzo della fonte MetaMask.",
+        "In scadenza nei prossimi 10 giorni: nessuna. Subito dopo: Tinaba, BPER, Credem Link e XTB il 30 novembre, Banco BPM e Webank (canone zero e 2%) il 3 dicembre, punti extra xStocks con Solflare il 4 dicembre.",
+        "Confermate senza variazioni: BBVA, ING 4% e Codice Amico, Revolut 20€ e risparmio 3,5%, Crédit Agricole, HYPE, Tinaba, Banco BPM, Buddybank, SelfyConto, BPER, Credem Link, Fideuram Direct, Webank 2% e 100€ Amazon, Satispay, XTB, BancoPosta, Trade Republic, IBL Banca, bunq, Coinbase, Young Platform, Bitvavo, Robinhood, Bybit EU, OKX benvenuto, Crypto.com, Kraken, Bitpanda, eToro, airdrop MetaMask, Grass, Base, Hyperliquid, xStocks, DeFi Sky, Aave e Maple.",
+        "Nessuna promo rimossa. Non inserite: illimity Conto Premium 2% (manca una scadenza per l'apertura e dopo dicembre costa 7€ al mese), Banca Ifis Rendimax 4% (tassi indicati 'in attesa di approvazione'), concorso isybank e Mastercard (a estrazione, chiude il 23 novembre), Deutsche Bank 3% e Credem Presentaci un amico (ancora senza regolamento ufficiale), Robinhood 5% sui depositi crypto (esclusa l'Italia).",
+        "Siti non raggiungibili oggi (BBVA, Crédit Agricole, Revolut, pagine Bitvavo, rwa.xyz, regolamento PDF Findomestic): verifiche fatte con comparatori, aggregatori e regolamenti."
+      ]
+    },
     {
       "data": "2026-11-18",
       "voci": [
@@ -567,21 +582,22 @@ window.PROMO_DATA = {
       "rischio": "basso",
       "scadenza": "2026-12-31",
       "aggiunta": "2026-10-06",
-      "aggiornata": "2026-10-06",
-      "novita": "",
+      "aggiornata": "2026-11-19",
+      "novita": "Precisato dai comparatori: gli ordini gratis vanno usati entro 30 giorni dall'apertura e valgono solo su azioni, ETF e obbligazioni italiane e azioni USA e tedesche.",
       "requisiti": [
         "Aprire il conto Fineco entro il 31 dicembre 2026 inserendo il codice OM100QB",
-        "Usare gli ordini gratuiti entro il periodo indicato nel regolamento"
+        "Usare i 100 ordini gratuiti entro 30 giorni dall'apertura del conto"
       ],
       "termini": [
         "Non è un bonus in denaro: vale quanto le commissioni che risparmi",
-        "Il codice è legato al sito comparatore che lo pubblica",
+        "Valgono azioni, ETF e obbligazioni italiane, azioni USA e tedesche; esclusi fondi, PAC, derivati, certificati e CFD",
+        "Il codice è legato al sito comparatore che lo pubblica (altri comparatori usano codici diversi, stessa scadenza)",
         "Solo nuovi clienti"
       ],
       "costi": "Canone 0€ (Fineco One)",
       "referral": null,
       "link": "https://finecobank.com/",
-      "fonte": "https://www.qualebanca.com/guide/conti/promozioni-conti-correnti",
+      "fonte": "https://www.qualebroker.com/blog/novita/promozione-fineco",
       "verifica": "media",
       "note": "",
       "profittevole": false,
@@ -699,7 +715,7 @@ window.PROMO_DATA = {
       "link": "https://www.bunq.com/it-it",
       "fonte": "https://www.bunq.com/it-it/savings",
       "verifica": "alta",
-      "note": "Tassi letti sulla pagina ufficiale bunq il 13 novembre 2026 (aumento comunicato a metà ottobre).",
+      "note": "Tassi confermati sulla pagina ufficiale bunq il 19 novembre 2026. La nota legale della stessa pagina indica il tasso base 1,61% sui primi 10.000€ e 1,51% oltre: la pagina non è del tutto coerente, controlla in app.",
       "profittevole": false,
       "profitto": "Su 1.000€ sono circa 23€ netti l'anno, il tasso pieno vale solo sui nuovi risparmi e devi dichiarare il conto estero.",
       "italia": null
@@ -864,7 +880,7 @@ window.PROMO_DATA = {
       "costi": "Commissioni di rete e di swap",
       "referral": null,
       "link": "https://metamask.io/",
-      "fonte": "https://support.metamask.io/trade/metamask-rewards/what-is-metamask-rewards/",
+      "fonte": "https://support.metamask.com/trade/metamask-rewards/what-is-metamask-rewards/",
       "verifica": "alta",
       "note": "Non vale la pena fare operazioni solo per un possibile airdrop: al momento non è previsto.",
       "profittevole": false,
@@ -1080,7 +1096,7 @@ window.PROMO_DATA = {
       "nome": "Morpho: vault USDC curati",
       "provider": "Morpho",
       "categoria": "defi",
-      "valore": "circa 4-4,5% annuo variabile",
+      "valore": "circa 4-5% annuo variabile",
       "valoreStima": 0,
       "sintesi": "Vault gestiti da curatori professionali. In questo periodo rendono quanto o poco più di Aave, con un rischio in più legato alle scelte del curatore.",
       "facilita": 3,
@@ -1089,8 +1105,8 @@ window.PROMO_DATA = {
       "rischio": "medio",
       "scadenza": null,
       "aggiunta": "2026-10-06",
-      "aggiornata": "2026-11-14",
-      "novita": "Rendimenti dei vault principali in lieve salita: ora circa 4-4,5% (prima 3,4-4,5%).",
+      "aggiornata": "2026-11-19",
+      "novita": "Rendimenti dei vault principali in lieve salita: ora circa 4,1-4,9% (media 30 giorni fino al 5,2%), prima 4-4,5%.",
       "requisiti": [
         "Wallet con USDC (Base o Ethereum)",
         "Scegliere un vault USDC di un curatore noto con molta liquidità",
@@ -1106,9 +1122,9 @@ window.PROMO_DATA = {
       "link": "https://app.morpho.org/",
       "fonte": "https://eco.com/support/en/articles/15253991-best-usdc-yield-platforms-2026-aave-morpho-sky-compared",
       "verifica": "media",
-      "note": "Tassi rilevati il 14 novembre 2026 su DefiLlama per i vault Steakhouse, Gauntlet e Spark (Base ed Ethereum). Vault con rendimenti molto più alti accettano garanzie più rischiose.",
+      "note": "Tassi rilevati il 19 novembre 2026 su DefiLlama per i vault Steakhouse, Gauntlet e Spark (Base ed Ethereum). Vault con rendimenti molto più alti accettano garanzie più rischiose.",
       "profittevole": false,
-      "profitto": "Rende in proporzione al capitale: su 1.000€ circa 40-45€ l'anno, con rischio tecnico e di cambio euro/dollaro.",
+      "profitto": "Rende in proporzione al capitale: su 1.000€ circa 40-50€ l'anno, con rischio tecnico e di cambio euro/dollaro.",
       "italia": {
         "stato": "non-regolamentato",
         "testo": "Protocollo DeFi non custodial, accessibile dall'Italia con un wallet. Nessuna autorità lo vigila e non esistono garanzie sui depositi."
@@ -1785,7 +1801,7 @@ window.PROMO_DATA = {
         "Collegare il wallet all'app Maple (syrup.fi) e depositare"
       ],
       "termini": [
-        "Rendimento variabile: secondo rwa.xyz circa 6,2% medio negli ultimi 30 giorni e 5% nell'ultimo anno",
+        "Rendimento variabile: a novembre 2026 circa 4,5-5,3% (dashboard Syrup e Aavescan); in passato anche oltre il 6%",
         "Rischio di credito: se i prestiti a istituzioni non vengono restituiti si può perdere capitale",
         "Rischio smart contract, di ancoraggio della stablecoin e di cambio euro/dollaro",
         "Il prelievo può richiedere tempo se la liquidità è scarsa"
@@ -1795,7 +1811,7 @@ window.PROMO_DATA = {
       "link": "https://syrup.fi/",
       "fonte": "https://app.rwa.xyz/assets/syrupUSDC",
       "verifica": "media",
-      "note": "Rendimento da aggregatore (rwa.xyz, 16 novembre 2026), dati non sempre concordi: controlla il valore in app.",
+      "note": "Rendimento da aggregatori (Aavescan e dashboard Syrup, 13-19 novembre 2026), dati non sempre concordi: controlla il valore in app.",
       "profittevole": false,
       "profitto": "Rende in proporzione al capitale (su 1.000€ circa 45-60€ l'anno) con rischio di credito e tecnico.",
       "italia": {
@@ -1839,6 +1855,121 @@ window.PROMO_DATA = {
       "profittevole": false,
       "profitto": "Non si guadagna nulla: si evita solo il canone del primo anno, poi il conto torna a pagamento se non si rispettano le condizioni.",
       "italia": null
+    },
+    {
+      "id": "findomestic-150-amazon",
+      "nome": "Findomestic Conto Smile: 150€ in buono Amazon",
+      "provider": "Findomestic",
+      "categoria": "conto",
+      "valore": "150€ Amazon",
+      "valoreStima": 150,
+      "sintesi": "Apri il Conto Corrente Smile (canone zero) e per 3 mesi di fila accredita lo stipendio o almeno 500€ al mese: ricevi un buono Amazon da 150€.",
+      "facilita": 3,
+      "tempo": "20 minuti + 3 mesi di accrediti",
+      "capitale": "500€ al mese per 3 mesi (restano tuoi)",
+      "rischio": "basso",
+      "scadenza": "2027-01-11",
+      "aggiunta": "2026-11-19",
+      "aggiornata": "2026-11-19",
+      "novita": "",
+      "requisiti": [
+        "Richiedere il Conto Corrente Smile tra il 5 ottobre 2026 e l'11 gennaio 2027 e completare l'apertura entro il 29 gennaio 2027",
+        "Per 3 mesi consecutivi accreditare lo stipendio/pensione oppure versare almeno 500€ al mese (anche con più bonifici), entro il 30 aprile 2027",
+        "Richiedere il buono nell'app, sezione Findomestic Club, dal 10 maggio al 10 giugno 2027"
+      ],
+      "termini": [
+        "Il buono arriva solo a maggio-giugno 2027 e va richiesto in app entro il 10 giugno 2027: se te ne dimentichi lo perdi",
+        "Serve residenza in Italia; apertura soggetta ad approvazione di Findomestic",
+        "Chi conta come 'nuovo cliente' è scritto nel regolamento PDF, che oggi non era leggibile: controllalo prima di aprire",
+        "Canone 0€; bonifici 0,50€; prelievi da altre banche 1,50€; imposta di bollo a carico della banca fino al 31 dicembre 2026"
+      ],
+      "costi": "Canone 0€; bonifici e bonifici istantanei 0,50€",
+      "referral": null,
+      "link": "https://www.findomestic.it/conto-corrente.shtml",
+      "fonte": "https://www.findomestic.it/conto-corrente.shtml",
+      "verifica": "alta",
+      "note": "Promo 'Conto Corrente Smile ti premia 3.0', valida fino al 30 aprile 2027. Regolamento: https://secure.findomestic.it/documenti/trasparenza/ccsmiletipremia3.pdf",
+      "profittevole": true,
+      "profitto": "150€ senza spese obbligatorie: basta far passare 500€ al mese per 3 mesi su un conto a canone zero (solo pochi euro di bonifici).",
+      "italia": null
+    },
+    {
+      "id": "findomestic-deposito-3",
+      "nome": "Findomestic Conto Deposito: 3% sulle nuove somme",
+      "provider": "Findomestic",
+      "categoria": "liquidita",
+      "valore": "3% lordo fino al 30 dicembre 2026",
+      "valoreStima": 0,
+      "sintesi": "Conto deposito libero (non vincolato) che paga il 3% lordo sulle somme nuove fino al 30 dicembre 2026, poi un tasso legato all'Euribor.",
+      "facilita": 4,
+      "tempo": "20 minuti",
+      "capitale": "Da 100€ a 500.000€",
+      "rischio": "basso",
+      "scadenza": "2026-12-30",
+      "aggiunta": "2026-11-19",
+      "aggiornata": "2026-11-19",
+      "novita": "",
+      "requisiti": [
+        "Aprire il Conto Deposito Findomestic o versare nuove somme tra il 6 ottobre e il 30 dicembre 2026",
+        "Per chi è già cliente vale solo la liquidità in più rispetto a quella che aveva in Findomestic il 5 ottobre 2026"
+      ],
+      "termini": [
+        "3% = 2% di tasso base + 1% promozionale, fino al 30 dicembre 2026; poi tasso indicizzato all'Euribor 6 mesi",
+        "Somme non vincolate: si possono spostare in ogni momento senza penali",
+        "Imposta di bollo 0,20% l'anno a carico del cliente; interessi tassati al 26%",
+        "Interessi pagati il 30 giugno e il 31 dicembre"
+      ],
+      "costi": "Nessun canone; imposta di bollo 0,20% annuo",
+      "referral": null,
+      "link": "https://www.findomestic.it/conto-deposito.shtml",
+      "fonte": "https://www.findomestic.it/conto-deposito.shtml",
+      "verifica": "alta",
+      "note": "Il 3% dura poche settimane: su 10.000€ fino a fine dicembre sono circa 30-40€ lordi, meno bollo e tasse.",
+      "profittevole": false,
+      "profitto": "Rende in proporzione al capitale e solo per poche settimane: guadagno piccolo rispetto alla somma da depositare.",
+      "italia": null
+    },
+    {
+      "id": "okx-deposit-match",
+      "nome": "OKX Europe: 2% sui depositi di crypto (Deposit Bonus)",
+      "provider": "OKX",
+      "categoria": "crypto",
+      "valore": "2% del deposito netto (max 850€ in USDC)",
+      "valoreStima": 0,
+      "sintesi": "Iscriviti alla campagna e deposita crypto sul conto OKX: ricevi il 2% del deposito netto in USDC, pagato in 7 rate fino all'11 marzo 2027 se lasci il saldo sul conto.",
+      "facilita": 3,
+      "tempo": "30 minuti + saldo da tenere fino a marzo 2027",
+      "capitale": "Da 10€ in crypto (premio pieno con 42.500€)",
+      "rischio": "medio",
+      "scadenza": "2026-12-10",
+      "aggiunta": "2026-11-19",
+      "aggiornata": "2026-11-19",
+      "novita": "",
+      "requisiti": [
+        "Verifica identità avanzata (KYC) su OKX Europe",
+        "Iscriversi alla campagna dalla pagina ufficiale PRIMA di depositare",
+        "Depositare crypto tramite blockchain (on-chain) tra il 10 novembre e il 10 dicembre 2026",
+        "Tenere il deposito netto sul conto principale fino all'ultimo pagamento dell'11 marzo 2027"
+      ],
+      "termini": [
+        "Premio fisso del 2% (pubblicizzato come '8% APR' perché calcolato su circa 3 mesi), massimo 850€ in USDC",
+        "Non valgono euro, bonifici SEPA, carte, Apple/Google Pay e trasferimenti interni",
+        "Pagato in 7 rate dal 17 dicembre 2026 all'11 marzo 2027: se prelevi, le rate successive si riducono",
+        "Chi partecipa ad altre campagne Deposit Bonus o di affiliati può essere escluso",
+        "Se depositi crypto volatili rischi il loro prezzo; con stablecoin resta il rischio di cambio euro/dollaro"
+      ],
+      "costi": "Commissioni di rete per il deposito; nessun costo OKX per partecipare",
+      "referral": null,
+      "link": "https://my.okx.com/campaigns/deposit-bonus-november-8-percent-apr",
+      "fonte": "https://my.okx.com/campaigns/deposit-bonus-november-8-percent-apr",
+      "verifica": "alta",
+      "note": "Condizioni lette sulla pagina ufficiale della campagna il 19 novembre 2026; l'Italia è tra i Paesi ammessi.",
+      "profittevole": false,
+      "profitto": "È un rendimento sul capitale lasciato sull'exchange per circa 4 mesi: su 1.000€ sono 20€, con rischio piattaforma e di prezzo.",
+      "italia": {
+        "stato": "autorizzato",
+        "testo": "OKX opera in Europa con autorizzazione MiCA; l'Italia è indicata tra i Paesi ammessi alla campagna."
+      }
     }
   ],
   "esclusi": [
