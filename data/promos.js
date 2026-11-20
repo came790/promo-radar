@@ -1,6 +1,20 @@
 window.PROMO_DATA = {
-  "aggiornato": "2026-11-19",
+  "aggiornato": "2026-11-20",
   "changelog": [
+    {
+      "data": "2026-11-20",
+      "voci": [
+        "Nuova: Deutsche Bank db Conto Promo, 3,5% lordo sui soldi sul conto fino al 31 maggio 2027 per i nuovi clienti che aprono entro il 31 dicembre 2026, senza vincoli (pagina ufficiale). Non profittevole: è un tasso sul capitale.",
+        "Aave: tasso USDC su Ethereum sceso a circa 1,9% (media 30 giorni 4,4%); Arbitrum 3,6%, Base 7,2%. Nuovo intervallo circa 2-5%.",
+        "Morpho: rendimenti dei vault USDC principali saliti dal 19 novembre a circa 5-7% su Base e 4,7% su Ethereum (prima circa 4,5%).",
+        "Maple syrupUSDC: depositi totali in forte calo (circa -27% in un mese secondo RWA.xyz); rendimento stabile intorno al 5%.",
+        "SelfyConto Mediolanum: condizioni ora confermate sul sito ufficiale (verifica alzata ad alta), nessuna variazione.",
+        "In scadenza nei prossimi 10 giorni: Tinaba, BPER, Credem Link e XTB il 30 novembre; sempre il 30 novembre finisce il canone gratis del conto Crédit Agricole (il resto della promo resta fino al 12 gennaio). Subito dopo: Banco BPM e Webank (canone zero e 2%) il 3 dicembre, punti extra xStocks con Solflare il 4 dicembre.",
+        "Confermate senza variazioni: BBVA, ING 4% e Codice Amico, Revolut 20€ e risparmio 3,5%, Crédit Agricole, HYPE, Tinaba, Banco BPM, Buddybank, Fineco 100 ordini, BPER, Credem Link, Fideuram Direct, Webank 2% e 100€ Amazon, Satispay, XTB, BancoPosta, Findomestic Conto Smile e Conto Deposito, Trade Republic, IBL Banca, bunq, Coinbase, Young Platform, Bitvavo, Robinhood, Bybit EU, OKX benvenuto e Deposit Bonus, Crypto.com, Kraken, Bitpanda, eToro, airdrop MetaMask, Grass, Base, Hyperliquid, xStocks e DeFi Sky.",
+        "Nessuna promo rimossa. Non inserite: Banca Ifis Rendimax 4% (tassi ancora 'in attesa di approvazione'), Credem Presentaci un amico (regolamento ufficiale non trovato), CA Auto Bank 3,75% con codice (solo da forum), TF Bank (è una carta di credito), Fineco Invita un amico (finita il 16 novembre).",
+        "Siti non raggiungibili oggi (BBVA, Crédit Agricole, regolamento Credem, Trade Republic, Bitvavo, syrup.fi, sostariffe, facile.it): verifiche fatte con comparatori, regolamenti e aggregatori."
+      ]
+    },
     {
       "data": "2026-11-19",
       "voci": [
@@ -561,9 +575,9 @@ window.PROMO_DATA = {
         "valore": "fino a 20€ ad amico"
       },
       "link": "https://www.bancamediolanum.it/",
-      "fonte": "https://www.punto-informatico.it/fintech/conti/selfyconto-nuova-promo-250-euro-buoni-amazon/",
-      "verifica": "media",
-      "note": "Letto da articolo di stampa del 2 novembre 2026 che riporta il regolamento; non verificato sul sito ufficiale.",
+      "fonte": "https://www.bancamediolanum.it/",
+      "verifica": "alta",
+      "note": "Condizioni confermate sul sito ufficiale Banca Mediolanum (promo SelfyConto edizione novembre 2026). Il sito indica l'operazione valida dal 1° novembre al 31 dicembre 2026, ma con attivazione di conto e carta entro l'8 gennaio 2027.",
       "profittevole": false,
       "profitto": "Solo 50€ sono facili (spesa di 50€); i 200€ richiedono di sottoscrivere polizze o investimenti, quindi non conviene per il bonus.",
       "italia": null
@@ -1058,7 +1072,7 @@ window.PROMO_DATA = {
       "nome": "Aave: prestito di USDC",
       "provider": "Aave",
       "categoria": "defi",
-      "valore": "circa 3-5% annuo variabile",
+      "valore": "circa 2-5% annuo variabile",
       "valoreStima": 0,
       "sintesi": "Depositi USDC nel più grande protocollo di lending e ricevi interessi variabili, prelevabili quando vuoi.",
       "facilita": 3,
@@ -1067,8 +1081,8 @@ window.PROMO_DATA = {
       "rischio": "medio",
       "scadenza": null,
       "aggiunta": "2026-10-06",
-      "aggiornata": "2026-11-16",
-      "novita": "Tasso sceso: oggi circa 3,8% su USDC Ethereum (media 30 giorni 4,3%), 4,8% su Base, 3,2% su Arbitrum.",
+      "aggiornata": "2026-11-20",
+      "novita": "Tasso sceso molto su Ethereum: oggi circa 1,9% (media 30 giorni 4,4%) dopo un forte afflusso di depositi; Arbitrum 3,6%, Base 7,2%.",
       "requisiti": [
         "Wallet con USDC su una rete supportata (Base, Arbitrum, Ethereum)",
         "Collegare il wallet all'app Aave e fare Supply"
@@ -1083,9 +1097,9 @@ window.PROMO_DATA = {
       "link": "https://app.aave.com/",
       "fonte": "https://defillama.com/yields/pool/aa70268e-4b52-42bf-a116-608b370f9501",
       "verifica": "media",
-      "note": "Tasso rilevato il 16 novembre 2026 su DefiLlama: Ethereum 3,8% (media 30 giorni 4,3%), Base 4,8%, Arbitrum 3,2%. Controlla il valore in tempo reale.",
+      "note": "Tasso rilevato il 20 novembre 2026 su Aavescan e DefiLlama: Ethereum circa 1,85% (media 30 giorni 4,4%), Arbitrum 3,6%, Base 7,2% (mercato piccolo e molto variabile). Il calo su Ethereum è recente e potrebbe essere temporaneo: controlla il valore in tempo reale.",
       "profittevole": false,
-      "profitto": "Rende in proporzione al capitale: su 1.000€ circa 30-50€ l'anno, con rischio tecnico e di cambio euro/dollaro.",
+      "profitto": "Rende in proporzione al capitale: su 1.000€ circa 20-50€ l'anno, con rischio tecnico e di cambio euro/dollaro.",
       "italia": {
         "stato": "non-regolamentato",
         "testo": "Protocollo DeFi non custodial, accessibile dall'Italia con un wallet. Nessuna autorità lo vigila e non esistono garanzie sui depositi."
@@ -1096,17 +1110,17 @@ window.PROMO_DATA = {
       "nome": "Morpho: vault USDC curati",
       "provider": "Morpho",
       "categoria": "defi",
-      "valore": "circa 4-5% annuo variabile",
+      "valore": "circa 4,5-7% annuo variabile",
       "valoreStima": 0,
-      "sintesi": "Vault gestiti da curatori professionali. In questo periodo rendono quanto o poco più di Aave, con un rischio in più legato alle scelte del curatore.",
+      "sintesi": "Vault gestiti da curatori professionali. In questo periodo rendono più di Aave, con un rischio in più legato alle scelte del curatore.",
       "facilita": 3,
       "tempo": "15 minuti con wallet già pronto",
       "capitale": "Qualsiasi importo",
       "rischio": "medio",
       "scadenza": null,
       "aggiunta": "2026-10-06",
-      "aggiornata": "2026-11-19",
-      "novita": "Rendimenti dei vault principali in lieve salita: ora circa 4,1-4,9% (media 30 giorni fino al 5,2%), prima 4-4,5%.",
+      "aggiornata": "2026-11-20",
+      "novita": "Rendimenti saliti dal 19 novembre: i vault principali su Base ora circa 5-7% (prima circa 4,5%), su Ethereum circa 4,7%.",
       "requisiti": [
         "Wallet con USDC (Base o Ethereum)",
         "Scegliere un vault USDC di un curatore noto con molta liquidità",
@@ -1120,11 +1134,11 @@ window.PROMO_DATA = {
       "costi": "Commissioni di rete; commissione di performance del curatore già inclusa nel tasso mostrato",
       "referral": null,
       "link": "https://app.morpho.org/",
-      "fonte": "https://eco.com/support/en/articles/15253991-best-usdc-yield-platforms-2026-aave-morpho-sky-compared",
+      "fonte": "https://app.morpho.org/base/earn",
       "verifica": "media",
-      "note": "Tassi rilevati il 19 novembre 2026 su DefiLlama per i vault Steakhouse, Gauntlet e Spark (Base ed Ethereum). Vault con rendimenti molto più alti accettano garanzie più rischiose.",
+      "note": "Tassi rilevati il 20 novembre 2026 sull'app Morpho: vault Steakhouse e Grove su Base circa 7%, Gauntlet Prime su Base 5,1%, vault Prime su Ethereum circa 4,7% (DefiLlama mostra valori più alti, fino all'8,8%). L'aumento è iniziato il 19 novembre e potrebbe essere temporaneo. Vault con rendimenti molto più alti accettano garanzie più rischiose.",
       "profittevole": false,
-      "profitto": "Rende in proporzione al capitale: su 1.000€ circa 40-50€ l'anno, con rischio tecnico e di cambio euro/dollaro.",
+      "profitto": "Rende in proporzione al capitale: su 1.000€ circa 45-70€ l'anno, con rischio tecnico e di cambio euro/dollaro.",
       "italia": {
         "stato": "non-regolamentato",
         "testo": "Protocollo DeFi non custodial, accessibile dall'Italia con un wallet. Nessuna autorità lo vigila e non esistono garanzie sui depositi."
@@ -1794,15 +1808,16 @@ window.PROMO_DATA = {
       "rischio": "alto",
       "scadenza": null,
       "aggiunta": "2026-11-16",
-      "aggiornata": "2026-11-16",
-      "novita": "",
+      "aggiornata": "2026-11-20",
+      "novita": "Depositi totali in syrupUSDC in forte calo (circa -27% in un mese, ora circa 760 milioni di dollari); rendimento stabile intorno al 5%.",
       "requisiti": [
         "Wallet self-custody con USDC",
         "Collegare il wallet all'app Maple (syrup.fi) e depositare"
       ],
       "termini": [
-        "Rendimento variabile: a novembre 2026 circa 4,5-5,3% (dashboard Syrup e Aavescan); in passato anche oltre il 6%",
+        "Rendimento variabile: a novembre 2026 circa 5-5,2% (RWA.xyz e DefiLlama); in passato anche oltre il 6%",
         "Rischio di credito: se i prestiti a istituzioni non vengono restituiti si può perdere capitale",
+        "A novembre 2026 i depositi totali in syrupUSDC sono calati molto: circa 760 milioni di dollari, -27% in 30 giorni secondo RWA.xyz",
         "Rischio smart contract, di ancoraggio della stablecoin e di cambio euro/dollaro",
         "Il prelievo può richiedere tempo se la liquidità è scarsa"
       ],
@@ -1811,7 +1826,7 @@ window.PROMO_DATA = {
       "link": "https://syrup.fi/",
       "fonte": "https://app.rwa.xyz/assets/syrupUSDC",
       "verifica": "media",
-      "note": "Rendimento da aggregatori (Aavescan e dashboard Syrup, 13-19 novembre 2026), dati non sempre concordi: controlla il valore in app.",
+      "note": "Rendimento da aggregatori (RWA.xyz e DefiLlama, 20 novembre 2026): 30 giorni circa 5%. Sul calo dei depositi DefiLlama mostra numeri diversi da RWA.xyz (calo più brusco): dati non concordi, controlla in app.",
       "profittevole": false,
       "profitto": "Rende in proporzione al capitale (su 1.000€ circa 45-60€ l'anno) con rischio di credito e tecnico.",
       "italia": {
@@ -1970,6 +1985,43 @@ window.PROMO_DATA = {
         "stato": "autorizzato",
         "testo": "OKX opera in Europa con autorizzazione MiCA; l'Italia è indicata tra i Paesi ammessi alla campagna."
       }
+    },
+    {
+      "id": "deutsche-bank-conto-promo-3-5",
+      "nome": "Deutsche Bank db Conto Promo: 3,5% sulla giacenza fino a maggio 2027",
+      "provider": "Deutsche Bank",
+      "categoria": "liquidita",
+      "valore": "3,5% lordo fino al 31 maggio 2027",
+      "valoreStima": 0,
+      "sintesi": "Conto corrente per nuovi clienti che paga il 3,5% lordo sui soldi lasciati sul conto fino al 31 maggio 2027, senza vincoli e senza obbligo di stipendio. Il conto va aperto entro il 31 dicembre 2026.",
+      "facilita": 3,
+      "tempo": "20 minuti (apertura online, versione Digital)",
+      "capitale": "Nessun minimo; interessi promozionali fino a 500.000€",
+      "rischio": "basso",
+      "scadenza": "2026-12-31",
+      "aggiunta": "2026-11-20",
+      "aggiornata": "2026-11-20",
+      "novita": "",
+      "requisiti": [
+        "Essere un nuovo cliente consumatore: non avere già, nemmeno cointestati, un conto corrente, db contocarta o db Conto Deposito in Deutsche Bank",
+        "Aprire db Conto Promo (Digital online oppure Classic in filiale) entro il 31 dicembre 2026"
+      ],
+      "termini": [
+        "Il 3,5% annuo lordo vale sulla giacenza fino a 500.000€ e fino al 31 maggio 2027; la parte oltre i 500.000€ prende lo 0%",
+        "Dal 1° giugno 2027 il tasso torna allo 0% su tutta la giacenza",
+        "Non serve accreditare lo stipendio per avere il tasso",
+        "Sugli interessi si paga la ritenuta del 26%",
+        "L'apertura è soggetta alla valutazione della banca"
+      ],
+      "costi": "Canone gratis per i primi 6 mesi. Poi Digital: gratis con accrediti mensili di almeno 750€ (stipendio, pensione o bonifici), altrimenti 2€ al mese; Classic: 1€ al mese con accrediti di almeno 750€, altrimenti 2€. Carta db Card World senza canone; Digital: bonifici online gratis e 24 prelievi gratis presso altre banche.",
+      "referral": null,
+      "link": "https://www.gruppodb.com/db-conto-promo/",
+      "fonte": "https://www.gruppodb.com/db-conto-promo/",
+      "verifica": "alta",
+      "note": "Alcuni comparatori riportano ancora una versione precedente (3% fino al 31 gennaio 2027): fa fede la pagina ufficiale. Per il canone dopo il 6° mese conviene controllare anche il foglio informativo.",
+      "profittevole": false,
+      "profitto": "È un tasso sul capitale: con 10.000€ fino a fine maggio 2027 sono circa 190€ netti, ma bisogna lasciare i soldi sul conto.",
+      "italia": null
     }
   ],
   "esclusi": [
