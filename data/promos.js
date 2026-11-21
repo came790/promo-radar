@@ -1,6 +1,19 @@
 window.PROMO_DATA = {
-  "aggiornato": "2026-11-20",
+  "aggiornato": "2026-11-21",
   "changelog": [
+    {
+      "data": "2026-11-21",
+      "voci": [
+        "Nuova: CA Auto Bank Conto Remunerato, 3,75% lordo sui soldi sul conto con il codice AUTUMN26, ma solo fino al 9 dicembre 2026 (ora confermata sul sito ufficiale). Non profittevole.",
+        "Nuova: Fineco CashPark Svincolabile, 2% lordo per 12 mesi sulla nuova liquidità per chi è già cliente Fineco, adesione entro il 22 dicembre 2026 (sito ufficiale). Non profittevole.",
+        "Revolut (20€ e risparmio 3,5%): condizioni invariate; aggiunta la notizia dell'amministrazione giudiziaria di un anno sulla filiale italiana. Il servizio per i clienti continua regolarmente.",
+        "BPER: tolta dalle note la frase sui canoni 'da confermare' (i canoni sono già indicati dal sito ufficiale).",
+        "In scadenza nei prossimi 10 giorni: Tinaba, BPER, Credem Link e XTB il 30 novembre; sempre il 30 novembre finisce il canone gratis del conto Crédit Agricole. Subito dopo: Banco BPM e Webank (canone zero e 2%) il 3 dicembre, punti extra xStocks con Solflare il 4 dicembre, CA Auto Bank il 9 dicembre, OKX Deposit Bonus il 10 dicembre.",
+        "Confermate senza variazioni: BBVA, ING 4% e Codice Amico, Crédit Agricole, HYPE, Tinaba, Banco BPM, Buddybank, SelfyConto, Fineco 100 ordini, BPER, Credem Link, Fideuram Direct, Webank 2% e 100€ Amazon, Satispay, XTB, BancoPosta, Findomestic Conto Smile e Conto Deposito, Deutsche Bank, Trade Republic, IBL Banca, bunq, Coinbase, Young Platform, Bitvavo, Robinhood, Bybit EU, OKX benvenuto e Deposit Bonus, Crypto.com, Kraken, Bitpanda, eToro, airdrop MetaMask, Grass, Base, Hyperliquid, xStocks e DeFi Sky, Aave, Morpho e Maple (rendimenti nelle stesse fasce).",
+        "Nessuna promo rimossa. Non inserite: Banca Ifis Rendimax (nessuna promo ufficiale), MeglioBanca (apertura entro il 15 novembre, scaduta), Hello Bank 3% (non presente sul sito ufficiale), buddybank 80€ (solo forum), Robinhood deposit match di novembre (esclusa l'Italia), airdrop Aster, StandX ed Extended (non verificati o non adatti).",
+        "Siti non raggiungibili oggi (BBVA, Crédit Agricole, Revolut, Coinbase, Bitvavo, Trade Republic, pagina promo Bybit EU): verifiche fatte con comparatori, regolamenti e aggregatori."
+      ]
+    },
     {
       "data": "2026-11-20",
       "voci": [
@@ -316,8 +329,8 @@ window.PROMO_DATA = {
       "rischio": "basso",
       "scadenza": "2026-12-31",
       "aggiunta": "2026-10-06",
-      "aggiornata": "2026-11-13",
-      "novita": "Promo Black Friday: ora basta un pagamento con carta di almeno 0,01€ entro il 31 dicembre 2026 (prima servivano 20€ di spesa in 30 giorni). In più concorso con 3 buoni Amazon da 800€ fino al 9 dicembre.",
+      "aggiornata": "2026-11-21",
+      "novita": "Condizioni della promo invariate. Novità: la filiale italiana di Revolut è in amministrazione giudiziaria per un anno; il servizio per i clienti continua regolarmente.",
       "requisiti": [
         "Aprire il conto dal link della promozione (non dall'app store diretto)",
         "Completare la verifica dell'identità",
@@ -337,7 +350,7 @@ window.PROMO_DATA = {
       "link": "https://www.revolut.com/it-IT/",
       "fonte": "https://www.aranzulla.it/promo-revolut-black-friday-buoni-amazon-da-800-euro-e-bonus-da-20-euro-1984263.html",
       "verifica": "media",
-      "note": "Condizioni da articolo sponsorizzato in collaborazione con Revolut; pagina ufficiale della promo non raggiungibile oggi.",
+      "note": "Condizioni da articolo sponsorizzato in collaborazione con Revolut; pagina ufficiale della promo non raggiungibile oggi. A metà novembre 2026 il Tribunale di Milano ha messo la filiale italiana di Revolut Bank in amministrazione giudiziaria per un anno (controlli antiriciclaggio insufficienti): conti, carte e app funzionano normalmente e i depositi restano garantiti fino a 100.000€.",
       "profittevole": true,
       "profitto": "Basta un pagamento minimo con carta per ricevere 20€.",
       "italia": null
@@ -1512,14 +1525,14 @@ window.PROMO_DATA = {
         "Solo nuovi clienti: chi non è intestatario o cointestatario di un conto corrente BPER",
         "Per i 100€ completi servono 2.500€ di acquisti con carta in 5 mesi",
         "Alcuni comparatori indicano il piano Light: fa fede il sito BPER, che cita i piani Pro e Ultra",
-        "Controlla sul regolamento il canone dei piani Pro e Ultra e le condizioni di permanenza"
+        "Controlla sul regolamento le condizioni di permanenza"
       ],
       "costi": "Pro: 2€/mese per 3 mesi poi 7,30€; Ultra: 5€/mese per 3 mesi poi 10,30€ (offerta canoni fino al 31 gennaio 2027). Canone ridotto se hai meno di 35 anni, accrediti lo stipendio o ricevi un bonifico mensile da almeno 1.000€.",
       "referral": null,
       "link": "https://www.bper.it/privati/conti-libretti/conti-bper",
       "fonte": "https://www.bper.it/privati/promozioni-prodotti-bancari",
       "verifica": "alta",
-      "note": "Regolamento 2026 non reperito: canone dei piani e vincoli da confermare.",
+      "note": "Canoni confermati sul sito ufficiale; regolamento 2026 della promo non reperito: vincoli di permanenza da confermare.",
       "profittevole": false,
       "profitto": "Devi spendere 500€ al mese per ricevere 20€ (4%): 2.500€ di spese per 100€.",
       "italia": null
@@ -1604,8 +1617,8 @@ window.PROMO_DATA = {
     },
     {
       "aggiunta": "2026-11-15",
-      "aggiornata": "2026-11-15",
-      "novita": "",
+      "aggiornata": "2026-11-21",
+      "novita": "Condizioni della promo invariate. Novità: la filiale italiana di Revolut è in amministrazione giudiziaria per un anno; il servizio per i clienti continua regolarmente.",
       "italia": null,
       "rischio": "basso",
       "id": "revolut-risparmio-35",
@@ -1637,7 +1650,7 @@ window.PROMO_DATA = {
       "link": "https://www.revolut.com/it-IT/",
       "fonte": "https://www.qualebanca.com/blog/risparmio/revolut-conto-deposito-interesse-promo",
       "verifica": "media",
-      "note": "Pagina ufficiale Revolut non raggiungibile (errore 403). Una pagina riassuntiva del comparatore indica ancora 3% invece di 3,5%: controlla il tasso in app.",
+      "note": "Pagina ufficiale Revolut non raggiungibile (errore 403). Una pagina riassuntiva del comparatore indica ancora 3% invece di 3,5%: controlla il tasso in app. A metà novembre 2026 il Tribunale di Milano ha messo la filiale italiana di Revolut Bank in amministrazione giudiziaria per un anno (controlli antiriciclaggio insufficienti): conti, carte e app funzionano normalmente e i depositi restano garantiti fino a 100.000€.",
       "profittevole": false,
       "profitto": "Rende in proporzione al capitale: su 10.000€ circa 86€ netti in 4 mesi. Buono ma non è un bonus fisso."
     },
@@ -2021,6 +2034,80 @@ window.PROMO_DATA = {
       "note": "Alcuni comparatori riportano ancora una versione precedente (3% fino al 31 gennaio 2027): fa fede la pagina ufficiale. Per il canone dopo il 6° mese conviene controllare anche il foglio informativo.",
       "profittevole": false,
       "profitto": "È un tasso sul capitale: con 10.000€ fino a fine maggio 2027 sono circa 190€ netti, ma bisogna lasciare i soldi sul conto.",
+      "italia": null
+    },
+    {
+      "id": "ca-autobank-conto-remunerato-3-75",
+      "nome": "CA Auto Bank Conto Remunerato: 3,75% fino al 9 dicembre",
+      "provider": "CA Auto Bank",
+      "categoria": "liquidita",
+      "valore": "3,75% lordo fino al 9 dicembre 2026",
+      "valoreStima": 0,
+      "sintesi": "Conto online gratuito che paga il 3,75% lordo sui soldi lasciati sul conto, senza vincoli, ma solo fino al 9 dicembre 2026. Serve il codice promo AUTUMN26.",
+      "facilita": 3,
+      "tempo": "20 minuti (apertura online)",
+      "capitale": "Nessun minimo indicato",
+      "rischio": "basso",
+      "scadenza": "2026-12-09",
+      "aggiunta": "2026-11-21",
+      "aggiornata": "2026-11-21",
+      "novita": "",
+      "requisiti": [
+        "Essere un nuovo cliente: nessun altro conto corrente CA Auto Bank attivato prima del 15 ottobre 2026",
+        "Richiedere il Conto Remunerato online inserendo il codice promo AUTUMN26",
+        "L'apertura è soggetta ad approvazione della banca"
+      ],
+      "termini": [
+        "Il 3,75% annuo lordo vale sulla giacenza, senza vincoli, solo fino al 9 dicembre 2026",
+        "Dopo il 9 dicembre si applica il tasso indicato nei documenti contrattuali (non scritto nella pagina della promo)",
+        "La pagina non indica un importo massimo remunerato",
+        "Chi apre il Conto Remunerato può collegarci un Conto Deposito vincolato con tassi promozionali fino al 15 dicembre 2026 (dal 3,30% a 6 mesi al 3,75% da 36 mesi, minimo 1.000€, bollo a carico del cliente)",
+        "Sugli interessi si paga la ritenuta del 26%"
+      ],
+      "costi": "Nessuna spesa di apertura, gestione e chiusura; bonifici gratis; carta di debito virtuale gratuita (non permette prelievi di contante).",
+      "referral": null,
+      "link": "https://www.ca-autobank.it/conto-remunerato",
+      "fonte": "https://www.ca-autobank.it/conto-remunerato",
+      "verifica": "alta",
+      "note": "Promo prima segnalata solo sui forum, ora confermata sul sito ufficiale. Il tasso promozionale dura pochi giorni: controlla il tasso successivo nel foglio informativo prima di aprire.",
+      "profittevole": false,
+      "profitto": "È un tasso sul capitale e dura solo fino al 9 dicembre: con 10.000€ sono circa 18€ lordi.",
+      "italia": null
+    },
+    {
+      "id": "fineco-cashpark-2",
+      "nome": "Fineco CashPark Svincolabile: 2% per 12 mesi",
+      "provider": "Fineco",
+      "categoria": "liquidita",
+      "valore": "2% lordo per 12 mesi",
+      "valoreStima": 0,
+      "sintesi": "Deposito per chi è già cliente Fineco: 2% lordo per 12 mesi sulla nuova liquidità (minimo 1.000€), con possibilità di svincolare prima.",
+      "facilita": 4,
+      "tempo": "5 minuti (dall'app o dal sito Fineco)",
+      "capitale": "Minimo 1.000€ di nuova liquidità, vincolata 12 mesi",
+      "rischio": "basso",
+      "scadenza": "2026-12-22",
+      "aggiunta": "2026-11-21",
+      "aggiornata": "2026-11-21",
+      "novita": "",
+      "requisiti": [
+        "Essere correntisti Fineco con conto deposito già attivo",
+        "Portare sul conto Fineco almeno 1.000€ di nuova liquidità e vincolarla in CashPark Svincolabile entro il 22 dicembre 2026"
+      ],
+      "termini": [
+        "2% annuo lordo per 12 mesi solo sulla nuova liquidità",
+        "Svincolo anticipato possibile in qualsiasi momento: al 1% con soldi disponibili il giorno lavorativo dopo, oppure al 2% con soldi disponibili dopo 32 giorni",
+        "La banca può prorogare, modificare o interrompere l'iniziativa in qualsiasi momento",
+        "Sugli interessi si paga la ritenuta del 26%; sui depositi si paga l'imposta di bollo"
+      ],
+      "costi": "Nessun costo per il deposito; costi del conto Fineco secondo il proprio piano.",
+      "referral": null,
+      "link": "https://it.finecobank.com/banking/conto-deposito-cashpark/",
+      "fonte": "https://it.finecobank.com/banking/conto-deposito-cashpark/",
+      "verifica": "alta",
+      "note": "Il testo della pagina ufficiale indica 2%, un'immagine della stessa pagina mostra 2,25%: fa fede il testo. Valida dal 22 settembre 2026, con possibili proroghe.",
+      "profittevole": false,
+      "profitto": "È un tasso basso su capitale vincolato: con 10.000€ per 12 mesi sono circa 148€ netti, meno il bollo.",
       "italia": null
     }
   ],
