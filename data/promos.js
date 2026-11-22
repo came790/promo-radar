@@ -1,6 +1,16 @@
 window.PROMO_DATA = {
-  "aggiornato": "2026-11-21",
+  "aggiornato": "2026-11-22",
   "changelog": [
+    {
+      "data": "2026-11-22",
+      "voci": [
+        "Nessuna variazione: nessuna promo nuova, cambiata o rimossa oggi.",
+        "In scadenza nei prossimi 10 giorni: Tinaba, BPER, Credem Link e XTB il 30 novembre; sempre il 30 novembre finisce il canone gratis del conto Crédit Agricole. Subito dopo: Banco BPM e Webank (canone zero e 2%) il 3 dicembre, punti extra xStocks con Solflare il 4 dicembre, CA Auto Bank il 9 dicembre, OKX Deposit Bonus il 10 dicembre.",
+        "Confermate senza variazioni: BBVA, ING 4% e Codice Amico (sito ufficiale), Revolut 20€ e risparmio 3,5%, Crédit Agricole, HYPE, Tinaba, Banco BPM, Buddybank, SelfyConto, Fineco 100 ordini e CashPark, BPER (sito ufficiale), Credem Link, Fideuram Direct, Webank 2% e 100€ Amazon, Satispay, XTB, BancoPosta, Findomestic Conto Smile e Conto Deposito (sito ufficiale), Deutsche Bank (sito ufficiale), CA Auto Bank (sito ufficiale), Trade Republic, IBL Banca, bunq, Coinbase, Young Platform, Bitvavo, Robinhood, Bybit EU, OKX benvenuto e Deposit Bonus, Crypto.com, Kraken, Bitpanda, eToro, airdrop MetaMask, Grass, Base, Hyperliquid, xStocks e DeFi Sky, Aave, Morpho e Maple (rendimenti nelle stesse fasce).",
+        "Non inserite: UniCredit 'passaparola' fino a 500€ entro il 31 gennaio 2027 (trovata solo su un forum, nessuna pagina ufficiale), BBVA Gran Cashback (articolo del 2025, non più attivo), SelfyConto vincoli al 3% (edizione 2025), conto deposito Crédit Agricole al 4% per 4 mesi (scaduto il 2 novembre).",
+        "Siti non raggiungibili oggi (Webank, alcuni comparatori e forum): verifiche fatte con altre fonti e con le verifiche dei giorni scorsi."
+      ]
+    },
     {
       "data": "2026-11-21",
       "voci": [
