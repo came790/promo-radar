@@ -1,6 +1,18 @@
 window.PROMO_DATA = {
-  "aggiornato": "2026-11-22",
+  "aggiornato": "2026-11-23",
   "changelog": [
+    {
+      "data": "2026-11-23",
+      "voci": [
+        "Nuova: Kraken Black Friday, fino a 100$ in BTC a traguardi (10$ con 1.000$ di deposito e 1.000$ di scambi, fino a 100$ con 10.000$ di scambi), iscrizione in app entro il 1° dicembre 2026 (regolamento ufficiale). Non profittevole.",
+        "Nuova: Tinaba Deposito Vincolato, 3% lordo a 3 mesi e fino al 4% a 12 mesi con Premium e accredito stipendio, sulle somme vincolate entro il 9 dicembre 2026 (sito ufficiale e Foglio Informativo). Non profittevole.",
+        "Morpho: rendimenti scesi, ora circa 2,5-4,5% (circa 4,3% su Base e 2,5% su Ethereum); il rialzo del 19 novembre è rientrato.",
+        "In scadenza nei prossimi 10 giorni: Tinaba (conto), BPER, Credem Link e XTB il 30 novembre (nessuna proroga annunciata); sempre il 30 novembre finisce il canone gratis del conto Crédit Agricole; Kraken Black Friday il 1° dicembre; Banco BPM e Webank (canone zero e 2%) il 3 dicembre.",
+        "Confermate senza variazioni: BBVA, ING 4% e Codice Amico (sito ufficiale), Revolut 20€ e risparmio 3,5%, Crédit Agricole, HYPE, Tinaba, Banco BPM, Buddybank, SelfyConto, Fineco 100 ordini e CashPark, BPER, Credem Link, Fideuram Direct, Webank 2% e 100€ Amazon, Satispay, XTB, BancoPosta, Findomestic Conto Smile e Conto Deposito, Deutsche Bank, CA Auto Bank, Trade Republic, IBL Banca, bunq, Coinbase, Young Platform, Bitvavo, Robinhood, Bybit EU, OKX benvenuto e Deposit Bonus, Crypto.com, Kraken, Bitpanda, eToro, airdrop MetaMask, Grass, Base, Hyperliquid, xStocks e DeFi Sky, Aave e Maple (rendimenti nelle stesse fasce).",
+        "Nessuna promo rimossa. Non inserite: BBVA Passaparola (importi discordanti, pagina ufficiale non raggiungibile), Banca Progetto 4% (nessuna fonte affidabile), Fideuram Direct deposito 3,75% (solo forum), AideXa 3,65% (non presente sul sito ufficiale), Credem conto deposito 3% (scade il 30 novembre, legato a Credem Link), airdrop Aster, StandX e Doppler (solo per chi era già idoneo).",
+        "Siti non raggiungibili oggi (BBVA, Crédit Agricole, Revolut, Coinbase, Bitvavo, facile.it, sostariffe.it, syrup.fi): verifiche fatte con comparatori, regolamenti e aggregatori."
+      ]
+    },
     {
       "data": "2026-11-22",
       "voci": [
@@ -1133,17 +1145,17 @@ window.PROMO_DATA = {
       "nome": "Morpho: vault USDC curati",
       "provider": "Morpho",
       "categoria": "defi",
-      "valore": "circa 4,5-7% annuo variabile",
+      "valore": "circa 2,5-4,5% annuo variabile",
       "valoreStima": 0,
-      "sintesi": "Vault gestiti da curatori professionali. In questo periodo rendono più di Aave, con un rischio in più legato alle scelte del curatore.",
+      "sintesi": "Vault gestiti da curatori professionali. Rendimenti simili ad Aave, con un rischio in più legato alle scelte del curatore.",
       "facilita": 3,
       "tempo": "15 minuti con wallet già pronto",
       "capitale": "Qualsiasi importo",
       "rischio": "medio",
       "scadenza": null,
       "aggiunta": "2026-10-06",
-      "aggiornata": "2026-11-20",
-      "novita": "Rendimenti saliti dal 19 novembre: i vault principali su Base ora circa 5-7% (prima circa 4,5%), su Ethereum circa 4,7%.",
+      "aggiornata": "2026-11-23",
+      "novita": "Rendimenti scesi: ora circa 4,3% su Base e 2,5% su Ethereum (il 20 novembre erano circa 5-7% su Base e 4,7% su Ethereum).",
       "requisiti": [
         "Wallet con USDC (Base o Ethereum)",
         "Scegliere un vault USDC di un curatore noto con molta liquidità",
@@ -1159,9 +1171,9 @@ window.PROMO_DATA = {
       "link": "https://app.morpho.org/",
       "fonte": "https://app.morpho.org/base/earn",
       "verifica": "media",
-      "note": "Tassi rilevati il 20 novembre 2026 sull'app Morpho: vault Steakhouse e Grove su Base circa 7%, Gauntlet Prime su Base 5,1%, vault Prime su Ethereum circa 4,7% (DefiLlama mostra valori più alti, fino all'8,8%). L'aumento è iniziato il 19 novembre e potrebbe essere temporaneo. Vault con rendimenti molto più alti accettano garanzie più rischiose.",
+      "note": "Tassi rilevati il 23 novembre 2026 sull'API ufficiale Morpho e su DefiLlama: vault Gauntlet Prime su Base circa 4,3%, Steakhouse su Base 3,2-4,1%, vault Steakhouse e Gauntlet Prime su Ethereum circa 2,4-2,5%. Il rialzo del 19 novembre è rientrato. Vault con rendimenti molto più alti accettano garanzie più rischiose.",
       "profittevole": false,
-      "profitto": "Rende in proporzione al capitale: su 1.000€ circa 45-70€ l'anno, con rischio tecnico e di cambio euro/dollaro.",
+      "profitto": "Rende in proporzione al capitale: su 1.000€ circa 25-45€ l'anno, con rischio tecnico e di cambio euro/dollaro.",
       "italia": {
         "stato": "non-regolamentato",
         "testo": "Protocollo DeFi non custodial, accessibile dall'Italia con un wallet. Nessuna autorità lo vigila e non esistono garanzie sui depositi."
@@ -2118,6 +2130,88 @@ window.PROMO_DATA = {
       "note": "Il testo della pagina ufficiale indica 2%, un'immagine della stessa pagina mostra 2,25%: fa fede il testo. Valida dal 22 settembre 2026, con possibili proroghe.",
       "profittevole": false,
       "profitto": "È un tasso basso su capitale vincolato: con 10.000€ per 12 mesi sono circa 148€ netti, meno il bollo.",
+      "italia": null
+    },
+    {
+      "id": "kraken-black-friday-100",
+      "nome": "Kraken Black Friday: fino a 100$ in BTC",
+      "provider": "Kraken",
+      "categoria": "crypto",
+      "valore": "da 10$ a 100$ in BTC (a traguardi)",
+      "valoreStima": 10,
+      "sintesi": "Bonus in BTC per chi si iscrive all'offerta nell'app Kraken, deposita almeno 1.000$ in euro e fa acquisti/vendite: 10$ al primo traguardo, fino a 100$ con 10.000$ di scambi.",
+      "facilita": 2,
+      "tempo": "20 minuti + operazioni",
+      "capitale": "Deposito di almeno 1.000$ (in euro) e scambi da 1.000$ a 10.000$",
+      "rischio": "medio",
+      "scadenza": "2026-12-01",
+      "aggiunta": "2026-11-23",
+      "aggiornata": "2026-11-23",
+      "novita": "",
+      "requisiti": [
+        "Iscriversi all'offerta dalla schermata 'Offerte' dell'app Kraken entro il 1° dicembre 2026 alle 14:00 UTC (le 15:00 in Italia)",
+        "Avere la verifica d'identità almeno di livello 'Intermediate'",
+        "Traguardo 1 (10$): depositare almeno 1.000$ in valuta (es. euro) e fare almeno 1.000$ di scambi con Acquisto/Vendita/Conversione istantanea",
+        "Traguardi successivi (si sommano): +15$ a 2.500$ di scambi, +25$ a 5.000$, +50$ a 10.000$"
+      ],
+      "termini": [
+        "Valgono solo depositi e scambi fatti dopo l'iscrizione all'offerta, nel periodo 12 novembre - 1° dicembre 2026",
+        "Non contano: depositi in crypto, saldi già presenti, trasferimenti tra conti Kraken, scambi euro-stablecoin o tra stablecoin, Kraken Pro, margine, futures, azioni/xStocks e bundle",
+        "Premi in BTC entro 14 giorni dal traguardo; non prelevabili fino al 31 dicembre 2026 (si possono però scambiare su Kraken)",
+        "Non è solo per nuovi clienti, ma l'offerta deve comparire nella tua app",
+        "Il regolamento cita lo Spazio Economico Europeo (SEE): l'Italia non è nominata ma ne fa parte",
+        "Rischio di mercato sulle crypto e costi di acquisto/vendita (spread e commissioni)"
+      ],
+      "costi": "Nessun costo di adesione; commissioni e spread sugli acquisti/vendite istantanee",
+      "referral": null,
+      "link": "https://www.kraken.com/it",
+      "fonte": "https://www.kraken.com/legal/black-friday-incentive-terms-11-26",
+      "verifica": "alta",
+      "note": "Il primo traguardo da 10$ richiede 1.000$ di scambi: con commissioni e spread il guadagno netto può essere molto basso.",
+      "profittevole": false,
+      "profitto": "Per 10$ servono 1.000$ di scambi e per 100$ ne servono 10.000$: commissioni e rischio di mercato mangiano gran parte del bonus.",
+      "italia": {
+        "stato": "autorizzato",
+        "testo": "Kraken è autorizzato MiCA in Irlanda (Central Bank of Ireland) e opera in Italia; l'offerta vale per i residenti nel SEE."
+      }
+    },
+    {
+      "id": "tinaba-deposito-4",
+      "nome": "Tinaba Deposito Vincolato: fino al 4% a 12 mesi",
+      "provider": "Tinaba (Banca Profilo)",
+      "categoria": "liquidita",
+      "valore": "fino al 4% lordo a 12 mesi",
+      "valoreStima": 0,
+      "sintesi": "Conto deposito vincolato di Tinaba: 3% lordo a 3 mesi per tutti, a 12 mesi 3% (Start) o 3,5% (Premium), +0,5% se accrediti lo stipendio su un conto Banca Profilo. Tassi validi sulle somme vincolate entro il 9 dicembre 2026.",
+      "facilita": 3,
+      "tempo": "15 minuti",
+      "capitale": "Da 1.000€ vincolati",
+      "rischio": "basso",
+      "scadenza": "2026-12-09",
+      "aggiunta": "2026-11-23",
+      "aggiornata": "2026-11-23",
+      "novita": "",
+      "requisiti": [
+        "Avere l'app Tinaba (wallet Banca Profilo) e vincolare almeno 1.000€ entro il 9 dicembre 2026",
+        "Per i tassi Premium: attivare la membership Tinaba Premium e tenerla fino alla scadenza del vincolo",
+        "Per il +0,5% (solo vincoli a 6 e 12 mesi aperti tra l'11 novembre e il 9 dicembre 2026): accreditare lo stipendio su un conto Banca Profilo entro il 9 febbraio 2027 e riceverne almeno 4 nel periodo del vincolo"
+      ],
+      "termini": [
+        "Tassi lordi Start / Premium: 3 mesi 3% / 3%; 6 mesi 2,5% / 3%; 12 mesi 3% / 3,5%; 18 e 24 mesi 2% / 2,55%",
+        "Con accredito stipendio +0,5% su 6 e 12 mesi: a 12 mesi 3,5% (Start) o 4% (Premium)",
+        "Vale come stipendio un bonifico con causale ABI 27 o uno stipendio dal sistema Tinaba; se le condizioni non sono rispettate si applica il tasso senza maggiorazione",
+        "Svincolo anticipato senza costi: se parziale gli interessi si ricalcolano sulla parte rimasta, se totale non ricevi interessi",
+        "Il +0,5% vale fino a esaurimento del plafond della promo",
+        "Interessi tassati al 26% e imposta di bollo a carico del cliente"
+      ],
+      "costi": "Nessuna spesa di apertura, svincolo o chiusura; la membership Premium è a pagamento (costo da verificare in app)",
+      "referral": null,
+      "link": "https://tinaba.bancaprofilo.it/conto-deposito",
+      "fonte": "https://tinaba.bancaprofilo.it/conto-deposito",
+      "verifica": "alta",
+      "note": "Tassi confermati sul sito ufficiale; date e condizioni lette dal Foglio Informativo Banca Profilo di novembre 2026 (copia ospitata su un sito esterno). Il costo della membership Premium non è stato verificato su fonte ufficiale.",
+      "profittevole": false,
+      "profitto": "Capitale vincolato: su 10.000€ a 12 mesi al 3,5-4% sono circa 260-300€ netti, ma per il 4% servono Premium (a pagamento) e lo stipendio.",
       "italia": null
     }
   ],
