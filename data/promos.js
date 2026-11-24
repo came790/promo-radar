@@ -1,6 +1,16 @@
 window.PROMO_DATA = {
-  "aggiornato": "2026-11-23",
+  "aggiornato": "2026-11-24",
   "changelog": [
+    {
+      "data": "2026-11-24",
+      "voci": [
+        "Nessuna variazione: nessuna promo nuova, cambiata o rimossa oggi.",
+        "In scadenza nei prossimi 10 giorni: Tinaba (codice VALOREMESE), BPER, Credem Link e XTB il 30 novembre (nessuna proroga annunciata; BPER e Tinaba ricontrollate sul sito ufficiale); Kraken Black Friday il 1° dicembre; Banco BPM e Webank (canone zero e 2%) il 3 dicembre; punti extra xStocks con Solflare il 4 dicembre.",
+        "Confermate senza variazioni: BBVA, ING 4% e Codice Amico (sito ufficiale), Revolut 20€ e risparmio 3,5%, Crédit Agricole, HYPE, Tinaba conto e deposito, Banco BPM e Webank (sito ufficiale), Buddybank, SelfyConto, Fineco 100 ordini e CashPark (sito ufficiale), BPER, Credem Link, Fideuram Direct, Satispay, XTB, BancoPosta, Findomestic Conto Smile e Conto Deposito (sito ufficiale), Deutsche Bank e CA Auto Bank (sito ufficiale), Trade Republic, IBL Banca e bunq (sito ufficiale), Coinbase, Young Platform, Bitvavo, Robinhood, Bybit EU, OKX benvenuto e Deposit Bonus (regolamento ufficiale), Crypto.com, Kraken e Kraken Black Friday (regolamento ufficiale), Bitpanda, eToro, airdrop MetaMask, Grass, Base, Hyperliquid, xStocks e DeFi Sky, Aave, Morpho e Maple (rendimenti nelle stesse fasce).",
+        "Non inserite: IBL ControCorrente remunerato (Euribor 3 mesi meno 1,40%, rendimento basso), Robinhood Crypto deposit match di novembre (esclusi i residenti in Italia), Fineco Codice Amico (edizione chiusa il 16 novembre, nuova non ancora annunciata), airdrop StandX, Doppler e Midnight (solo per chi era già idoneo).",
+        "Siti non raggiungibili oggi (facile.it, sostariffe.it): verifiche fatte con siti ufficiali e altri comparatori."
+      ]
+    },
     {
       "data": "2026-11-23",
       "voci": [
