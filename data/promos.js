@@ -1,6 +1,19 @@
 window.PROMO_DATA = {
-  "aggiornato": "2026-11-24",
+  "aggiornato": "2026-11-25",
   "changelog": [
+    {
+      "data": "2026-11-25",
+      "voci": [
+        "Nuova: Poste Italiane Buono Premium 4 anni al 4% lordo (circa 3,52% netto, tassazione al 12,5%) con nuova liquidità versata dal 13 novembre, sottoscrivibile dal 17 novembre fino al 29 dicembre 2026 salvo chiusura anticipata (fonti: comparatori, pagina ufficiale non raggiungibile). Non profittevole.",
+        "Aave: tassi USDC cambiati, Ethereum risalito a circa 2,7%, Arbitrum circa 4,1%, Base sceso a circa 4,3%.",
+        "Maple: depositi syrupUSDC scesi a circa 657 milioni di dollari (-33% in un mese) e uscita del cofondatore e del COO; rendimento stabile intorno al 5%.",
+        "Webank 2%: il tasso non compare più sul sito ufficiale, confermato solo da comparatore fino al 3 dicembre; verifica abbassata a media.",
+        "In scadenza nei prossimi 10 giorni: Tinaba (codice VALOREMESE), BPER, Credem Link e XTB il 30 novembre (nessuna proroga annunciata); Kraken Black Friday il 1° dicembre; Banco BPM e Webank (canone zero e 2%) il 3 dicembre; punti extra xStocks con Solflare il 4 dicembre.",
+        "Confermate senza variazioni: BBVA, ING 4% e Codice Amico (sito ufficiale), Revolut 20€ e risparmio 3,5%, Crédit Agricole, HYPE, Tinaba conto e deposito, Banco BPM, Webank 100€ Amazon, Buddybank, SelfyConto, Fineco 100 ordini e CashPark, BPER, Credem Link, Fideuram Direct, Satispay, XTB, BancoPosta, Findomestic Conto Smile e Conto Deposito, Deutsche Bank, CA Auto Bank, Trade Republic, IBL Banca, bunq, Coinbase, Young Platform, Bitvavo, Robinhood, Bybit EU, OKX benvenuto e Deposit Bonus, Crypto.com, Kraken e Kraken Black Friday, Bitpanda, eToro, airdrop MetaMask, Grass, Base, Hyperliquid, xStocks e DeFi Sky e Morpho.",
+        "Nessuna promo rimossa. Non inserite: concorso Revolut Black Friday (estrazione a sorte, non premio sicuro), Robinhood deposit match (esclusa l'Italia), Fineco Codice Amico (nuova edizione non ancora annunciata), Tinaba TINABA2026 e BBVA Passaparola (fonti non confermate), Fluid USDC (perdite e incidenti nel 2026).",
+        "Siti non raggiungibili oggi (BBVA, Crédit Agricole, Revolut, Coinbase, poste.it, facile.it, sostariffe.it, syrup.fi): verifiche fatte con comparatori, regolamenti e aggregatori."
+      ]
+    },
     {
       "data": "2026-11-24",
       "voci": [
@@ -699,7 +712,7 @@ window.PROMO_DATA = {
       "link": "https://traderepublic.com/it-it",
       "fonte": "https://www.qualebanca.com/blog/investimenti/trade-republic-interessi-sulla-liquidita-non-investita",
       "verifica": "media",
-      "note": "Sito ufficiale non leggibile oggi: il 4% è confermato da più comparatori (qualebanca, aziendabanca, investimi). Il bonus da 10€ in azioni con invito è indicato da ponss.it al 15 novembre: controllalo in app.",
+      "note": "Sito ufficiale non leggibile oggi: il 4% è confermato da più comparatori (qualebanca, aziendabanca, investimi). Il bonus da 10€ in azioni con invito è indicato da ponss.it al 15 novembre: controllalo in app. Fonti discordanti sul bonus invito: ponss.it indica 2 investimenti, qualebanca.com 3 investimenti entro 21 giorni.",
       "profittevole": true,
       "profitto": "Depositi 100€ che restano tuoi, fai 2 piccoli investimenti e ricevi 10€ in azioni, più il 4% sulla liquidità fino a 20.000€.",
       "italia": null
@@ -1126,8 +1139,8 @@ window.PROMO_DATA = {
       "rischio": "medio",
       "scadenza": null,
       "aggiunta": "2026-10-06",
-      "aggiornata": "2026-11-20",
-      "novita": "Tasso sceso molto su Ethereum: oggi circa 1,9% (media 30 giorni 4,4%) dopo un forte afflusso di depositi; Arbitrum 3,6%, Base 7,2%.",
+      "aggiornata": "2026-11-25",
+      "novita": "Su Ethereum il tasso è risalito a circa 2,7% (era 1,9%); Arbitrum circa 4,1%; su Base è sceso a circa 4,3% (era 7,2%).",
       "requisiti": [
         "Wallet con USDC su una rete supportata (Base, Arbitrum, Ethereum)",
         "Collegare il wallet all'app Aave e fare Supply"
@@ -1142,7 +1155,7 @@ window.PROMO_DATA = {
       "link": "https://app.aave.com/",
       "fonte": "https://defillama.com/yields/pool/aa70268e-4b52-42bf-a116-608b370f9501",
       "verifica": "media",
-      "note": "Tasso rilevato il 20 novembre 2026 su Aavescan e DefiLlama: Ethereum circa 1,85% (media 30 giorni 4,4%), Arbitrum 3,6%, Base 7,2% (mercato piccolo e molto variabile). Il calo su Ethereum è recente e potrebbe essere temporaneo: controlla il valore in tempo reale.",
+      "note": "Tasso rilevato il 25 novembre 2026 su Aavescan e DefiLlama: Ethereum circa 2,7% (media 30 giorni circa 4%), Arbitrum circa 4,1%, Base circa 4,2-4,4% (in calo costante dal 21 novembre). Il tasso cambia ogni giorno: controlla il valore in tempo reale.",
       "profittevole": false,
       "profitto": "Rende in proporzione al capitale: su 1.000€ circa 20-50€ l'anno, con rischio tecnico e di cambio euro/dollaro.",
       "italia": {
@@ -1718,8 +1731,8 @@ window.PROMO_DATA = {
       "referral": null,
       "link": "https://www.webank.it/",
       "fonte": "https://www.webank.it/webankpub/wbresp/home.do",
-      "verifica": "alta",
-      "note": "Condizioni dal messaggio promozionale del sito ufficiale Webank (15 novembre 2026).",
+      "verifica": "media",
+      "note": "Il 25 novembre 2026 il 2% non compariva più sulla home e sulla pagina del conto Webank; PMI.it (novembre 2026) conferma richieste fino al 3 dicembre. Alcune fonti indicano la fine del tasso al 31 dicembre 2026 invece del 31 marzo 2027: controlla le condizioni prima di aprire.",
       "profittevole": false,
       "profitto": "È un tasso sulla giacenza e serve spostare lo stipendio: su 10.000€ circa 45€ netti in 4 mesi e mezzo."
     },
@@ -1853,16 +1866,17 @@ window.PROMO_DATA = {
       "rischio": "alto",
       "scadenza": null,
       "aggiunta": "2026-11-16",
-      "aggiornata": "2026-11-20",
-      "novita": "Depositi totali in syrupUSDC in forte calo (circa -27% in un mese, ora circa 760 milioni di dollari); rendimento stabile intorno al 5%.",
+      "aggiornata": "2026-11-25",
+      "novita": "Depositi in syrupUSDC ancora in calo (circa 657 milioni di dollari, -33% in 30 giorni) e uscita del cofondatore Joe Flanagan e del COO dalla società; rendimento stabile intorno al 5%.",
       "requisiti": [
         "Wallet self-custody con USDC",
         "Collegare il wallet all'app Maple (syrup.fi) e depositare"
       ],
       "termini": [
-        "Rendimento variabile: a novembre 2026 circa 5-5,2% (RWA.xyz e DefiLlama); in passato anche oltre il 6%",
+        "Rendimento variabile: a fine novembre 2026 circa 5-5,25% (RWA.xyz e DefiLlama); in passato anche oltre il 6%",
         "Rischio di credito: se i prestiti a istituzioni non vengono restituiti si può perdere capitale",
-        "A novembre 2026 i depositi totali in syrupUSDC sono calati molto: circa 760 milioni di dollari, -27% in 30 giorni secondo RWA.xyz",
+        "A novembre 2026 i depositi totali in syrupUSDC sono calati molto: circa 657 milioni di dollari, -33% in 30 giorni secondo RWA.xyz",
+        "A novembre 2026 il cofondatore e presidente Joe Flanagan ha lasciato Maple per divergenze sulla strategia; anche il COO lascia dal 27 novembre (Cointelegraph, post ufficiale Maple)",
         "Rischio smart contract, di ancoraggio della stablecoin e di cambio euro/dollaro",
         "Il prelievo può richiedere tempo se la liquidità è scarsa"
       ],
@@ -1871,7 +1885,7 @@ window.PROMO_DATA = {
       "link": "https://syrup.fi/",
       "fonte": "https://app.rwa.xyz/assets/syrupUSDC",
       "verifica": "media",
-      "note": "Rendimento da aggregatori (RWA.xyz e DefiLlama, 20 novembre 2026): 30 giorni circa 5%. Sul calo dei depositi DefiLlama mostra numeri diversi da RWA.xyz (calo più brusco): dati non concordi, controlla in app.",
+      "note": "Rendimento da aggregatori (RWA.xyz e DefiLlama, 25 novembre 2026): 30 giorni circa 5,1%. Cambi ai vertici riportati da Cointelegraph il 12 novembre 2026. Il sito syrup.fi non era raggiungibile oggi.",
       "profittevole": false,
       "profitto": "Rende in proporzione al capitale (su 1.000€ circa 45-60€ l'anno) con rischio di credito e tecnico.",
       "italia": {
@@ -2222,6 +2236,44 @@ window.PROMO_DATA = {
       "note": "Tassi confermati sul sito ufficiale; date e condizioni lette dal Foglio Informativo Banca Profilo di novembre 2026 (copia ospitata su un sito esterno). Il costo della membership Premium non è stato verificato su fonte ufficiale.",
       "profittevole": false,
       "profitto": "Capitale vincolato: su 10.000€ a 12 mesi al 3,5-4% sono circa 260-300€ netti, ma per il 4% servono Premium (a pagamento) e lo stipendio.",
+      "italia": null
+    },
+    {
+      "id": "poste-buono-premium-4-anni-4",
+      "nome": "Poste Italiane: Buono Premium 4 anni al 4%",
+      "provider": "Poste Italiane (Cassa Depositi e Prestiti)",
+      "categoria": "liquidita",
+      "valore": "4% lordo annuo a 4 anni",
+      "valoreStima": 0,
+      "sintesi": "Buono fruttifero postale a 4 anni al 4% lordo annuo (circa 3,52% netto), pagato alla scadenza, riservato a chi porta nuova liquidità in Posta.",
+      "facilita": 3,
+      "tempo": "15 minuti in app o ufficio postale",
+      "capitale": "Nuova liquidità da tenere 4 anni",
+      "rischio": "basso",
+      "scadenza": "2026-12-29",
+      "aggiunta": "2026-11-25",
+      "aggiornata": "2026-11-25",
+      "novita": "",
+      "requisiti": [
+        "Avere un libretto di risparmio postale (smart o ordinario) o un conto BancoPosta intestato come il buono",
+        "Portare nuova liquidità versata dal 13 novembre 2026, solo con bonifico, assegni bancari o circolari, accredito di stipendio o pensione",
+        "Sottoscrivere il buono dal 17 novembre 2026 (fine indicata al 29 dicembre 2026, salvo chiusura anticipata)"
+      ],
+      "termini": [
+        "4% lordo annuo, interessi pagati tutti alla scadenza dei 4 anni; circa 3,52% netto (QuiFinanza)",
+        "Tassazione agevolata al 12,5%, più imposta di bollo",
+        "Nessun costo di emissione o di rimborso; garantito dallo Stato",
+        "Rimborsabile in anticipo in ogni momento, ma gli interessi in caso di rimborso anticipato vanno controllati nel foglio informativo (nell'edizione precedente non ne spettavano)",
+        "Importi minimo e massimo non verificati"
+      ],
+      "costi": "Nessun costo di sottoscrizione o rimborso; imposta di bollo",
+      "referral": null,
+      "link": "https://www.poste.it/",
+      "fonte": "https://quifinanza.it/economia/investimenti/poste-italiane-buono-premium-4-anni/1024499/",
+      "verifica": "media",
+      "note": "Pagina ufficiale Poste non raggiungibile oggi (404). Tasso e requisiti da QuiFinanza (16 novembre 2026) e Trend Online; la data di fine del 29 dicembre 2026 è riportata da Facile.it ma non confermata su fonte ufficiale.",
+      "profittevole": false,
+      "profitto": "Buon tasso netto grazie alla tassazione al 12,5%, ma il capitale resta fermo 4 anni per avere il rendimento pieno e serve nuova liquidità.",
       "italia": null
     }
   ],
