@@ -1,6 +1,19 @@
 window.PROMO_DATA = {
-  "aggiornato": "2026-11-25",
+  "aggiornato": "2026-11-26",
   "changelog": [
+    {
+      "data": "2026-11-26",
+      "voci": [
+        "Crédit Agricole: il conto deposito ora rende il 4% lordo per 6 mesi (prima 4 mesi) sulla nuova liquidità, vincolo minimo 5.000€; buoni Amazon fino a 800€ confermati sul sito ufficiale, verifica alzata ad alta.",
+        "Banco BPM Conto You: chiarita la scadenza, il buono Amazon da 100€ vale per aperture fino al 31 dicembre 2026; il 3 dicembre scade solo il canone gratuito.",
+        "Trade Republic: corretto un requisito del bonus invito, secondo il regolamento ufficiale i piani di accumulo non contano (servono investimenti singoli, fino a 5).",
+        "Buddybank: fonte aggiornata al regolamento ufficiale UniCredit con la proroga al 20 gennaio 2027 (offerta invariata).",
+        "In scadenza nei prossimi 10 giorni: Tinaba (codice VALOREMESE), BPER, Credem Link, XTB e canone gratuito Crédit Agricole il 30 novembre (nessuna proroga annunciata); Kraken Black Friday il 1° dicembre alle 15:00; Webank 2% e canone gratuito Banco BPM il 3 dicembre; punti extra xStocks con Solflare il 4 dicembre.",
+        "Confermate senza variazioni: BBVA, ING 4% e Codice Amico, Revolut 20€ e risparmio 3,5%, HYPE, Tinaba conto e deposito, SelfyConto, Fineco 100 ordini e CashPark, BPER, Credem Link, Fideuram Direct, Webank 2% e 100€ Amazon, Satispay, XTB, BancoPosta, Findomestic Conto Smile e Conto Deposito, Deutsche Bank, CA Auto Bank, IBL Banca, bunq, Poste Buono Premium, Coinbase, Young Platform, Bitvavo, Robinhood, Bybit EU, OKX benvenuto e Deposit Bonus, Crypto.com, Kraken e Kraken Black Friday, Bitpanda, eToro, airdrop MetaMask, Grass, Base, Hyperliquid, xStocks e DeFi Sky, Aave, Morpho e Maple.",
+        "Nessuna promo nuova o rimossa. Non inserite: Vivid Money 4% (solo conti business/freelancer), UniCredit 'Un passaparola che vale' (nessun regolamento ufficiale trovato, importi discordanti), cashback Credem fino a 100€ (fonti discordanti), Fineco Codice Amico (nuova edizione non ancora annunciata).",
+        "Siti non raggiungibili oggi (BBVA, Revolut, Coinbase, pagina prodotto poste.it, facile.it, sostariffe.it): verifiche fatte con comparatori, regolamenti e aggregatori."
+      ]
+    },
     {
       "data": "2026-11-25",
       "voci": [
@@ -402,20 +415,20 @@ window.PROMO_DATA = {
     },
     {
       "id": "credit-agricole-250",
-      "nome": "Crédit Agricole: fino a 800€ in buoni Amazon + 4% per 4 mesi",
+      "nome": "Crédit Agricole: fino a 800€ in buoni Amazon + 4% per 6 mesi",
       "provider": "Crédit Agricole",
       "categoria": "conto",
-      "valore": "fino a 800€ Amazon + 4% per 4 mesi",
+      "valore": "fino a 800€ Amazon + 4% per 6 mesi",
       "valoreStima": 200,
-      "sintesi": "Nuova edizione: 50€ di benvenuto, 100€ con lo stipendio, fino a 150€ con le spese carta nei primi 60 giorni, fino a 500€ con gli amici; 4% lordo per 4 mesi sul conto deposito.",
+      "sintesi": "Nuova edizione: 50€ di benvenuto, 100€ con lo stipendio, fino a 150€ con le spese carta nei primi 60 giorni, fino a 500€ con gli amici; 4% lordo per 6 mesi sul conto deposito (vincolo).",
       "facilita": 3,
       "tempo": "20 minuti + stipendio e spese",
       "capitale": "Spese carta nei primi 60 giorni per gli scaglioni più alti",
       "rischio": "basso",
       "scadenza": "2027-01-12",
       "aggiunta": "2026-10-06",
-      "aggiornata": "2026-11-18",
-      "novita": "Precisati i dettagli: invita un amico vale fino a 5 amici (50€ più altri 50€ se l'amico accredita lo stipendio) e il 4% sul conto deposito richiede almeno 5.000€ vincolati.",
+      "aggiornata": "2026-11-26",
+      "novita": "Il conto deposito ora rende il 4% lordo per 6 mesi (prima 4 mesi) sulla nuova liquidità, con vincolo di almeno 5.000€; confermati i buoni Amazon fino a 800€.",
       "requisiti": [
         "Aprire il conto online da nuovo cliente entro il 12 gennaio 2027",
         "50€: welcome bonus con codice VISA e una transazione con carta entro 60 giorni",
@@ -427,7 +440,7 @@ window.PROMO_DATA = {
         "Premi in buoni regalo Amazon, non in denaro",
         "Solo nuovi clienti",
         "Il canone gratuito vale per le richieste di apertura entro il 30 novembre 2026",
-        "Interessi 4% lordo annuo per i primi 4 mesi sul conto deposito con almeno 5.000€ vincolati; la banca può interrompere l'offerta prima",
+        "Conto deposito: 4% annuo lordo per vincoli a 6 mesi, solo su nuova liquidità, minimo 5.000€ (massimo 500.000€); offerta valida fino a revoca, plafond 300 milioni",
         "Carta di debito gratuita per 2 anni, poi 2€/mese; carta di credito 49,99€/anno",
         "Oltre a VISA, un comparatore indica anche i codici UNIBOXCA2025 e WIZBII"
       ],
@@ -437,9 +450,9 @@ window.PROMO_DATA = {
         "valore": "50-100€ ad amico, max 500€"
       },
       "link": "https://www.credit-agricole.it/",
-      "fonte": "https://www.pagamentidigitali.it/?p=36264",
-      "verifica": "media",
-      "note": "Dati da comparatori e stampa (qualebanca, pagamentidigitali.it del 5 novembre 2026); il sito ufficiale non era raggiungibile. Controlla il regolamento prima di aprire.",
+      "fonte": "https://www.credit-agricole.it/privati/investimenti/conto-deposito",
+      "verifica": "alta",
+      "note": "Confermato sul sito ufficiale Crédit Agricole (pagina conto deposito aggiornata al 20 novembre 2026). I codici UNIBOXCA2025 e WIZBII non compaiono sul sito ufficiale. Controlla il regolamento prima di aprire.",
       "profittevole": true,
       "profitto": "50€ con il benvenuto e altri 100€ con lo stipendio senza spese obbligatorie; gli scaglioni sulle spese da soli non convengono.",
       "italia": null
@@ -530,17 +543,17 @@ window.PROMO_DATA = {
       "categoria": "conto",
       "valore": "100€ Amazon",
       "valoreStima": 100,
-      "sintesi": "Nuova edizione: buono Amazon da 100€ aprendo Conto You entro il 3 dicembre, richiedendo la carta di debito Mastercard e spendendo 1.000€ in due mesi.",
+      "sintesi": "Buono Amazon da 100€ aprendo Conto You entro il 31 dicembre 2026, richiedendo la carta di debito Mastercard e spendendo 1.000€ in due mesi.",
       "facilita": 3,
       "tempo": "20 minuti + 2 mesi di spese",
       "capitale": "1.000€ di spesa con carta",
       "rischio": "basso",
-      "scadenza": "2026-12-03",
+      "scadenza": "2026-12-31",
       "aggiunta": "2026-10-06",
-      "aggiornata": "2026-11-14",
-      "novita": "Nuova edizione autunno 2026: stesso premio (100€ Amazon con 1.000€ di spese), apertura entro il 3 dicembre 2026. Confermata sul sito ufficiale Banco BPM.",
+      "aggiornata": "2026-11-26",
+      "novita": "Chiarita la scadenza: il buono Amazon da 100€ vale per aperture fino al 31 dicembre 2026; la data del 3 dicembre riguarda solo il canone gratuito.",
       "requisiti": [
-        "Aprire Conto You online entro il 3 dicembre 2026 (il regolamento dell'operazione indica aperture dal 4 novembre fino al 31 dicembre 2026)",
+        "Aprire Conto You online entro il 31 dicembre 2026",
         "Richiedere la carta Numia Debito Internazionale Mastercard (secondo il regolamento entro il 15 gennaio 2027)",
         "Spendere almeno 500€ con la carta su circuito Mastercard nei 30 giorni dalla richiesta e altri 500€ nei 30 giorni successivi, entro il 16 marzo 2027"
       ],
@@ -550,12 +563,12 @@ window.PROMO_DATA = {
         "Non valgono prelievi di contante né spese su circuiti diversi da Mastercard",
         "La pagina collega regolamenti di più edizioni (estate e autunno 2026): controlla quello dell'edizione in corso"
       ],
-      "costi": "Canone del conto e della carta 0€ per chi apre in promo, bonifici SEPA gratuiti",
+      "costi": "Canone del conto e della carta 0€ per chi apre entro il 3 dicembre 2026; bonifici SEPA gratuiti",
       "referral": null,
       "link": "https://www.bancobpm.it/privati/conti/conti-correnti/conto-you/",
       "fonte": "https://www.bancobpm.it/privati/conti/conti-correnti/conto-you/",
       "verifica": "alta",
-      "note": "Il sito indica 'aprilo online entro il 3.12.2026'; il regolamento parla di aperture fino al 31 dicembre 2026. Un comparatore indica la carta da richiedere entro il 18 novembre (probabile dato dell'edizione precedente). Nel dubbio apri entro il 3 dicembre e richiedi subito la carta.",
+      "note": "Il buono vale per le aperture completate entro il 31 dicembre 2026 (regolamento e qualebanca); la data del 3 dicembre riguarda solo il canone gratuito. Richiedi subito la carta dopo l'apertura.",
       "profittevole": false,
       "profitto": "Devi spendere 1.000€ per ricevere 100€ in buoni Amazon (10%).",
       "italia": null
@@ -593,9 +606,9 @@ window.PROMO_DATA = {
         "valore": "50€ ad amico"
       },
       "link": "https://www.buddybank.com/",
-      "fonte": "https://www.buddy.unicredit.it/wp-content/uploads/2026/04/MGM-buddy-club-100-new.pdf",
+      "fonte": "https://www.unicredit.it/content/dam/ucpublic/it/footer/doc/Manifestazioni%20a%20premio/MGM_buddy_club_100-new.pdf",
       "verifica": "alta",
-      "note": "Regolamento 'buddy Club 100' prorogato al 20 gennaio 2027 (letto da una copia del PDF ufficiale, l'originale dà errore 403); confermato da ponss.it.",
+      "note": "Regolamento ufficiale 'buddy Club 100' prorogato al 20 gennaio 2027 (PDF sul sito UniCredit); confermato da ponss.it.",
       "profittevole": true,
       "profitto": "Spendi 10€ e ricevi 50€, più 50€ per ogni amico invitato.",
       "italia": null
@@ -690,12 +703,12 @@ window.PROMO_DATA = {
       "rischio": "basso",
       "scadenza": null,
       "aggiunta": "2026-10-06",
-      "aggiornata": "2026-11-16",
-      "novita": "Dal 12 novembre i nuovi clienti ricevono il 4% lordo sui primi 20.000€ fino al 1° marzo 2027 (prima 3% fino a 50.000€). Oltre i 20.000€ si applica il tasso BCE, oggi 2,5%.",
+      "aggiornata": "2026-11-26",
+      "novita": "Corretto un requisito: secondo il regolamento ufficiale i piani di accumulo non contano per il bonus invito, servono investimenti singoli (fino a 5, numero esatto in app).",
       "requisiti": [
         "Registrarsi da link o codice invito",
-        "Depositare almeno 100€",
-        "Fare 2 investimenti entro 21 giorni dalla registrazione (bastano piccoli importi o piani di accumulo)"
+        "Depositare almeno 100€ (il regolamento prevede fino a un massimo di 3.000€: l'importo esatto è indicato in app)",
+        "Fare gli investimenti richiesti entro 21 giorni dalla registrazione (fino a un massimo di 5 a pagamento; i piani di accumulo NON contano; numero esatto in app)"
       ],
       "termini": [
         "4% lordo sui primi 20.000€ per chi apre il conto dal 12 novembre 2026, fino al 1° marzo 2027 (salvo proroghe); oltre i 20.000€ e dopo quella data tasso BCE (oggi 2,5%), senza limite di importo",
@@ -712,7 +725,7 @@ window.PROMO_DATA = {
       "link": "https://traderepublic.com/it-it",
       "fonte": "https://www.qualebanca.com/blog/investimenti/trade-republic-interessi-sulla-liquidita-non-investita",
       "verifica": "media",
-      "note": "Sito ufficiale non leggibile oggi: il 4% è confermato da più comparatori (qualebanca, aziendabanca, investimi). Il bonus da 10€ in azioni con invito è indicato da ponss.it al 15 novembre: controllalo in app. Fonti discordanti sul bonus invito: ponss.it indica 2 investimenti, qualebanca.com 3 investimenti entro 21 giorni.",
+      "note": "Sito ufficiale non leggibile oggi: il 4% è confermato da più comparatori (qualebanca, aziendabanca, investimi). Il bonus da 10€ in azioni con invito è indicato da ponss.it al 15 novembre: controllalo in app. Fonti discordanti sul bonus invito: ponss.it indica 2 investimenti, qualebanca.com 3 investimenti entro 21 giorni. Regolamento ufficiale promozioni (12 novembre 2026): i piani di accumulo e gli investimenti nei mercati privati sono esclusi dal conteggio.",
       "profittevole": true,
       "profitto": "Depositi 100€ che restano tuoi, fai 2 piccoli investimenti e ricevi 10€ in azioni, più il 4% sulla liquidità fino a 20.000€.",
       "italia": null
