@@ -1,6 +1,20 @@
 window.PROMO_DATA = {
-  "aggiornato": "2026-11-26",
+  "aggiornato": "2026-11-27",
   "changelog": [
+    {
+      "data": "2026-11-27",
+      "voci": [
+        "Nuove: Tinaba codice ROSSOPROFILO (20€ ricaricando 50€, fino al 31 dicembre) e Banca AideXa X Risparmio Cedola (4% lordo vincolato da 6 a 24 mesi, senza svincolo anticipato).",
+        "XTB: corretti i termini (deposito entro 7 giorni, primi 1.000 partecipanti, esclusi ex clienti degli ultimi 12 mesi); scade il 30 novembre.",
+        "Maple syrupUSDC: depositi scesi a circa 614 milioni di dollari (-35% in 30 giorni), rendimento stabile intorno al 5%.",
+        "bunq: precisato che gli interessi valgono sui risparmi fino a 100.000€ (tassi invariati).",
+        "OKX Deposit Bonus: il timer di iscrizione sulla pagina ufficiale segna zero, le iscrizioni potrebbero essere già chiuse.",
+        "In scadenza nei prossimi 10 giorni: Tinaba VALOREMESE, BPER, Credem Link, XTB e canone gratuito Crédit Agricole il 30 novembre (nessuna proroga annunciata); Kraken Black Friday il 1° dicembre; Webank 2% e canone gratuito Banco BPM il 3 dicembre; punti extra xStocks con Solflare il 4 dicembre.",
+        "Confermate senza variazioni: BBVA, ING 4% e Codice Amico, Revolut 20€ e risparmio 3,5%, Crédit Agricole, HYPE, Tinaba conto e deposito, Banco BPM Conto You, Buddybank, SelfyConto, Fineco 100 ordini e CashPark, Trade Republic, IBL Banca, BPER, Credem Link, Fideuram Direct, Webank 2% e 100€ Amazon, Satispay, BancoPosta, Findomestic Conto Smile e Conto Deposito, Deutsche Bank, CA Auto Bank, Poste Buono Premium, Coinbase, Young Platform, Bitvavo, Robinhood, Bybit EU, OKX benvenuto, Crypto.com, Kraken e Kraken Black Friday, Bitpanda, eToro, airdrop MetaMask, Grass, Base, Hyperliquid, xStocks e DeFi Sky, Aave e Morpho.",
+        "Nessuna promo rimossa. Non inserite: Trade Republic azione gratis Black Friday (solo fonte tedesca), Deblock (stato MiCA non verificato), codici Tinaba di partnership (TINABAVIP21, TINABASDA).",
+        "Siti non raggiungibili oggi (BBVA, Revolut, Crédit Agricole, Coinbase, Bybit EU, poste.it, facile.it): verifiche fatte con comparatori e regolamenti."
+      ]
+    },
     {
       "data": "2026-11-26",
       "voci": [
@@ -537,6 +551,45 @@ window.PROMO_DATA = {
       "italia": null
     },
     {
+      "id": "tinaba-rossoprofilo-20",
+      "nome": "Tinaba: 20€ con il codice ROSSOPROFILO",
+      "provider": "Tinaba (Banca Profilo)",
+      "categoria": "conto",
+      "valore": "20€",
+      "valoreStima": 20,
+      "sintesi": "Registrati su Tinaba con il codice ROSSOPROFILO, apri il conto e ricarica almeno 50€ entro 30 giorni: ricevi 20€ di bonus. Niente stipendio né vincoli.",
+      "facilita": 4,
+      "tempo": "15 minuti",
+      "capitale": "50€ di ricarica (restano tuoi)",
+      "rischio": "basso",
+      "scadenza": "2026-12-31",
+      "aggiunta": "2026-11-27",
+      "aggiornata": "2026-11-27",
+      "novita": "",
+      "requisiti": [
+        "Essere nuovi clienti alla prima registrazione nell'app Tinaba",
+        "Inserire il codice ROSSOPROFILO in fase di registrazione, tra il 18 novembre e il 31 dicembre 2026",
+        "Aprire il conto Banca Profilo e tenerlo attivo fino all'accredito del bonus",
+        "Ricaricare almeno 50€ entro 30 giorni dall'attivazione del conto"
+      ],
+      "termini": [
+        "Bonus fisso di 20€, una sola volta per persona, accreditato nella sezione 'Bonus' dell'app",
+        "Plafond complessivo 20.000€: la promo può chiudere prima della scadenza",
+        "Chi cancella l'account e si registra di nuovo non ha diritto al bonus",
+        "Il codice si inserisce in registrazione: non puoi usarlo insieme a un altro codice di benvenuto come VALOREMESE",
+        "Il regolamento non indica un termine preciso per l'accredito"
+      ],
+      "costi": "Piano Start 0€",
+      "referral": null,
+      "link": "https://www.tinaba.bancaprofilo.it/",
+      "fonte": "https://tinaba.bancaprofilo.it/promozioni-e-regolamenti-altro",
+      "verifica": "alta",
+      "note": "Regolamento letto sulla pagina ufficiale Tinaba 'promozioni e regolamenti' il 27 novembre 2026. Banca Profilo può prorogare l'iniziativa.",
+      "profittevole": true,
+      "profitto": "Ricarichi 50€ che restano tuoi e ricevi 20€, senza spese né stipendio.",
+      "italia": null
+    },
+    {
       "id": "credem-100-amazon",
       "nome": "Banco BPM Conto You: 100€ in buoni Amazon",
       "provider": "Banco BPM",
@@ -782,8 +835,8 @@ window.PROMO_DATA = {
       "rischio": "basso",
       "scadenza": null,
       "aggiunta": "2026-10-06",
-      "aggiornata": "2026-11-13",
-      "novita": "Tasso salito dal 3,01% al 3,11% (tasso bonus); il tasso base sale dall'1,51% all'1,61%.",
+      "aggiornata": "2026-11-27",
+      "novita": "Precisato dalla pagina ufficiale che gli interessi si applicano solo ai risparmi fino a 100.000€; tassi invariati (3,11% bonus, 1,61% base).",
       "requisiti": [
         "Aprire un conto bunq dall'app",
         "Spostare la liquidità nel conto di risparmio"
@@ -791,6 +844,7 @@ window.PROMO_DATA = {
       "termini": [
         "Il 3,11% vale su tutti i risparmi fino al primo ricalcolo della soglia (1° gennaio o 1° luglio); dopo, solo sulla parte sopra la soglia personale",
         "La soglia è il saldo di risparmio più alto degli ultimi 6 mesi: sotto la soglia rendi solo il tasso base (1,61%)",
+        "Gli interessi si applicano solo ai risparmi fino a 100.000€",
         "Tasso variabile; depositi garantiti dal fondo olandese fino a 100.000€",
         "bunq è una banca olandese: non fa da sostituto d'imposta, interessi e conto vanno dichiarati (quadri RM e RW)",
         "Dopo il mese di prova i piani a pagamento hanno un canone: scegli il piano gratuito se non ti servono"
@@ -800,7 +854,7 @@ window.PROMO_DATA = {
       "link": "https://www.bunq.com/it-it",
       "fonte": "https://www.bunq.com/it-it/savings",
       "verifica": "alta",
-      "note": "Tassi confermati sulla pagina ufficiale bunq il 19 novembre 2026. La nota legale della stessa pagina indica il tasso base 1,61% sui primi 10.000€ e 1,51% oltre: la pagina non è del tutto coerente, controlla in app.",
+      "note": "Tassi confermati sulla pagina ufficiale bunq il 27 novembre 2026. La nota legale della stessa pagina indica il tasso base 1,61% sui primi 10.000€ e 1,51% oltre: la pagina non è del tutto coerente, controlla in app.",
       "profittevole": false,
       "profitto": "Su 1.000€ sono circa 23€ netti l'anno, il tasso pieno vale solo sui nuovi risparmi e devi dichiarare il conto estero.",
       "italia": null
@@ -1837,20 +1891,20 @@ window.PROMO_DATA = {
       "rischio": "basso",
       "scadenza": "2026-11-30",
       "aggiunta": "2026-11-16",
-      "aggiornata": "2026-11-17",
-      "novita": "Precisato il deposito minimo (30$, si consiglia 30€ su conto in euro); la scadenza dei 7 giorni e l'esclusione dei clienti degli ultimi 12 mesi non risultano dalle fonti di oggi.",
+      "aggiornata": "2026-11-27",
+      "novita": "Corretti i termini secondo il regolamento riportato da Rankia: deposito entro 7 giorni dall'apertura, solo i primi 1.000 partecipanti, esclusi gli ex clienti degli ultimi 12 mesi. Scade il 30 novembre, nessuna proroga annunciata.",
       "requisiti": [
         "Essere maggiorenni, residenti in Italia e al primo conto XTB",
         "Registrarsi con un codice partner (es. PROMARKETER) e accettare i termini della promo nel banner dell'app al primo accesso",
-        "Depositare almeno 30$ (consigliato 30€ su conto in euro)"
+        "Depositare almeno 30$ (consigliato 30€ su conto in euro) entro 7 giorni (168 ore) dall'apertura del conto"
       ],
       "termini": [
         "Non servono acquisti né volumi di trading",
         "Il valore dell'azione segue la Borsa (circa 9,9€ a metà novembre) e può scendere",
-        "La promo può chiudere prima se finiscono le azioni disponibili",
-        "Il codice va inserito in registrazione, dopo non si può aggiungere",
-        "Tempi per il deposito ed eventuali esclusioni per ex clienti: verificali nel banner in app",
-        "Una fonte indica come scadenza il 31 ottobre 2026: le date non sono concordi"
+        "Promo valida dal 1° ottobre al 30 novembre 2026 alle 23:59, solo per i primi 1.000 partecipanti (Rankia)",
+        "Esclusi chi ha avuto un conto XTB negli ultimi 12 mesi o ha già ricevuto un bonus di benvenuto; serve la residenza fiscale nell'UE",
+        "Azione accreditata entro 3 giorni lavorativi dal deposito",
+        "Il codice va inserito in registrazione, dopo non si può aggiungere; i termini dettagliati vengono da Rankia e potrebbero differire leggermente per il codice PROMARKETER"
       ],
       "costi": "Conto 0€; zero commissioni su azioni ed ETF fino a 100.000€ al mese",
       "referral": {
@@ -1879,16 +1933,16 @@ window.PROMO_DATA = {
       "rischio": "alto",
       "scadenza": null,
       "aggiunta": "2026-11-16",
-      "aggiornata": "2026-11-25",
-      "novita": "Depositi in syrupUSDC ancora in calo (circa 657 milioni di dollari, -33% in 30 giorni) e uscita del cofondatore Joe Flanagan e del COO dalla società; rendimento stabile intorno al 5%.",
+      "aggiornata": "2026-11-27",
+      "novita": "Depositi in syrupUSDC ancora in calo (circa 614 milioni di dollari, -35% in 30 giorni); rendimento stabile intorno al 5% (5,1% a 7 e a 30 giorni).",
       "requisiti": [
         "Wallet self-custody con USDC",
         "Collegare il wallet all'app Maple (syrup.fi) e depositare"
       ],
       "termini": [
-        "Rendimento variabile: a fine novembre 2026 circa 5-5,25% (RWA.xyz e DefiLlama); in passato anche oltre il 6%",
+        "Rendimento variabile: a fine novembre 2026 circa 5-5,1% (RWA.xyz e DefiLlama); in passato anche oltre il 6%",
         "Rischio di credito: se i prestiti a istituzioni non vengono restituiti si può perdere capitale",
-        "A novembre 2026 i depositi totali in syrupUSDC sono calati molto: circa 657 milioni di dollari, -33% in 30 giorni secondo RWA.xyz",
+        "A novembre 2026 i depositi totali in syrupUSDC sono calati molto: circa 614 milioni di dollari, -35% in 30 giorni secondo RWA.xyz (27 novembre)",
         "A novembre 2026 il cofondatore e presidente Joe Flanagan ha lasciato Maple per divergenze sulla strategia; anche il COO lascia dal 27 novembre (Cointelegraph, post ufficiale Maple)",
         "Rischio smart contract, di ancoraggio della stablecoin e di cambio euro/dollaro",
         "Il prelievo può richiedere tempo se la liquidità è scarsa"
@@ -1898,7 +1952,7 @@ window.PROMO_DATA = {
       "link": "https://syrup.fi/",
       "fonte": "https://app.rwa.xyz/assets/syrupUSDC",
       "verifica": "media",
-      "note": "Rendimento da aggregatori (RWA.xyz e DefiLlama, 25 novembre 2026): 30 giorni circa 5,1%. Cambi ai vertici riportati da Cointelegraph il 12 novembre 2026. Il sito syrup.fi non era raggiungibile oggi.",
+      "note": "Rendimento da aggregatori (RWA.xyz, 27 novembre 2026): 7 giorni 5,12%, 30 giorni 5,07%. Cambi ai vertici riportati da Cointelegraph il 12 novembre 2026.",
       "profittevole": false,
       "profitto": "Rende in proporzione al capitale (su 1.000€ circa 45-60€ l'anno) con rischio di credito e tecnico.",
       "italia": {
@@ -2030,8 +2084,8 @@ window.PROMO_DATA = {
       "rischio": "medio",
       "scadenza": "2026-12-10",
       "aggiunta": "2026-11-19",
-      "aggiornata": "2026-11-19",
-      "novita": "",
+      "aggiornata": "2026-11-27",
+      "novita": "Condizioni confermate, ma il conto alla rovescia per l'iscrizione sulla pagina ufficiale segna zero: le iscrizioni potrebbero essere già chiuse prima del 10 dicembre. Controlla in app prima di depositare.",
       "requisiti": [
         "Verifica identità avanzata (KYC) su OKX Europe",
         "Iscriversi alla campagna dalla pagina ufficiale PRIMA di depositare",
@@ -2050,7 +2104,7 @@ window.PROMO_DATA = {
       "link": "https://my.okx.com/campaigns/deposit-bonus-november-8-percent-apr",
       "fonte": "https://my.okx.com/campaigns/deposit-bonus-november-8-percent-apr",
       "verifica": "alta",
-      "note": "Condizioni lette sulla pagina ufficiale della campagna il 19 novembre 2026; l'Italia è tra i Paesi ammessi.",
+      "note": "Condizioni rilette sulla pagina ufficiale della campagna il 27 novembre 2026; l'Italia è tra i Paesi ammessi. Il timer di iscrizione mostra 00:00:00: non è chiaro se le iscrizioni siano chiuse o se il timer non si carichi.",
       "profittevole": false,
       "profitto": "È un rendimento sul capitale lasciato sull'exchange per circa 4 mesi: su 1.000€ sono 20€, con rischio piattaforma e di prezzo.",
       "italia": {
@@ -2249,6 +2303,45 @@ window.PROMO_DATA = {
       "note": "Tassi confermati sul sito ufficiale; date e condizioni lette dal Foglio Informativo Banca Profilo di novembre 2026 (copia ospitata su un sito esterno). Il costo della membership Premium non è stato verificato su fonte ufficiale.",
       "profittevole": false,
       "profitto": "Capitale vincolato: su 10.000€ a 12 mesi al 3,5-4% sono circa 260-300€ netti, ma per il 4% servono Premium (a pagamento) e lo stipendio.",
+      "italia": null
+    },
+    {
+      "id": "aidexa-cedola-4",
+      "nome": "Banca AideXa X Risparmio Cedola: 4% lordo vincolato",
+      "provider": "Banca AideXa",
+      "categoria": "liquidita",
+      "valore": "4% lordo (vincoli da 6 a 24 mesi)",
+      "valoreStima": 30,
+      "sintesi": "Conto deposito vincolato al 4% lordo fisso per 6, 12, 18 o 24 mesi (3,80% a 3 e 36 mesi), interessi pagati ogni mese. Non serve aprire un conto corrente AideXa.",
+      "facilita": 3,
+      "tempo": "20 minuti con riconoscimento via webcam",
+      "capitale": "Da 1.000€ a 250.000€ vincolati",
+      "rischio": "basso",
+      "scadenza": null,
+      "aggiunta": "2026-11-27",
+      "aggiornata": "2026-11-27",
+      "novita": "",
+      "requisiti": [
+        "Persona fisica consumatrice residente in Italia",
+        "Avere un conto corrente di appoggio a proprio nome, anche in un'altra banca",
+        "Fare un unico versamento da 1.000€ a 250.000€ entro 10 giorni lavorativi dalla firma"
+      ],
+      "termini": [
+        "Tasso fisso per tutta la durata: 4% lordo a 6, 12, 18 e 24 mesi; 3,80% a 3 e 36 mesi (foglio informativo in vigore dal 16 novembre 2026, fino a nuovo avviso)",
+        "Svincolo anticipato non ammesso, salvo casi eccezionali previsti dal contratto",
+        "Non si possono fare versamenti successivi; il vincolo non si rinnova da solo",
+        "Interessi pagati ogni mese, tassati al 26%; imposta di bollo 0,20% annuo",
+        "Deposito tutelato dal Fondo Interbancario fino a 100.000€",
+        "Un comparatore indica 4,20% a 12 mesi, ma il foglio informativo ufficiale riporta 4%"
+      ],
+      "costi": "Nessuna spesa di apertura, gestione o chiusura; bollo 0,20% annuo",
+      "referral": null,
+      "link": "https://www.aidexa.it/conto-deposito-cedola",
+      "fonte": "https://www.datocms-assets.com/50842/1779286174-xrc_foglio-informativo.pdf",
+      "verifica": "alta",
+      "note": "Tassi dal foglio informativo ufficiale n. 14 e dalla pagina prodotto AideXa (27 novembre 2026). Non è una promo a tempo: il tasso può cambiare per i nuovi vincoli.",
+      "profittevole": false,
+      "profitto": "Rende in proporzione al capitale (su 10.000€ a 12 mesi circa 296€ netti meno il bollo) e i soldi restano bloccati senza possibilità di svincolo.",
       "italia": null
     },
     {
