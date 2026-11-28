@@ -1,6 +1,19 @@
 window.PROMO_DATA = {
-  "aggiornato": "2026-11-27",
+  "aggiornato": "2026-11-28",
   "changelog": [
+    {
+      "data": "2026-11-28",
+      "voci": [
+        "Nuove: IBL Banca ControCorrente (3,25% lordo per 12 mesi sulla liquidità libera, aperture fino al 1° marzo 2027), IBL Banca Porta un amico (100€ + 100€ in gift card con stipendio, fino al 31 dicembre), MeglioBanca Turbo Cash 2.0 (4% per 6 mesi fino a 300.000€, fino al 31 dicembre) e Credem Link cashback (4% fino a 100€, aperture entro il 30 novembre).",
+        "IBL Banca vincolato: chiarito che il 3,50% a 12 mesi vale anche per chi è già cliente.",
+        "Webank 2%: il tasso non compare più sul sito ufficiale e le fonti non concordano sulla fine (31 dicembre 2026 o 31 marzo 2027): verifica abbassata a bassa.",
+        "Crypto.com confermato sulla pagina ufficiale (Italia ammessa), verifica alzata ad alta. Poste Buono Premium: la data di fine del 29 dicembre resta non confermata da Poste.",
+        "In scadenza nei prossimi 10 giorni: Tinaba VALOREMESE, BPER, Credem Link (buono Amazon e cashback), XTB e canone gratuito Crédit Agricole il 30 novembre (nessuna proroga trovata); Kraken Black Friday il 1° dicembre; Webank 2% e canone gratuito Banco BPM il 3 dicembre; punti extra xStocks con Solflare il 4 dicembre; concorso Amazon Revolut il 9 dicembre.",
+        "Confermate senza variazioni: BBVA, ING 4% e Codice Amico, Revolut 20€ e risparmio 3,5%, Crédit Agricole, HYPE, Tinaba conto, ROSSOPROFILO e deposito, Banco BPM Conto You, Buddybank, SelfyConto, Fineco 100 ordini e CashPark, BPER, Credem Link 200€ Amazon, Fideuram Direct, Webank 100€ Amazon, Satispay, XTB, Trade Republic, bunq, BancoPosta, Findomestic Conto Smile e Conto Deposito, Deutsche Bank, CA Auto Bank, AideXa, Coinbase, Young Platform, Bitvavo, Robinhood, Bybit EU, OKX benvenuto e Deposit Bonus, Kraken e Kraken Black Friday, Bitpanda, eToro, airdrop MetaMask, Grass, Base, Hyperliquid, xStocks e DeFi Sky, Aave, Morpho e Maple.",
+        "Nessuna promo rimossa. Non inserite: Robinhood 5% sui depositi crypto di novembre (esclude l'Italia), Widiba Start (solo un comparatore), Bit2Me (abilitazione per l'Italia non verificata), Tinaba TINABA2026 (non confermato), N26 e Hello bank! (nessuna fonte ufficiale).",
+        "Siti non raggiungibili oggi (BBVA, Coinbase, pagine poste.it, facile.it, sostariffe.it, pmi.it, widiba.it): verifiche fatte con comparatori e regolamenti."
+      ]
+    },
     {
       "data": "2026-11-27",
       "voci": [
@@ -797,8 +810,8 @@ window.PROMO_DATA = {
       "rischio": "basso",
       "scadenza": "2026-12-31",
       "aggiunta": "2026-10-06",
-      "aggiornata": "2026-11-15",
-      "novita": "Nuova edizione: il 3,50% a 12 mesi è di nuovo disponibile per attivazioni entro il 31 dicembre 2026 (sito ufficiale).",
+      "aggiornata": "2026-11-28",
+      "novita": "Chiarito che il tasso vale anche per chi è già cliente IBL, non solo per i nuovi.",
       "requisiti": [
         "Avere o aprire il conto corrente IBL collegato",
         "Attivare il Time Deposit a 12 mesi entro il 31 dicembre 2026 (l'offerta può chiudere prima)"
@@ -808,7 +821,7 @@ window.PROMO_DATA = {
         "Versione svincolabile (soldi ritirabili, ma con tasso più basso in caso di svincolo): 6 mesi 2,70%, 12 mesi 2,95%, 24 mesi 3,20%",
         "Importo fino a 1 milione di euro; i soldi del Time Deposit restano bloccati fino alla scadenza scelta",
         "3,50% lordo equivale a 2,59% netto dopo la ritenuta del 26%",
-        "La pagina ufficiale non dice se i tassi valgono solo per i nuovi clienti (nell'edizione precedente i già clienti avevano il 3%)",
+        "Gli stessi tassi valgono sia per i nuovi clienti sia per chi è già cliente IBL (attivazioni dal 1° ottobre al 31 dicembre 2026)",
         "Depositi protetti dal Fondo Interbancario fino a 100.000€"
       ],
       "costi": "Verifica canone del conto corrente collegato e imposta di bollo",
@@ -816,7 +829,7 @@ window.PROMO_DATA = {
       "link": "https://www.iblbanca.it/conto_vincolato.html",
       "fonte": "https://www.iblbanca.it/conto_vincolato.html",
       "verifica": "alta",
-      "note": "Tassi e scadenza letti sul sito IBL il 15 novembre 2026. Non è chiaro se i già clienti abbiano lo stesso tasso: chiedi alla banca prima di vincolare.",
+      "note": "Tassi e scadenza confermati sul sito IBL il 28 novembre 2026; aziendabanca (26 novembre 2026) precisa che valgono anche per chi è già cliente.",
       "profittevole": false,
       "profitto": "Capitale bloccato 12 mesi: 1.000€ rendono circa 26€ netti.",
       "italia": null
@@ -1432,7 +1445,7 @@ window.PROMO_DATA = {
       "costi": "Nessun canone; spread sull'acquisto di CRO",
       "link": "https://crypto.com/it",
       "fonte": "https://help.crypto.com/it/articles/9575514-bonus-di-benvenuto",
-      "verifica": "media",
+      "verifica": "alta",
       "profittevole": false,
       "profitto": "Il premio sicuro è piccolo (1-10$ con 100$ scambiati); per arrivare a 180$ servono 5.000$ di scambi, con commissioni e rischio.",
       "italia": {
@@ -1768,8 +1781,8 @@ window.PROMO_DATA = {
     },
     {
       "aggiunta": "2026-11-15",
-      "aggiornata": "2026-11-15",
-      "novita": "",
+      "aggiornata": "2026-11-28",
+      "novita": "Il 2% non compare più sul sito Webank e le fonti non concordano sulla fine del tasso: verifica abbassata.",
       "italia": null,
       "rischio": "basso",
       "id": "webank-2",
@@ -1798,8 +1811,8 @@ window.PROMO_DATA = {
       "referral": null,
       "link": "https://www.webank.it/",
       "fonte": "https://www.webank.it/webankpub/wbresp/home.do",
-      "verifica": "media",
-      "note": "Il 25 novembre 2026 il 2% non compariva più sulla home e sulla pagina del conto Webank; PMI.it (novembre 2026) conferma richieste fino al 3 dicembre. Alcune fonti indicano la fine del tasso al 31 dicembre 2026 invece del 31 marzo 2027: controlla le condizioni prima di aprire.",
+      "verifica": "bassa",
+      "note": "Il 28 novembre 2026 il 2% non compare più sul sito Webank. I comparatori non sono d'accordo su quando finisce il tasso (31 dicembre 2026 secondo SosTariffe e MilanoFinanza) e nessuna fonte trovata conferma il 31 marzo 2027: controlla le condizioni sul foglio informativo prima di aprire.",
       "profittevole": false,
       "profitto": "È un tasso sulla giacenza e serve spostare lo stipendio: su 10.000€ circa 45€ netti in 4 mesi e mezzo."
     },
@@ -2377,9 +2390,158 @@ window.PROMO_DATA = {
       "link": "https://www.poste.it/",
       "fonte": "https://quifinanza.it/economia/investimenti/poste-italiane-buono-premium-4-anni/1024499/",
       "verifica": "media",
-      "note": "Pagina ufficiale Poste non raggiungibile oggi (404). Tasso e requisiti da QuiFinanza (16 novembre 2026) e Trend Online; la data di fine del 29 dicembre 2026 è riportata da Facile.it ma non confermata su fonte ufficiale.",
+      "note": "Pagina ufficiale Poste non raggiungibile oggi (404). Tasso e requisiti da QuiFinanza (16 novembre 2026) e Trend Online; la data di fine del 29 dicembre 2026 è riportata da Facile.it ma non confermata su fonte ufficiale. La data del 29 dicembre potrebbe essere ripresa dalla serie 2025, che chiudeva lo stesso giorno.",
       "profittevole": false,
       "profitto": "Buon tasso netto grazie alla tassazione al 12,5%, ma il capitale resta fermo 4 anni per avere il rendimento pieno e serve nuova liquidità.",
+      "italia": null
+    },
+    {
+      "id": "ibl-controcorrente-3-25",
+      "nome": "IBL Banca ControCorrente: 3,25% per 12 mesi sulla liquidità libera",
+      "provider": "IBL Banca",
+      "categoria": "liquidita",
+      "valore": "3,25% lordo per 12 mesi (fino a 1 milione)",
+      "valoreStima": 160,
+      "sintesi": "Nuovi clienti che aprono ControCorrente dal 24 novembre 2026 al 1° marzo 2027 ricevono il 3,25% lordo per un anno sui soldi lasciati sul conto, senza vincoli e senza stipendio.",
+      "facilita": 3,
+      "tempo": "20 minuti",
+      "capitale": "La somma da lasciare sul conto (non vincolata)",
+      "rischio": "basso",
+      "scadenza": "2027-03-01",
+      "aggiunta": "2026-11-28",
+      "aggiornata": "2026-11-28",
+      "novita": "",
+      "requisiti": [
+        "Essere nuovo cliente IBL Banca",
+        "Aprire ControCorrente dal 24 novembre 2026 al 1° marzo 2027 (salvo ritiro anticipato dell'offerta)"
+      ],
+      "termini": [
+        "3,25% lordo annuo per 12 mesi sulle giacenze fino a 1.000.000€",
+        "Non serve vincolare i soldi né accreditare lo stipendio",
+        "Dopo i 12 mesi il tasso diventa variabile: Euribor 3 mesi meno 1,40 punti (oggi intorno all'1,25% secondo Segugio)",
+        "Interessi tassati al 26%",
+        "Depositi protetti dal Fondo Interbancario fino a 100.000€"
+      ],
+      "costi": "Canone gratis per 12 mesi, poi gratis con stipendio o pensione di almeno 800€ (pacchetto Semplice); carta di debito gratis fino al 31/12/2028. Imposta di bollo da verificare sul foglio informativo.",
+      "referral": null,
+      "link": "https://www.iblbanca.it/conto_corrente.html",
+      "fonte": "https://www.iblbanca.it/conto_corrente.html",
+      "verifica": "alta",
+      "note": "Condizioni lette sul sito ufficiale IBL il 28 novembre 2026. È un'offerta diversa dal vecchio ControCorrente remunerato (Euribor meno 1,40%) scartato il 24 novembre.",
+      "profittevole": false,
+      "profitto": "È un tasso sulla giacenza: 5.000€ lasciati per un anno rendono circa 120€ netti, il guadagno dipende dal capitale.",
+      "italia": null
+    },
+    {
+      "id": "ibl-porta-un-amico-100",
+      "nome": "IBL Banca Porta un amico: 100€ + 100€ in gift card",
+      "provider": "IBL Banca",
+      "categoria": "conto",
+      "valore": "100€ in gift card",
+      "valoreStima": 100,
+      "sintesi": "Se un cliente IBL ti presenta e apri ControCorrente accreditando lo stipendio entro 3 mesi, ricevete entrambi 100€ in gift card digitali. Valida fino al 31 dicembre 2026.",
+      "facilita": 3,
+      "tempo": "20 minuti + cambio accredito stipendio",
+      "capitale": "Accredito di stipendio o pensione",
+      "rischio": "basso",
+      "scadenza": "2026-12-31",
+      "aggiunta": "2026-11-28",
+      "aggiornata": "2026-11-28",
+      "novita": "",
+      "requisiti": [
+        "Farsi presentare da un cliente IBL Banca",
+        "Aprire ControCorrente entro il 31 dicembre 2026",
+        "Accreditare stipendio o pensione entro 3 mesi"
+      ],
+      "termini": [
+        "100€ in gift card a chi presenta e 100€ all'amico presentato",
+        "Premio in gift card digitali da usare sulla piattaforma IBL Club, non in denaro",
+        "Ogni cliente può presentare al massimo 2 amici a settimana",
+        "Regolamento completo non trovato: controlla le condizioni con la banca prima di aprire",
+        "Si può usare insieme al 3,25% sulla liquidità per i nuovi clienti (vedi scheda ControCorrente), ma la pagina non lo dice esplicitamente"
+      ],
+      "costi": "Canone gratis per 12 mesi, poi gratis con stipendio o pensione di almeno 800€",
+      "referral": null,
+      "link": "https://www.iblbanca.it/conto_corrente.html",
+      "fonte": "https://www.iblbanca.it/conto_corrente.html",
+      "verifica": "alta",
+      "note": "Importo, limiti e scadenza letti sul sito ufficiale IBL il 28 novembre 2026; confermati anche da Segugio. Nessun codice pubblico: serve un cliente che ti presenti.",
+      "profittevole": true,
+      "profitto": "100€ in gift card spostando lo stipendio su un conto senza canone per 12 mesi, senza spese né vincoli.",
+      "italia": null
+    },
+    {
+      "id": "megliobanca-turbo-cash-4",
+      "nome": "MeglioBanca Turbo Cash 2.0: 4% per 6 mesi",
+      "provider": "MeglioBanca (Banca Popolare del Frusinate)",
+      "categoria": "liquidita",
+      "valore": "4% annuo per 6 mesi (fino a 300.000€)",
+      "valoreStima": 75,
+      "sintesi": "Conto a canone zero che dà ai nuovi clienti il 4% annuo per i primi 6 mesi, fino a 300.000€. Offerta valida fino al 31 dicembre 2026.",
+      "facilita": 3,
+      "tempo": "20 minuti con SPID, CIE o videoselfie",
+      "capitale": "La somma da lasciare sul conto",
+      "rischio": "basso",
+      "scadenza": "2026-12-31",
+      "aggiunta": "2026-11-28",
+      "aggiornata": "2026-11-28",
+      "novita": "",
+      "requisiti": [
+        "Essere nuovo cliente MeglioBanca",
+        "Aprire il conto Turbo Cash 2.0 entro il 31 dicembre 2026"
+      ],
+      "termini": [
+        "4% annuo per i primi 6 mesi, fino a un massimo di 300.000€ per conto",
+        "La pagina non dice se il 4% è lordo o netto: consideralo lordo (26% di tasse)",
+        "La pagina non indica il tasso dopo i 6 mesi né come vengono pagati gli interessi: leggi il foglio informativo",
+        "Depositi protetti dal Fondo Interbancario fino a 100.000€"
+      ],
+      "costi": "Tenuta conto 0€, bonifici SEPA 0€, internet banking 0€; imposta di bollo da verificare",
+      "referral": null,
+      "link": "https://www.megliobanca.it/conto-corrente",
+      "fonte": "https://www.megliobanca.it/conto-corrente",
+      "verifica": "media",
+      "note": "Tasso, tetto e scadenza letti sul sito ufficiale il 28 novembre 2026 (confermati da Segugio), ma il testo della pagina è incompleto. Promarketer indicava aperture entro il 15 novembre: fa fede il sito ufficiale.",
+      "profittevole": false,
+      "profitto": "È un tasso sulla liquidità: 10.000€ per 6 mesi rendono circa 150€ netti, il guadagno dipende dal capitale.",
+      "italia": null
+    },
+    {
+      "id": "credem-link-cashback-100",
+      "nome": "Credem Link: 4% di cashback fino a 100€",
+      "provider": "Credem",
+      "categoria": "conto",
+      "valore": "4% di cashback (max 20€/mese, 100€ in tutto)",
+      "valoreStima": 100,
+      "sintesi": "Aprendo Credem Link online con la carta Credemcard Mastercard entro il 30 novembre, ricevi il 4% delle spese con carta da dicembre ad aprile, fino a 100€.",
+      "facilita": 3,
+      "tempo": "20 minuti + iscrizione al portale",
+      "capitale": "Spese con carta: 2.500€ in 5 mesi per avere tutti i 100€",
+      "rischio": "basso",
+      "scadenza": "2026-11-30",
+      "aggiunta": "2026-11-28",
+      "aggiornata": "2026-11-28",
+      "novita": "",
+      "requisiti": [
+        "Essere nuovo cliente maggiorenne residente in Italia, senza conti Credem attivi o chiusi negli ultimi 18 mesi",
+        "Richiedere online Credem Link e la Credemcard Internazionale Mastercard dal 6 al 30 novembre 2026",
+        "Registrarsi su www.priceless.com/credem-cashback entro il 18 dicembre 2026 inserendo il numero della carta"
+      ],
+      "termini": [
+        "4% sulle spese con la carta dal 1° dicembre 2026 al 30 aprile 2027, nei negozi e online",
+        "Massimo 20€ al mese e 100€ in totale, accreditati sul conto il mese dopo",
+        "Esclusi prelievi, bonifici e trasferimenti di denaro, ricariche, cambio valuta, gioco d'azzardo",
+        "Il cashback si perde se chiudi il conto prima dell'accredito",
+        "Il regolamento non dice se si somma al buono Amazon PROMOLINK (vedi 'Credem Link: 200€ Amazon')"
+      ],
+      "costi": "Conto a canone zero per i nuovi clienti secondo le fonti; verifica il foglio informativo",
+      "referral": null,
+      "link": "https://www.credem.it/content/credem/it/privati-e-famiglie/conti-servizi-e-carte/conti/conto-corrente-online/promozione-cashback.html",
+      "fonte": "https://www.credem.it/content/dam/credem/documenti/Trasparenza/operazioni-a-premio/cashback-credem.pdf",
+      "verifica": "alta",
+      "note": "Condizioni lette sul sito ufficiale Credem e nel regolamento il 28 novembre 2026. Facile.it riporta date e tetti diversi (fino al 31 maggio 2027, 210€): sono superati.",
+      "profittevole": false,
+      "profitto": "Per avere i 100€ bisogna spendere 2.500€ con la carta in 5 mesi: è un 4% sulle spese, non un premio alto.",
       "italia": null
     }
   ],
